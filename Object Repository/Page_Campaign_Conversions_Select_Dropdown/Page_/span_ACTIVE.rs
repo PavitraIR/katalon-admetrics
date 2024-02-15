@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ACTIVE</name>
+   <tag></tag>
+   <elementGuidId>4764ddf8-425e-4f4f-8ea3-a63f92ebf969</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a9cdd35bcecc-1']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#a9cdd35bcecc-1 > span.ng-option-label.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ce3db7d0-1905-467d-9fa4-662e3b2d58ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-option-label ng-star-inserted</value>
+      <webElementGuid>2f2f16e3-dc0a-427f-85f9-a59aed064021</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ACTIVE</value>
+      <webElementGuid>c7dd8ab1-c414-4605-94b9-ad7fae14b109</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a9cdd35bcecc-1&quot;)/span[@class=&quot;ng-option-label ng-star-inserted&quot;]</value>
+      <webElementGuid>b9201f0f-fa8d-4375-9ba8-db5c03ced73d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a9cdd35bcecc-1']/span</value>
+      <webElementGuid>0c3d85fe-5ece-48ed-8abc-5a12656f1e98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/span</value>
+      <webElementGuid>8f9dfd84-ee6e-4540-806a-a0e718ebd3d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ACTIVE' or . = 'ACTIVE')]</value>
+      <webElementGuid>f4b89403-a0ee-444b-94d9-b1b15dfd77d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

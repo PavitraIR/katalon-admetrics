@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GoogleCPC</name>
+   <tag></tag>
+   <elementGuidId>b5d345dc-a359-4730-94ce-c15076f90f79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-sort-header-content.ng-tns-c99-31</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-total-projects-by-source-channel-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[3]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7156c383-616d-428d-b867-2fe2b6d9df6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-sort-header-content ng-tns-c99-31</value>
+      <webElementGuid>13ed0e59-b086-4824-a0c2-db00ba7c57e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Google/CPC</value>
+      <webElementGuid>01e8481c-0368-48bb-beba-670e621ac8f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-2-2&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-18 ng-trigger ng-trigger-translateTab&quot;]/app-daily-buyer-cac-trendline-chart[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;row-wrapper grid grid-cols-2 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-total-projects-by-source-channel-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/thead[1]/tr[@class=&quot;mat-header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-sort-header mat-header-cell cdk-header-cell text-neutral-600 xmd:text-sm md:text-md ng-tns-c99-31 cdk-column-Google-CPC mat-column-Google-CPC ng-star-inserted mat-table-sticky mat-table-sticky-border-elem-top cdk-focused cdk-mouse-focused&quot;]/div[@class=&quot;mat-sort-header-container mat-focus-indicator ng-tns-c99-31&quot;]/div[@class=&quot;mat-sort-header-content ng-tns-c99-31&quot;]</value>
+      <webElementGuid>6f286fbf-ad4b-46eb-9cec-63a0ebc08728</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-total-projects-by-source-channel-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[3]/div/div</value>
+      <webElementGuid>ab817192-9070-416d-8004-56f35d199390</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/div/div</value>
+      <webElementGuid>02bdb27f-4899-440e-8647-f8212d616025</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Google/CPC' or . = 'Google/CPC')]</value>
+      <webElementGuid>8df390cd-3c2b-4149-9412-a2aa234b6c21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

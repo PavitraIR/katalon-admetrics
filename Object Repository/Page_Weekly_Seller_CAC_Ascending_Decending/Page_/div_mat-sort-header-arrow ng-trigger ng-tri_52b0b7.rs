@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_mat-sort-header-arrow ng-trigger ng-tri_52b0b7</name>
+   <tag></tag>
+   <elementGuidId>382f2771-342c-43ca-b55f-e89fb17979c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-sort-header-arrow.ng-trigger.ng-trigger-arrowPosition.ng-tns-c99-21.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-weekly-application-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[3]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c468cf38-1c3d-44ae-a434-84ff48d15ef8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c99-21 ng-star-inserted</value>
+      <webElementGuid>b1a3bf0c-b9a8-4ef7-8b61-8f99ed64b3a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-6 ng-trigger ng-trigger-translateTab&quot;]/app-weekly-seller-cac-trendline-chart[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;row-wrapper grid grid-cols-2 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-weekly-application-vs-campaign-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/thead[1]/tr[@class=&quot;mat-header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-sort-header mat-header-cell cdk-header-cell text-neutral-600 xmd:text-sm md:text-md ng-tns-c99-21 cdk-column-num_application mat-column-num_application ng-star-inserted mat-table-sticky mat-table-sticky-border-elem-top cdk-focused cdk-mouse-focused&quot;]/div[@class=&quot;mat-sort-header-container mat-focus-indicator ng-tns-c99-21&quot;]/div[@class=&quot;mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c99-21 ng-star-inserted&quot;]</value>
+      <webElementGuid>c96974c7-2962-4707-8871-6f22a26f8ba5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-weekly-application-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[3]/div/div[2]</value>
+      <webElementGuid>acf1c267-b487-4d9b-963c-5b33911ab43a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/div/div[2]</value>
+      <webElementGuid>eea4b8ff-3ae6-4c65-9b9d-248046a331f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

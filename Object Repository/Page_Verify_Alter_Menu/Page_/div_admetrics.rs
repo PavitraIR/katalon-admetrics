@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_admetrics</name>
+   <tag></tag>
+   <elementGuidId>9a241a54-01e0-44d1-a90f-5d3a7586b0d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Spend Report'])[1]/preceding::div[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flagArea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8faf785e-ceba-487f-addc-f1996fd75888</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flagArea</value>
+      <webElementGuid>08ada23e-0fb9-4fce-9c19-c72c11118d24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>admetrics</value>
+      <webElementGuid>4e0b78d6-f996-43dc-b73c-afaa54681b91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/app-side-nav[1]/aside[@class=&quot;app-side-nav&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flagArea&quot;]</value>
+      <webElementGuid>d8445b05-9aa9-4223-ae91-05a0b6eeacb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spend Report'])[1]/preceding::div[6]</value>
+      <webElementGuid>2833e0fc-d7c5-43a8-a8d3-42edf79fd4e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/div/div</value>
+      <webElementGuid>6dab7bc5-4092-4683-817e-533107295632</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'admetrics' or . = 'admetrics')]</value>
+      <webElementGuid>fa3fbc56-0447-4bab-ac94-6bb6d133d30a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

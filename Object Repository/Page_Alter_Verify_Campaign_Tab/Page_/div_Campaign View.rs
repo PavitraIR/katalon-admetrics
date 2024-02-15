@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Campaign View</name>
+   <tag></tag>
+   <elementGuidId>02e5fbc8-f02d-4442-a36a-ef12b0c76e0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-tab-label-1-0']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-tab-label-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>128185ae-ac8c-4163-9a16-37632b66e45d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-tab-label-content</value>
+      <webElementGuid>9438c080-629b-4463-b8d3-a22df217655a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign View</value>
+      <webElementGuid>ea97dff6-a528-4b33-acb1-587d779b36df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-label-1-0&quot;)/div[@class=&quot;mat-tab-label-content&quot;]</value>
+      <webElementGuid>43566ca1-a66b-481b-aa06-bd10db833a2d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-tab-label-1-0']/div</value>
+      <webElementGuid>694a7e5e-14a1-43a3-8167-0bfa14c0d5ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign Report'])[1]/following::div[14]</value>
+      <webElementGuid>9567077f-5e2c-4859-b840-21095dc835ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Performance Report'])[1]/following::div[15]</value>
+      <webElementGuid>d1850dbd-d766-4e69-872a-1d46a5453822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='–'])[1]/preceding::div[4]</value>
+      <webElementGuid>20d5fb5c-6a57-4a02-b097-883aa7d08744</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a date range'])[1]/preceding::div[6]</value>
+      <webElementGuid>389284a7-7de7-452d-9981-b39d7451e9d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div</value>
+      <webElementGuid>a565ccdc-8068-4d16-a46d-682b5ba77619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Campaign View' or . = 'Campaign View')]</value>
+      <webElementGuid>ee0b03d8-62e6-4dd5-add5-04cbd3486408</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

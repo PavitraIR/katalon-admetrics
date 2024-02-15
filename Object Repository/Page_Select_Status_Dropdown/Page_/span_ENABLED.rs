@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ENABLED</name>
+   <tag></tag>
+   <elementGuidId>f3fdfa81-01a6-45e4-b99e-729aa5c32aef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ng-option-label.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a7993938e362-0']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e6c2781e-22ef-46e9-8ace-6a1f22ca7212</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-option-label ng-star-inserted</value>
+      <webElementGuid>c63f4625-45ea-48cb-908c-278e07490db6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ENABLED</value>
+      <webElementGuid>20732673-e093-4339-a84e-ae9ee6f6802a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a7993938e362-0&quot;)/span[@class=&quot;ng-option-label ng-star-inserted&quot;]</value>
+      <webElementGuid>2411c951-822c-4b2a-979b-fe5ec844f9f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a7993938e362-0']/span</value>
+      <webElementGuid>4a814555-de97-4c02-b9d6-f4ec0c63d4c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span</value>
+      <webElementGuid>924bd4b0-02e4-4ef7-82f4-ebc3b14c09b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ENABLED' or . = 'ENABLED')]</value>
+      <webElementGuid>4871b0e6-dc77-4789-be36-5ab51766f101</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

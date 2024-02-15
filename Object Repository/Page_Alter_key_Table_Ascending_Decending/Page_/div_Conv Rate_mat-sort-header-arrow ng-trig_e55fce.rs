@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Conv Rate_mat-sort-header-arrow ng-trig_e55fce</name>
+   <tag></tag>
+   <elementGuidId>b674b989-1ed2-4a29-b997-142ae2dd498c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-key-drivers-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[7]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-sort-header-arrow.ng-trigger.ng-trigger-arrowPosition.ng-tns-c98-15.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f50f8310-d829-4213-8aac-0a1ea5047738</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c98-15 ng-star-inserted</value>
+      <webElementGuid>09858476-4831-445d-94a9-0db6aaf3cd53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-4 ng-trigger ng-trigger-translateTab&quot;]/app-key-drivers[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;grid grid-cols-4 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-key-drivers-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/thead[1]/tr[@class=&quot;mat-header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-sort-header mat-header-cell cdk-header-cell text-neutral-600 xmd:text-sm md:text-md ng-tns-c98-15 cdk-column-conversion_rate mat-column-conversion_rate ng-star-inserted mat-table-sticky mat-table-sticky-border-elem-top cdk-focused cdk-mouse-focused&quot;]/div[@class=&quot;mat-sort-header-container mat-focus-indicator ng-tns-c98-15&quot;]/div[@class=&quot;mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c98-15 ng-star-inserted&quot;]</value>
+      <webElementGuid>ba6da7dc-541e-4e07-9761-93d7a0cd8de3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-key-drivers-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[7]/div/div[2]</value>
+      <webElementGuid>21e50f0c-eaa6-43fb-b390-44856aceab11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Conv Rate'])[1]/following::div[1]</value>
+      <webElementGuid>1a9fc689-80b1-4b9c-bad2-38633ba28b6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Conversions'])[1]/following::div[9]</value>
+      <webElementGuid>fdd8a8e4-0bd3-4ac3-abc2-80b09ee044e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cost/Conv'])[1]/preceding::div[6]</value>
+      <webElementGuid>f5c6ccfc-842e-427d-bd71-f292ec725e84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Costs'])[1]/preceding::div[14]</value>
+      <webElementGuid>6866f6e9-82fb-48c8-bb7d-6ed7b1ea8a4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[7]/div/div[2]</value>
+      <webElementGuid>c343e918-6c0b-44b1-b6a9-2ae93751317a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

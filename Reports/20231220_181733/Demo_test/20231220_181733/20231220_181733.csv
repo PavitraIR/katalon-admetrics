@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo_test,Chrome 120.0.0.0,,,2023-12-20 18:17:43,2023-12-20 18:18:30,47.078s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_empty_credentials,Chrome 120.0.0.0,,,2023-12-20 18:17:44,2023-12-20 18:17:52,8.408s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-20 18:17:44,2023-12-20 18:17:47,2.525s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-20 18:17:47,2023-12-20 18:17:47,0.204s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,2023-12-20 18:17:47,2023-12-20 18:17:48,1.240s,PASSED
+"click(findTestObject(""Object Repository/Page_Empty_credentials/Page_/input_User ID_username""))",Chrome 120.0.0.0,,,2023-12-20 18:17:48,2023-12-20 18:17:50,1.856s,PASSED
+"click(findTestObject(""Object Repository/Page_Empty_credentials/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-20 18:17:50,2023-12-20 18:17:50,0.683s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Empty_credentials/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-20 18:17:50,2023-12-20 18:17:51,0.600s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-20 18:17:51,2023-12-20 18:17:52,0.924s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_invalidusername_validpassword,Chrome 120.0.0.0,,,2023-12-20 18:17:52,2023-12-20 18:17:59,7.134s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-20 18:17:52,2023-12-20 18:17:54,1.350s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-20 18:17:54,2023-12-20 18:17:54,0.150s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,2023-12-20 18:17:54,2023-12-20 18:17:55,0.751s,PASSED
+"setText(findTestObject(""Object Repository/Page_invalid_valid/Page_/input_User ID_username""), ""tibil"")",Chrome 120.0.0.0,,,2023-12-20 18:17:55,2023-12-20 18:17:57,2.046s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_invalid_valid/Page_/input_Password_password""), ""7Dxoto1EjKfQbGop/Ov+1g=="")",Chrome 120.0.0.0,,,2023-12-20 18:17:57,2023-12-20 18:17:57,0.676s,PASSED
+"click(findTestObject(""Object Repository/Page_invalid_valid/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-20 18:17:57,2023-12-20 18:17:58,0.404s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_invalid_valid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-20 18:17:58,2023-12-20 18:17:58,0.657s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-20 18:17:58,2023-12-20 18:17:59,0.821s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_validate_login_page,Chrome 120.0.0.0,,,2023-12-20 18:17:59,2023-12-20 18:18:06,6.807s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-20 18:18:00,2023-12-20 18:18:01,1.279s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-20 18:18:01,2023-12-20 18:18:01,0.140s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,2023-12-20 18:18:01,2023-12-20 18:18:02,0.741s,PASSED
+"setText(findTestObject(""Object Repository/Page_Invalid/Page_/input_User ID_username""), username)",Chrome 120.0.0.0,,,2023-12-20 18:18:02,2023-12-20 18:18:04,1.918s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Invalid/Page_/input_Password_password""), password)",Chrome 120.0.0.0,,,2023-12-20 18:18:04,2023-12-20 18:18:04,0.471s,PASSED
+"click(findTestObject(""Object Repository/Page_Invalid/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-20 18:18:04,2023-12-20 18:18:05,0.454s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-20 18:18:05,2023-12-20 18:18:05,0.576s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-20 18:18:05,2023-12-20 18:18:06,0.897s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_validusername_invalipassword,Chrome 120.0.0.0,,,2023-12-20 18:18:06,2023-12-20 18:18:13,7.082s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-20 18:18:06,2023-12-20 18:18:08,1.314s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-20 18:18:08,2023-12-20 18:18:08,0.140s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,2023-12-20 18:18:08,2023-12-20 18:18:09,0.849s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_invalid/Page_/input_User ID_username""), ""admin"")",Chrome 120.0.0.0,,,2023-12-20 18:18:09,2023-12-20 18:18:11,2.005s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_invalid/Page_/input_Password_password""), ""RSNArcc3BqI="")",Chrome 120.0.0.0,,,2023-12-20 18:18:11,2023-12-20 18:18:11,0.545s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_invalid/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-20 18:18:11,2023-12-20 18:18:12,0.425s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_valid_invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-20 18:18:12,2023-12-20 18:18:12,0.617s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-20 18:18:12,2023-12-20 18:18:13,0.878s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_valid_login,Chrome 120.0.0.0,,,2023-12-20 18:18:13,2023-12-20 18:18:23,9.658s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-20 18:18:13,2023-12-20 18:18:15,1.389s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-20 18:18:15,2023-12-20 18:18:15,0.138s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,2023-12-20 18:18:15,2023-12-20 18:18:16,0.591s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_login/Page_/input_User ID_username""), username)",Chrome 120.0.0.0,,,2023-12-20 18:18:16,2023-12-20 18:18:17,1.701s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_login/Page_/input_Password_password""), password)",Chrome 120.0.0.0,,,2023-12-20 18:18:17,2023-12-20 18:18:18,0.463s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_login/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-20 18:18:18,2023-12-20 18:18:18,0.462s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,2023-12-20 18:18:18,2023-12-20 18:18:20,1.691s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-20 18:18:20,2023-12-20 18:18:22,2.043s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-20 18:18:22,2023-12-20 18:18:23,0.858s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_verify_project_title,Chrome 120.0.0.0,,,2023-12-20 18:18:23,2023-12-20 18:18:30,7.566s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-20 18:18:23,2023-12-20 18:18:25,1.495s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-20 18:18:25,2023-12-20 18:18:25,0.133s,PASSED
+"navigateToUrl(""https://dev-dash.admetrics.ai/"")",Chrome 120.0.0.0,,,2023-12-20 18:18:25,2023-12-20 18:18:25,0.565s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3""))",Chrome 120.0.0.0,,,2023-12-20 18:18:25,2023-12-20 18:18:27,1.387s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/p_admetrics""), ""admetrics"")",Chrome 120.0.0.0,,,2023-12-20 18:18:27,2023-12-20 18:18:27,0.410s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/label_User ID""), ""User ID"")",Chrome 120.0.0.0,,,2023-12-20 18:18:27,2023-12-20 18:18:28,0.379s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/input_User ID_username""), """")",Chrome 120.0.0.0,,,2023-12-20 18:18:28,2023-12-20 18:18:28,0.433s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/label_Password""), ""Password"")",Chrome 120.0.0.0,,,2023-12-20 18:18:28,2023-12-20 18:18:28,0.407s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/input_Password_password""), """")",Chrome 120.0.0.0,,,2023-12-20 18:18:28,2023-12-20 18:18:29,0.382s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/button_Login""), ""Login"")",Chrome 120.0.0.0,,,2023-12-20 18:18:29,2023-12-20 18:18:29,0.394s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Project_Title/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-20 18:18:29,2023-12-20 18:18:30,0.401s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-20 18:18:30,2023-12-20 18:18:30,0.847s,PASSED

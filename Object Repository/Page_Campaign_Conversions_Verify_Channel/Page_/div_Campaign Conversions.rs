@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Campaign Conversions</name>
+   <tag></tag>
+   <elementGuidId>a497c054-ec4f-4f86-808f-d6bdcc3d13bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-tab-label-1-1 > div.mat-tab-label-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-tab-label-1-1']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aa6f705d-61aa-4377-a23f-eafa81086163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-tab-label-content</value>
+      <webElementGuid>606d655a-3520-4fe4-a010-96c64d0b9fde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign Conversions</value>
+      <webElementGuid>ffddf009-3db4-4790-976d-085c8e28ca78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-label-1-1&quot;)/div[@class=&quot;mat-tab-label-content&quot;]</value>
+      <webElementGuid>a6a4cb6a-1d81-4dd4-8eda-bd7f2ce7903c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-tab-label-1-1']/div</value>
+      <webElementGuid>717df3c8-5979-45ca-bd68-dacdf007c89c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>cf4a6a1b-bb10-4189-baa2-623bbe00c574</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Campaign Conversions' or . = 'Campaign Conversions')]</value>
+      <webElementGuid>a9526352-fc1b-4f4e-b1c6-3c8f9ec5cbc6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

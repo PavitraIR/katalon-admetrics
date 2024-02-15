@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Cost per conversion (MTD and daily)</name>
+   <tag></tag>
+   <elementGuidId>db34ddc0-80e1-46e9-aed5-477cedcd535b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-tab-label-1-0']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-tab-label-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>36f518ed-4ad5-4011-b06a-f73be353f5de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-tab-label-content</value>
+      <webElementGuid>5a38b16a-3048-4aa7-b3d5-2bc0c8757262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cost per conversion (MTD and daily)</value>
+      <webElementGuid>ef0f3dd1-0a22-48c4-96b4-de1066b737cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-label-1-0&quot;)/div[@class=&quot;mat-tab-label-content&quot;]</value>
+      <webElementGuid>95fe2a21-e36f-43ae-b118-c3a4a009b478</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-tab-label-1-0']/div</value>
+      <webElementGuid>f4dbdfbd-4cc2-48ef-b299-433b6d99c735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign Report'])[1]/following::div[14]</value>
+      <webElementGuid>42f1e4a9-5020-4cdd-a846-17e4b7457cab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Performance Report'])[1]/following::div[15]</value>
+      <webElementGuid>b3476956-ca00-4e72-a070-3c39b4cffd3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Key Driver Performance'])[1]/preceding::div[2]</value>
+      <webElementGuid>f9a548cb-238b-47c3-a039-760769a5b243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='–'])[1]/preceding::div[6]</value>
+      <webElementGuid>d177fe38-c9e4-487f-98cc-a3552aed894a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cost per conversion (MTD and daily)']/parent::*</value>
+      <webElementGuid>33b00819-c9af-41a3-8ba9-c7ca89537213</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div</value>
+      <webElementGuid>358e4c66-bfac-4228-933b-6ccad17cf2d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Cost per conversion (MTD and daily)' or . = 'Cost per conversion (MTD and daily)')]</value>
+      <webElementGuid>e5ff87ce-39fe-4531-a1fa-d3ef3236117a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>polygon</name>
+   <tag></tag>
+   <elementGuidId>f4f40e70-f21c-4452-ad9c-ffd88c20daea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>polygon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>polygon</value>
+      <webElementGuid>3e32ade1-8c03-41b2-82bf-4af8b794fd80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>points</name>
+      <type>Main</type>
+      <value>0,0 5,5 10,0</value>
+      <webElementGuid>759f568b-b525-4c82-8f39-c34b27807dd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-datepicker-0&quot;)/mat-calendar-header[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mat-calendar-header&quot;]/div[@class=&quot;mat-calendar-controls&quot;]/button[@class=&quot;mat-focus-indicator mat-calendar-period-button mat-button mat-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/svg[@class=&quot;mat-calendar-arrow&quot;]/polygon[1]</value>
+      <webElementGuid>86f7ef5a-beea-47a7-8bdd-d7319bca83b2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

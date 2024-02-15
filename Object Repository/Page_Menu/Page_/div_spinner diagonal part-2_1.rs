@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_spinner diagonal part-2_1</name>
+   <tag></tag>
+   <elementGuidId>c0747a6b-f05b-406a-a4f8-0d9c2a3105ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.spinner.diagonal.part-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f444b46c-e36f-4150-a33f-04042eafa1a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>spinner diagonal part-2</value>
+      <webElementGuid>193a24a1-f9d0-4507-b600-7bb5a2a26372</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/app-side-nav[1]/aside[@class=&quot;app-side-nav&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;RespMenuIcon&quot;]/label[@class=&quot;sidebarIconToggle&quot;]/div[@class=&quot;spinner diagonal part-2&quot;]</value>
+      <webElementGuid>38dc0a1f-b88b-46d2-8aa8-9164c87d6e22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div[3]</value>
+      <webElementGuid>cca969f5-e216-4362-b16b-24218cad5d5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

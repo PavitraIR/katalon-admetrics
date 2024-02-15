@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Weekly Buyer CAC Report</name>
+   <tag></tag>
+   <elementGuidId>1cb0a10f-afaf-4efe-82f9-0f8d5598e45c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-tab-label-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-tab-label-1-0']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ed958abf-6890-4202-b9e9-f2f288cddac7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-tab-label-content</value>
+      <webElementGuid>1f583d11-7cd7-41da-b45d-b289d561346a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Weekly Buyer CAC Report</value>
+      <webElementGuid>3b7db99c-9f56-4666-be8e-8d9150180996</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-label-1-0&quot;)/div[@class=&quot;mat-tab-label-content&quot;]</value>
+      <webElementGuid>f5fa7453-fb7f-4720-8978-2796e754e71f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-tab-label-1-0']/div</value>
+      <webElementGuid>136249e1-2c68-4f89-a60c-d9156d401976</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div</value>
+      <webElementGuid>76b61e1e-e1c4-45e4-ac4b-58f29831f764</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Weekly Buyer CAC Report' or . = 'Weekly Buyer CAC Report')]</value>
+      <webElementGuid>ad78db31-cd4c-477c-b990-e573e500e1df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

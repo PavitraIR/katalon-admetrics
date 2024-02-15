@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_campaign_conversions_select_channel_dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef66a882-20ce-453d-9c09-aa967620a40e</testCaseGuid>
+</TestCaseEntity>

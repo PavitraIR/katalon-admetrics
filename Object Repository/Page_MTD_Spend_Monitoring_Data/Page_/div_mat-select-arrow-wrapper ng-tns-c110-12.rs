@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_mat-select-arrow-wrapper ng-tns-c110-12</name>
+   <tag></tag>
+   <elementGuidId>e41c47e5-ed2b-4a2c-969d-368bfbbd096a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-select-arrow-wrapper.ng-tns-c110-12</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-select[@id='mat-select-2']/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e4317dd2-b8d7-4a77-aceb-866f130c6bd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-arrow-wrapper ng-tns-c110-12</value>
+      <webElementGuid>d795d456-0391-436c-ba76-36469531c74c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-2&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c110-12&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c110-12&quot;]</value>
+      <webElementGuid>b4b5db9b-6f2e-4727-b378-c446e26cce11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-select[@id='mat-select-2']/div/div[2]</value>
+      <webElementGuid>f891e3a0-fb72-4f8c-88de-33d8bc971a5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-select/div/div[2]</value>
+      <webElementGuid>f76c43e8-e45b-435f-9759-7f74a4be1d4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

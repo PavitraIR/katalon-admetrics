@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Buyer CAC</name>
+   <tag></tag>
+   <elementGuidId>9c10ddf0-c2ca-45b9-93ae-f5583f2b0911</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.table-title.text-center.my-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-approved-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>4dafc955-9796-4391-bccd-0482f4e57bc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>table-title text-center my-2</value>
+      <webElementGuid>50f1d00e-c677-46eb-983b-836ed1bc4c36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buyer CAC</value>
+      <webElementGuid>2f3a311b-0303-4497-890f-6f208011f4f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-2&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-7 ng-trigger ng-trigger-translateTab&quot;]/app-daily-buyer-cac-trendline-chart[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;row-wrapper grid grid-cols-2 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-approved-vs-campaign-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/h2[@class=&quot;table-title text-center my-2&quot;]</value>
+      <webElementGuid>c0794e25-1b39-4abb-b85e-dac71fbcb60b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-approved-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/h2</value>
+      <webElementGuid>4f1cb698-df1b-4b0a-9a05-584b18876e0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>5a5af3da-bcb2-47ea-b65c-fff9153d57ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Buyer CAC' or . = 'Buyer CAC')]</value>
+      <webElementGuid>26b4148c-755c-4f27-b46d-ef72d670f915</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

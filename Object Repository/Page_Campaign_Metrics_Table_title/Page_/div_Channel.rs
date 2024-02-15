@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Channel</name>
+   <tag></tag>
+   <elementGuidId>8ec95ba9-3c49-40f5-b8e2-be7621002c9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-sort-header-content.ng-tns-c99-14</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table3']/app-campaign-metric-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a3f32ab1-2a63-4a8b-a9d4-7badeebe808d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-sort-header-content ng-tns-c99-14</value>
+      <webElementGuid>b959184a-19d9-46ef-ab59-c24d955a38e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Channel</value>
+      <webElementGuid>4cf5fe3d-190a-4aea-b6f5-783d8bc8289f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table3&quot;)/app-campaign-metric-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/thead[1]/tr[@class=&quot;mat-header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-sort-header mat-header-cell cdk-header-cell text-neutral-600 xmd:text-sm md:text-md ng-tns-c99-14 cdk-column-channel mat-column-channel ng-star-inserted mat-table-sticky mat-table-sticky-border-elem-top cdk-focused cdk-mouse-focused&quot;]/div[@class=&quot;mat-sort-header-container mat-focus-indicator ng-tns-c99-14&quot;]/div[@class=&quot;mat-sort-header-content ng-tns-c99-14&quot;]</value>
+      <webElementGuid>c0b487df-c8d5-492f-81c0-f02afbbd9a26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table3']/app-campaign-metric-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[2]/div/div</value>
+      <webElementGuid>068217d3-f040-41ef-b800-4e409ead3164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[2]/div/div</value>
+      <webElementGuid>310a9981-7509-4238-8967-8cdce63c1166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Channel' or . = 'Channel')]</value>
+      <webElementGuid>40933a72-0baf-4726-ad20-a77e0291e7b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

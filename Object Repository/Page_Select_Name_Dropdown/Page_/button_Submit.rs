@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Submit</name>
+   <tag></tag>
+   <elementGuidId>901c8448-1105-4fe3-b3b7-452189bbf525</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.btn-secondary.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ng-dropdown-panel[@id='a9cd4762defc']/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>720e7284-bf31-4f7f-986f-e91086460602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-secondary ng-star-inserted</value>
+      <webElementGuid>adff8120-1983-4677-ad21-a90c689b9a2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submit </value>
+      <webElementGuid>38c38b48-b6f5-46f6-a005-d945aec88796</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a9cd4762defc&quot;)/div[@class=&quot;ng-dropdown-header ng-star-inserted&quot;]/button[@class=&quot;btn btn-sm btn-secondary ng-star-inserted&quot;]</value>
+      <webElementGuid>07df97cb-ea96-4eec-8749-24deae7b11ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ng-dropdown-panel[@id='a9cd4762defc']/div/button</value>
+      <webElementGuid>a47ea793-bdbc-4056-a76c-65a4df4ba7b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng-dropdown-panel/div/button</value>
+      <webElementGuid>bc386ec4-21f6-4dbd-9f64-83d916fa432c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Submit ' or . = 'Submit ')]</value>
+      <webElementGuid>08323621-17ad-4b0f-8ed6-940780a53ad7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

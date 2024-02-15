@@ -1,0 +1,52 @@
+{"testCaseName":"Test Cases/Login_Page/test_verify_project_title","testCaseId":"Test Cases/Login_Page/test_verify_project_title","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_empty_credentials","testCaseId":"Test Cases/Login_Page/test_empty_credentials","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_invalidusername_validpassword","testCaseId":"Test Cases/Login_Page/test_invalidusername_validpassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_validate_login_page","testCaseId":"Test Cases/Login_Page/test_validate_login_page","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_validusername_invalipassword","testCaseId":"Test Cases/Login_Page/test_validusername_invalipassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_valid_login","testCaseId":"Test Cases/Login_Page/test_valid_login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_verify_menu","testCaseId":"Test Cases/Login_Page/test_verify_menu","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_verify_navigating_spend_report","testCaseId":"Test Cases/Spend_Report/test_verify_navigating_spend_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_weekly_tab","testCaseId":"Test Cases/Spend_Report/test_weekly_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_weekly_calender","testCaseId":"Test Cases/Spend_Report/test_weekly_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_monthly_tab","testCaseId":"Test Cases/Spend_Report/test_monthly_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_monthly_calender","testCaseId":"Test Cases/Spend_Report/test_monthly_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_daily_tab","testCaseId":"Test Cases/Spend_Report/test_daily_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_daily_calender","testCaseId":"Test Cases/Spend_Report/test_daily_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_weekly_zoom","testCaseId":"Test Cases/Spend_Report/test_weekly_zoom","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_monthly_zoom","testCaseId":"Test Cases/Spend_Report/test_monthly_zoom","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_daily_zoom","testCaseId":"Test Cases/Spend_Report/test_daily_zoom","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_verify_navigating_spend_monitor","testCaseId":"Test Cases/Spend Monitoring/test_verify_navigating_spend_monitor","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_weekly_spend_monitoring_tab","testCaseId":"Test Cases/Spend Monitoring/test_weekly_spend_monitoring_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_weekly_spend_monitoring_calender","testCaseId":"Test Cases/Spend Monitoring/test_weekly_spend_monitoring_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_daily_spend_monitoring_tab","testCaseId":"Test Cases/Spend Monitoring/test_daily_spend_monitoring_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_daily_spend_monitoring_calender","testCaseId":"Test Cases/Spend Monitoring/test_daily_spend_monitoring_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_mtd_spend_monitoring_tab","testCaseId":"Test Cases/Spend Monitoring/test_mtd_spend_monitoring_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_mtd_spend_monitoring_data","testCaseId":"Test Cases/Spend Monitoring/test_mtd_spend_monitoring_data","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_weekly_spend_monitoring_zoom","testCaseId":"Test Cases/Spend Monitoring/test_weekly_spend_monitoring_zoom","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_daily_spend_monitoring_zoom","testCaseId":"Test Cases/Spend Monitoring/test_daily_spend_monitoring_zoom","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend Monitoring/test_mtd_spend_monitoring_zoom","testCaseId":"Test Cases/Spend Monitoring/test_mtd_spend_monitoring_zoom","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_verify_navigating_performance_report","testCaseId":"Test Cases/Performance Report/test_verify_navigating_performance_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_buyer_cac_tab","testCaseId":"Test Cases/Performance Report/test_weekly_buyer_cac_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weely_buyer_cac_calender","testCaseId":"Test Cases/Performance Report/test_weely_buyer_cac_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_buyer_cac_table_title","testCaseId":"Test Cases/Performance Report/test_weekly_buyer_cac_table_title","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_buyer_cac_ascending_decending","testCaseId":"Test Cases/Performance Report/test_weekly_buyer_cac_ascending_decending","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_buyer_cac_items_dropdown","testCaseId":"Test Cases/Performance Report/test_weekly_buyer_cac_items_dropdown","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_seller_cac_tab","testCaseId":"Test Cases/Performance Report/test_weekly_seller_cac_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_seller_cac_calender","testCaseId":"Test Cases/Performance Report/test_weekly_seller_cac_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_seller_cac_table_title","testCaseId":"Test Cases/Performance Report/test_weekly_seller_cac_table_title","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_seller_cac_asending_decending","testCaseId":"Test Cases/Performance Report/test_weekly_seller_cac_asending_decending","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_seller_cac_items_dropdown","testCaseId":"Test Cases/Performance Report/test_weekly_seller_cac_items_dropdown","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_cac_tab","testCaseId":"Test Cases/Performance Report/test_daily_buyer_cac_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_csc_calender","testCaseId":"Test Cases/Performance Report/test_daily_buyer_csc_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_cac_table1","testCaseId":"Test Cases/Performance Report/test_daily_buyer_cac_table1","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_cac_ascending_decending_table1","testCaseId":"Test Cases/Performance Report/test_daily_buyer_cac_ascending_decending_table1","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_cac_items_dropdown_table1","testCaseId":"Test Cases/Performance Report/test_daily_buyer_cac_items_dropdown_table1","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_cac_table2","testCaseId":"Test Cases/Performance Report/test_daily_buyer_cac_table2","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_ascending_decending_table2","testCaseId":"Test Cases/Performance Report/test_daily_buyer_ascending_decending_table2","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_items_dropdown_table2","testCaseId":"Test Cases/Performance Report/test_daily_buyer_items_dropdown_table2","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_cac_table3","testCaseId":"Test Cases/Performance Report/test_daily_buyer_cac_table3","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_cac_ascending_decending_table3","testCaseId":"Test Cases/Performance Report/test_daily_buyer_cac_ascending_decending_table3","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_csc_items_dropdown_table3","testCaseId":"Test Cases/Performance Report/test_daily_buyer_csc_items_dropdown_table3","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_buyer_cac_zoom","testCaseId":"Test Cases/Performance Report/test_weekly_buyer_cac_zoom","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_weekly_seller_cac_zoom","testCaseId":"Test Cases/Performance Report/test_weekly_seller_cac_zoom","iterationVariableName":""}
+{"testCaseName":"Test Cases/Performance Report/test_daily_buyer_cac_zoom","testCaseId":"Test Cases/Performance Report/test_daily_buyer_cac_zoom","iterationVariableName":""}

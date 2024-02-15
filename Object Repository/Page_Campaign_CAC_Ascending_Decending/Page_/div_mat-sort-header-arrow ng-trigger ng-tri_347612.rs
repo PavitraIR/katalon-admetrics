@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_mat-sort-header-arrow ng-trigger ng-tri_347612</name>
+   <tag></tag>
+   <elementGuidId>a94380a2-fb0f-452c-a3a4-7460ef0b2c47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-sort-header-arrow.ng-trigger.ng-trigger-arrowPosition.ng-tns-c99-15.ng-star-inserted.ng-animating</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table2']/app-cac-cost-of-conversion-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[4]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9cccc306-c6d6-469b-a943-7249567289f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c99-15 ng-star-inserted ng-animating</value>
+      <webElementGuid>db0cd1aa-43a2-4e8e-b17f-ad029c006c5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table2&quot;)/app-cac-cost-of-conversion-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/thead[1]/tr[@class=&quot;mat-header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-sort-header mat-header-cell cdk-header-cell text-neutral-600 xmd:text-sm md:text-md ng-tns-c99-15 cdk-column-no_conversion mat-column-no_conversion ng-star-inserted mat-table-sticky mat-table-sticky-border-elem-top cdk-focused cdk-mouse-focused&quot;]/div[@class=&quot;mat-sort-header-container mat-focus-indicator ng-tns-c99-15&quot;]/div[@class=&quot;mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c99-15 ng-star-inserted ng-animating&quot;]</value>
+      <webElementGuid>1830d398-516b-40a2-9793-5b6442d5daac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table2']/app-cac-cost-of-conversion-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[4]/div/div[2]</value>
+      <webElementGuid>9ec4c82a-220c-4970-a6d0-25fad59ccf8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[4]/div/div[2]</value>
+      <webElementGuid>2829a480-70ec-4ec0-8263-db084ff38867</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Items per page</name>
+   <tag></tag>
+   <elementGuidId>1be3880b-c24e-4d28-819f-ee92e4416f43</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-key-drivers-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-paginator-page-size-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>37e78689-fa21-44d5-ad01-72022303b3e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-paginator-page-size-label</value>
+      <webElementGuid>4d954cf7-6753-4d68-83a6-c5fbf041d472</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Items per page: </value>
+      <webElementGuid>762e2e1c-6741-4f5c-a3db-b6c9ae1a2c82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-4 ng-trigger ng-trigger-translateTab&quot;]/app-key-drivers[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;grid grid-cols-4 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-key-drivers-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/mat-paginator[@class=&quot;mat-paginator&quot;]/div[@class=&quot;mat-paginator-outer-container&quot;]/div[@class=&quot;mat-paginator-container&quot;]/div[@class=&quot;mat-paginator-page-size ng-star-inserted&quot;]/div[@class=&quot;mat-paginator-page-size-label&quot;]</value>
+      <webElementGuid>fcfaa4b1-5a97-4926-9c03-367a6781b990</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-key-drivers-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/div</value>
+      <webElementGuid>8b1ad9e7-9288-4eca-baa8-ce21189ea320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FEBRUARY -24'])[1]/following::div[4]</value>
+      <webElementGuid>92c0d05a-a268-4f6e-a6e1-71146f250fec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::div[16]</value>
+      <webElementGuid>4b8d20f0-afcf-4989-8f67-ee331086187c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort'])[1]/preceding::div[17]</value>
+      <webElementGuid>f98facb4-43bb-4008-a8c2-d243ca9008d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Items per page:']/parent::*</value>
+      <webElementGuid>39608dcf-135e-4046-aef4-48460161f266</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-paginator/div/div/div/div</value>
+      <webElementGuid>28afacf9-e1e4-44ff-958e-bff6ee336bef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Items per page: ' or . = ' Items per page: ')]</value>
+      <webElementGuid>976fa17f-43fc-424a-aa56-937f4da20970</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

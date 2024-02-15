@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_campaign_conversions_select_businessline_dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>906572be-9969-46f9-a96c-979b10f524a8</testCaseGuid>
+</TestCaseEntity>

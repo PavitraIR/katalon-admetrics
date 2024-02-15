@@ -1,0 +1,274 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_campaign_CAC_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_campaign_CAC_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Channel_Dropdown/Page_/div_Facebook",
+      "brokenLocator": "//div[@id\u003d\u0027a6657b7781cf-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Channel_Dropdown/Page_/div_Facebook_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Channel_Dropdown/Page_/span_LinkedIn",
+      "brokenLocator": "//div[@id\u003d\u0027aa8af3a59024-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Channel_Dropdown/Page_/span_LinkedIn_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Channel_Dropdown/Page_/span_Google Ads",
+      "brokenLocator": "//div[@id\u003d\u0027a37164784a7d-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Channel_Dropdown/Page_/span_Google Ads_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Seller",
+      "brokenLocator": "//div[@id\u003d\u0027a10e27a609e2-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Seller_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Buyer",
+      "brokenLocator": "//div[@id\u003d\u0027a40d287fdf29-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ng-dropdown-panel/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Buyer_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Status_Dropdown/Page_/div_ACTIVE",
+      "brokenLocator": "//*[@id\u003d\"ae7aee40ddbf-1\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Status_Dropdown/Page_/div_ACTIVE_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Status_Dropdown/Page_/span_COMPLETED",
+      "brokenLocator": "//div[@id\u003d\u0027ac3a0f81e3e7-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Status_Dropdown/Page_/span_COMPLETED_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Status_Dropdown/Page_/span_DRAFT",
+      "brokenLocator": "//div[@id\u003d\u0027a2a2eab78cbb-3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Status_Dropdown/Page_/span_DRAFT_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Status_Dropdown/Page_/span_PAUSED",
+      "brokenLocator": "//div[@id\u003d\u0027a177651a9929-4\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Status_Dropdown/Page_/span_PAUSED_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Status_Dropdown/Page_/span_ENABLED",
+      "brokenLocator": "//div[@id\u003d\u0027a7993938e362-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Status_Dropdown/Page_/span_ENABLED_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF",
+      "brokenLocator": "//div[@id\u003d\u0027a9cd4762defc-0\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c",
+      "brokenLocator": "//div[@id\u003d\u0027a9cd4762defc-1\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d",
+      "brokenLocator": "//div[@id\u003d\u0027a9cd4762defc-2\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[3]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42",
+      "brokenLocator": "//div[@id\u003d\u0027a9cd4762defc-3\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit",
+      "brokenLocator": "//ng-dropdown-panel[@id\u003d\u0027a9cd4762defc\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ng-dropdown-panel/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/div_Items per page",
+      "brokenLocator": "//div[@id\u003d\u0027table1\u0027]/app-weekly-approved-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-paginator/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Items_Per_Page/Page_/div_Items per page_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Items_Per_Page/Page_/span_10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Items_Per_Page/Page_/span_20_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_30",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[4]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Items_Per_Page/Page_/span_30_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_5",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Items_Per_Page/Page_/span_5_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversion_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Campaign_Conversion_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/span_ng-arrow-wrapper",
+      "brokenLocator": "//ng-select[@id\u003d\u0027filter-Channel\u0027]/div/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span.ng-arrow-wrapper",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/span_ng-arrow-wrapper_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Channel_Dropdown_Verify/Page_/span_ng-arrow-wrapper",
+      "brokenLocator": "//ng-select[@id\u003d\u0027filter-Channel\u0027]/div/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span.ng-arrow-wrapper",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Channel_Dropdown_Verify/Page_/span_ng-arrow-wrapper_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper",
+      "brokenLocator": "//ng-select[@id\u003d\u0027filter-Channel\u0027]/div/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span.ng-arrow-wrapper",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_103821/Campaign_report/20240118_103822/Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper_CSS.png"
+    }
+  ]
+}

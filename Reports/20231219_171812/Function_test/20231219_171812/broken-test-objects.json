@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MTD_Spend_Monitoring/Page_/div_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231219_171812/Function_test/20231219_171812/Object Repository/Page_MTD_Spend_Monitoring/Page_/div_20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MTD_Spend_Monitoring/Page_/div_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231219_171812/Function_test/20231219_171812/Object Repository/Page_MTD_Spend_Monitoring/Page_/div_10_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MTD_Spend_Monitoring/Page_/div_5",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231219_171812/Function_test/20231219_171812/Object Repository/Page_MTD_Spend_Monitoring/Page_/div_5_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/button_DEC 2023_mat-focus-indicator mat-cal_bd9491",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[17]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231219_171812/Function_test/20231219_171812/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/button_DEC 2023_mat-focus-indicator mat-cal_bd9491_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_5ef953",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-6\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Items per page:\u0027])[1]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231219_171812/Function_test/20231219_171812/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_5ef953_neighbor.png"
+    }
+  ]
+}

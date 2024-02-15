@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Conversions_mat-sort-header-stem ng-tns-c98-14_1</name>
+   <tag></tag>
+   <elementGuidId>3fd0caad-f540-4760-84fa-16000e6c3b71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-key-drivers-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[6]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-sort-header-stem.ng-tns-c98-14</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>02b9f801-6681-464c-9200-5507c7d16ae7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-sort-header-stem ng-tns-c98-14</value>
+      <webElementGuid>dc0b8fd7-1d73-4628-b52d-1f9f1613bc0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-1&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-4 ng-trigger ng-trigger-translateTab&quot;]/app-key-drivers[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;grid grid-cols-4 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-key-drivers-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/thead[1]/tr[@class=&quot;mat-header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-sort-header mat-header-cell cdk-header-cell text-neutral-600 xmd:text-sm md:text-md ng-tns-c98-14 cdk-column-conversions mat-column-conversions ng-star-inserted mat-table-sticky mat-table-sticky-border-elem-top cdk-focused cdk-mouse-focused&quot;]/div[@class=&quot;mat-sort-header-container mat-focus-indicator ng-tns-c98-14 mat-sort-header-sorted&quot;]/div[@class=&quot;mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c98-14 ng-star-inserted&quot;]/div[@class=&quot;mat-sort-header-stem ng-tns-c98-14&quot;]</value>
+      <webElementGuid>244d33cb-715d-4cb5-ba52-5f328631ffa8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-key-drivers-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[6]/div/div[2]/div</value>
+      <webElementGuid>f64c915d-6255-41c6-ac2a-79895b1c4d27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[6]/div/div[2]/div</value>
+      <webElementGuid>9a39ccfe-d4e2-4f8e-9625-1b94163b7f04</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

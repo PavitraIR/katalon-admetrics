@@ -1,0 +1,94 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3",
+      "brokenLocator": "//div[@id\u003d\u0027background\u0027]/div/div/div/div/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240110_162144/Function_test/20240110_162144/Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Project_Title/Page_/p_admetrics",
+      "brokenLocator": "//div[@id\u003d\u0027background\u0027]/div/div/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User ID\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240110_162144/Function_test/20240110_162144/Object Repository/Page_Project_Title/Page_/p_admetrics_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240110_162144/Function_test/20240110_162144/Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/polygon",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "polygon",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240110_162144/Function_test/20240110_162144/Object Repository/Page_Calender/Page_/polygon_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-calendar-arrow.mat-calendar-invert",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240110_162144/Function_test/20240110_162144/Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-0-0\u0027]/div/app-weekly-admetric/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-icon",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240110_162144/Function_test/20240110_162144/Object Repository/Page_Calender/Page_/mat-icon_clear_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/span_DEC 2023",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/mat-calendar-header/div/div/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240110_162144/Function_test/20240110_162144/Object Repository/Page_Calender/Page_/span_DEC 2023_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr[2]/td/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td/button/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240110_162144/Function_test/20240110_162144/Object Repository/Page_Calender/Page_/div_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/div_31",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[6]/td[3]/button/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240110_162144/Function_test/20240110_162144/Object Repository/Page_Calender/Page_/div_31_position.png"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_admetrics_spinner diagonal part-2_1</name>
+   <tag></tag>
+   <elementGuidId>78af2bc1-5f3e-4f4c-93d9-9bcd8a788334</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.spinner.diagonal.part-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e993e5b1-9039-4197-a155-9b8314d9dd1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>spinner diagonal part-2</value>
+      <webElementGuid>d67d97d2-22e5-4d4b-92f3-0739ee935549</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/app-side-nav[1]/aside[@class=&quot;app-side-nav&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;RespMenuIcon&quot;]/label[@class=&quot;sidebarIconToggle&quot;]/div[@class=&quot;spinner diagonal part-2&quot;]</value>
+      <webElementGuid>296f3007-e4c8-4720-b780-98563dcc979e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div[3]</value>
+      <webElementGuid>e332aba3-0ed6-48db-a1bd-3f6172a871cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_mat-sort-header-arrow ng-trigger ng-tri_23569a_1</name>
+   <tag></tag>
+   <elementGuidId>5a87b8c7-b450-4db5-aebc-4ef3e634cf5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-sort-header-arrow.ng-trigger.ng-trigger-arrowPosition.ng-tns-c99-23.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-total-projects-by-source-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[6]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fb473235-9d56-44cf-9939-90ae416d35b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c99-23 ng-star-inserted</value>
+      <webElementGuid>fc7430ba-3c4a-4e4d-8ccd-467d8acb7244</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-2&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-7 ng-trigger ng-trigger-translateTab&quot;]/app-daily-buyer-cac-trendline-chart[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;row-wrapper grid grid-cols-2 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-total-projects-by-source-campaign-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/thead[1]/tr[@class=&quot;mat-header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-sort-header mat-header-cell cdk-header-cell text-neutral-600 xmd:text-sm md:text-md ng-tns-c99-23 cdk-column-Grand-Total mat-column-Grand-Total ng-star-inserted mat-table-sticky mat-table-sticky-border-elem-top cdk-focused cdk-mouse-focused&quot;]/div[@class=&quot;mat-sort-header-container mat-focus-indicator ng-tns-c99-23 mat-sort-header-sorted&quot;]/div[@class=&quot;mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c99-23 ng-star-inserted&quot;]</value>
+      <webElementGuid>33c00525-fa58-4184-8d2b-a0c28d859b28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-total-projects-by-source-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[6]/div/div[2]</value>
+      <webElementGuid>261ccbb0-43ef-4789-a6aa-0bbfe8a9ad38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[6]/div/div[2]</value>
+      <webElementGuid>bd5ab8d4-67ce-47f2-9b15-31c301c7e812</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ng-arrow-wrapper</name>
+   <tag></tag>
+   <elementGuidId>5cd54e66-56a1-4090-9871-1952b95929d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ng-select[@id='filter-Campaign Status']/div/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d91b5f64-f804-4025-bd34-b6f91cb00330</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-arrow-wrapper</value>
+      <webElementGuid>db8cfdac-908e-468b-9edd-f5de2e5d8812</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;filter-Campaign Status&quot;)/div[@class=&quot;ng-select-container ng-has-value&quot;]/span[@class=&quot;ng-arrow-wrapper&quot;]</value>
+      <webElementGuid>e166d629-30a9-480f-aa32-5cade1eef0fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ng-select[@id='filter-Campaign Status']/div/span[2]</value>
+      <webElementGuid>fbf1f44c-9775-43ef-846b-b34f4a88613a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ng-select/div/span[2]</value>
+      <webElementGuid>023807cb-20ea-48bb-981e-c90bef9b5074</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

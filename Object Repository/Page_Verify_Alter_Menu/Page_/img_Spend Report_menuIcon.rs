@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Spend Report_menuIcon</name>
+   <tag></tag>
+   <elementGuidId>d94028d3-88e1-4e7a-a90f-6e0f02c5a5ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='menu-item-1']/div/i/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menu-item-1 > div.btn.active.inside.btnActive > i.img > img.menuIcon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>83db9685-0fd6-44d6-a41b-bc3cf5845e1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuIcon</value>
+      <webElementGuid>f48d1592-5e92-4881-b76e-719726a7aa20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/images/performance.png</value>
+      <webElementGuid>fcc78e8c-2c5e-44b1-8c3e-b06ce7aec59d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-item-1&quot;)/div[@class=&quot;btn active inside btnActive&quot;]/i[@class=&quot;img&quot;]/img[@class=&quot;menuIcon&quot;]</value>
+      <webElementGuid>a40d8206-1fb0-443b-97b1-8f2409ce3ff1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='menu-item-1']/div/i/img</value>
+      <webElementGuid>d58b4677-5f98-473b-a640-a17af5bbe127</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/i/img</value>
+      <webElementGuid>859ce7bd-1691-496a-ba05-d375a22799e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/images/performance.png']</value>
+      <webElementGuid>5a974499-d95c-46fc-bdfb-64a98bad61dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_31</name>
+   <tag></tag>
+   <elementGuidId>5153142b-52eb-4694-bb31-7fe4319a01db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-calendar-body-cell.mat-calendar-body-preview-end.mat-calendar-body-in-preview.mat-calendar-body-active > div.mat-calendar-body-cell-content.mat-focus-indicator</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f856eee6-6105-4c9c-8f9f-b388c94e96f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-calendar-body-cell-content mat-focus-indicator</value>
+      <webElementGuid>2abbfb8b-3663-4176-9d39-3bc266ab656f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 31 </value>
+      <webElementGuid>5f3ff5d4-3106-4ba2-9572-8f42b3f31317</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-datepicker-0&quot;)/div[@class=&quot;mat-calendar-content cdk-focused cdk-mouse-focused&quot;]/mat-month-view[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;mat-calendar-table&quot;]/tbody[@class=&quot;mat-calendar-body&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;mat-calendar-body-cell-container ng-star-inserted&quot;]/button[@class=&quot;mat-calendar-body-cell mat-calendar-body-preview-end mat-calendar-body-in-preview mat-calendar-body-active&quot;]/div[@class=&quot;mat-calendar-body-cell-content mat-focus-indicator&quot;]</value>
+      <webElementGuid>74a251b1-4b8a-43a3-b719-0747bc7f4616</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div</value>
+      <webElementGuid>ef6eb85a-e806-4cab-8ddd-ed6e5b139e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[6]/td[3]/button/div</value>
+      <webElementGuid>e28e1e20-ffd0-434e-99fd-efcaf6d5e21c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 31 ' or . = ' 31 ')]</value>
+      <webElementGuid>c4225ef6-bb3a-4321-83ae-c474e637342a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

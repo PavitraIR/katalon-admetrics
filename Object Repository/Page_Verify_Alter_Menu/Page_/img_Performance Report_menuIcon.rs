@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Performance Report_menuIcon</name>
+   <tag></tag>
+   <elementGuidId>b921f5ca-b1c7-45f1-a1ec-953afeaea34f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='menu-item-2']/div/i/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menu-item-2 > div.btn.active.inside.btnActive > i.img > img.menuIcon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>3416b707-88b5-4c41-8bd9-449ce822ab3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuIcon</value>
+      <webElementGuid>92c03a6f-e4c5-42cd-a294-a8b24e9aa122</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/images/campaign.png</value>
+      <webElementGuid>115cba39-65fa-4e6c-8c50-80120b88ab24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-item-2&quot;)/div[@class=&quot;btn active inside btnActive&quot;]/i[@class=&quot;img&quot;]/img[@class=&quot;menuIcon&quot;]</value>
+      <webElementGuid>8cfd69b1-5390-4f1c-a154-b831a10717bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='menu-item-2']/div/i/img</value>
+      <webElementGuid>f0c17a16-9eff-4c3a-a71f-aa0d6fcefee6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/i/img</value>
+      <webElementGuid>30d90afe-8eee-414d-9c84-90fb9f5ad68d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/images/campaign.png']</value>
+      <webElementGuid>3bf0660b-77db-4673-a65b-2bf4a9726aa2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

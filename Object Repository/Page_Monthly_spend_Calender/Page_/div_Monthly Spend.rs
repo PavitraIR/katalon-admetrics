@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Monthly Spend</name>
+   <tag></tag>
+   <elementGuidId>0bfeabfa-690b-4e19-bb6c-f49a9b0fa765</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-tab-label-0-1']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-tab-label-0-1 > div.mat-tab-label-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6e0d581c-426c-44a8-95f2-ec314255f209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-tab-label-content</value>
+      <webElementGuid>43b8ddd8-d366-4169-b9da-cef4da6509b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Monthly Spend</value>
+      <webElementGuid>133c5615-9d4d-4177-a890-07dcd0670a55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-label-0-1&quot;)/div[@class=&quot;mat-tab-label-content&quot;]</value>
+      <webElementGuid>b306052f-09cf-4220-b495-a78bdaf79ad2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-tab-label-0-1']/div</value>
+      <webElementGuid>4c89b41c-ae0d-47c2-9383-443faee4af01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MTD Spend'])[1]/following::div[2]</value>
+      <webElementGuid>6fd5e21b-75a7-4762-87c5-27464c8c759d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign Report'])[1]/following::div[16]</value>
+      <webElementGuid>7351d238-b38d-4a76-9672-d4a03310b6af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::div[23]</value>
+      <webElementGuid>362f9256-3500-4742-ac8d-1f18f76f8958</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Monthly Spend']/parent::*</value>
+      <webElementGuid>5e570043-0726-4935-9070-96544f44f935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>c38afed2-e143-4d14-9706-b8430f022842</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Monthly Spend' or . = 'Monthly Spend')]</value>
+      <webElementGuid>063e2b63-ea89-4550-9dda-d14c75701ff5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

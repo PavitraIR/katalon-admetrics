@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Apply_ply</name>
+   <tag></tag>
+   <elementGuidId>c121af02-1e2c-43b5-aa70-8fbf2c1914b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign Report'])[1]/following::p[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.customerName.position-absolute.top-3.end-4.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>57b8ddd8-d5bf-4c86-b30f-31124865bfc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>customerName position-absolute top-3 end-4 ng-star-inserted</value>
+      <webElementGuid>8d5eacbb-68e5-40d5-afc7-6779296e6d28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apply_ply</value>
+      <webElementGuid>6c90604f-e915-4e35-9beb-1be022f36fd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;sidebaractive&quot;]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[@class=&quot;app-content-wrapper&quot;]/div[@class=&quot;app-content&quot;]/p[@class=&quot;customerName position-absolute top-3 end-4 ng-star-inserted&quot;]</value>
+      <webElementGuid>085e5fb0-7e87-43c4-8377-a0b725a15f03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign Report'])[1]/following::p[1]</value>
+      <webElementGuid>780ddf15-fd27-44df-be96-64c13ba0207b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Performance Report'])[1]/following::p[1]</value>
+      <webElementGuid>6d2df77c-c893-4be1-bb66-5f65f8845c4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MTD Spend'])[1]/preceding::p[2]</value>
+      <webElementGuid>1be1fb48-70b3-42a2-a4be-7025d40998e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monthly Spend'])[1]/preceding::p[2]</value>
+      <webElementGuid>65a7885a-20df-446f-84fd-582c38718392</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Apply_ply']/parent::*</value>
+      <webElementGuid>d7b3205a-b326-4a9a-83d2-6164b74eb91f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>11b3b408-cc6a-4006-b53e-92b65250e33c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Apply_ply' or . = 'Apply_ply')]</value>
+      <webElementGuid>8c12a71c-1348-4fd0-bbb3-514fbbf21236</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

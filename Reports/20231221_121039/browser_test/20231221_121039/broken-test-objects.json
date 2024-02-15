@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_report_demo2/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027NOV\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231221_121039/browser_test/20231221_121039/Object Repository/page_report_demo2/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_report_demo2/Page_/div_30",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr[5]/td[5]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027NOV\u0027])[1]/following::div[59]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231221_121039/browser_test/20231221_121039/Object Repository/page_report_demo2/Page_/div_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_report_demo3/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027NOV\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231221_121039/browser_test/20231221_121039/Object Repository/page_report_demo3/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_report_demo3/Page_/div_30",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[5]/td[5]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027NOV\u0027])[1]/following::div[59]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231221_121039/browser_test/20231221_121039/Object Repository/page_report_demo3/Page_/div_30_neighbor.png"
+    }
+  ]
+}

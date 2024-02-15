@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Campaign Metrics</name>
+   <tag></tag>
+   <elementGuidId>aec63cd9-e123-4385-bcb9-289754042f8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.table-title.text-center.my-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table3']/app-campaign-metric-table/div/div/div/app-material-heat-chart-drilldown-table/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>c909ccd7-bd7b-4082-a9fe-927bf89a147c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>table-title text-center my-2</value>
+      <webElementGuid>9daed985-6d7e-416a-a210-29208a8dcc32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign Metrics</value>
+      <webElementGuid>44562427-7ce2-4fd6-a8f2-49a37b3d2e93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table3&quot;)/app-campaign-metric-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/h2[@class=&quot;table-title text-center my-2&quot;]</value>
+      <webElementGuid>adc9dcde-d944-4cbf-8e93-62f67d544e0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table3']/app-campaign-metric-table/div/div/div/app-material-heat-chart-drilldown-table/div/h2</value>
+      <webElementGuid>d091894c-f933-4555-b1b0-7b5370a742c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>be92aa5d-a8c2-4a9e-abb0-c9179158ad8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Campaign Metrics' or . = 'Campaign Metrics')]</value>
+      <webElementGuid>d0e880cb-2159-4731-aa8e-95fc86d7dc2a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

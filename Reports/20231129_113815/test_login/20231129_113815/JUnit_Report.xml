@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_login" time="39.476" tests="6" failures="0" errors="0">
+   <testsuite name="test_login" tests="6" failures="0" errors="0" time="39.476" skipped="0" timestamp="2023-11-29 11:38:34" hostname="pavithra - pavithra-ThinkPad-L14-Gen-1" id="Test Suites/test_login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/pavithra/Katalon Studio/Admetrics/Reports/20231129_113815/test_login/20231129_113815"/>
+         <property name="logFiles" value="/home/pavithra/Katalon Studio/Admetrics/Reports/20231129_113815/test_login/20231129_113815/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pavithra - pavithra-ThinkPad-L14-Gen-1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="26a671c8ace52773cb0d1e728838a9b3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Login_Page/test_verify_project_title" time="7.536" classname="Test Cases/Login_Page/test_verify_project_title" status="PASSED">
+         <system-out><![CDATA[2023-11-29 11:38:34 - [TEST_CASE][PASSED] - Test Cases/Login_Page/test_verify_project_title: Test Cases/Login_Page/test_verify_project_title
+
+2023-11-29 11:38:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-29 11:38:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-29 11:38:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-29 11:38:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-29 11:38:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-29 11:38:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-29 11:38:36 - [TEST_STEP][PASSED] - navigateToUrl("https://dash.admetrics.ai/"): Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:38:37 - [MESSAGE][PASSED] - Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:38:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Project_Title/p_Admetrics"), "Admetrics"): Actual text and expected text of test object 'Object Repository/Page_Project_Title/p_Admetrics' are matched.
+
+2023-11-29 11:38:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Project_Title/p_Admetrics' are matched.
+
+2023-11-29 11:38:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Project_Title/img_User ID_logoImg mr-3")): Object 'Object Repository/Page_Project_Title/img_User ID_logoImg mr-3' is visible
+
+2023-11-29 11:38:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Project_Title/img_User ID_logoImg mr-3' is visible
+
+2023-11-29 11:38:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Project_Title/p_India"), "India"): Actual text and expected text of test object 'Object Repository/Page_Project_Title/p_India' are matched.
+
+2023-11-29 11:38:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Project_Title/p_India' are matched.
+
+2023-11-29 11:38:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Project_Title/input_User ID_username"), ""): Actual text and expected text of test object 'Object Repository/Page_Project_Title/input_User ID_username' are matched.
+
+2023-11-29 11:38:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Project_Title/input_User ID_username' are matched.
+
+2023-11-29 11:38:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Project_Title/input_Password_password"), ""): Actual text and expected text of test object 'Object Repository/Page_Project_Title/input_Password_password' are matched.
+
+2023-11-29 11:38:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Project_Title/input_Password_password' are matched.
+
+2023-11-29 11:38:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Project_Title/button_Login")): Object 'Object Repository/Page_Project_Title/button_Login' is clickable
+
+2023-11-29 11:38:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Project_Title/button_Login' is clickable
+
+2023-11-29 11:38:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-29 11:38:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Page/test_validusername_invalipassword" time="5.59" classname="Test Cases/Login_Page/test_validusername_invalipassword" status="PASSED">
+         <system-out><![CDATA[2023-11-29 11:38:41 - [TEST_CASE][PASSED] - Test Cases/Login_Page/test_validusername_invalipassword: Test Cases/Login_Page/test_validusername_invalipassword
+
+2023-11-29 11:38:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-29 11:38:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-29 11:38:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-29 11:38:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-29 11:38:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-29 11:38:42 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-29 11:38:42 - [TEST_STEP][PASSED] - navigateToUrl("https://dash.admetrics.ai/"): Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:38:43 - [MESSAGE][PASSED] - Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_valid_invalid/Page_/input_User ID_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_valid_invalid/Page_/input_User ID_username'
+
+2023-11-29 11:38:46 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_valid_invalid/Page_/input_User ID_username'
+
+2023-11-29 11:38:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_valid_invalid/Page_/input_Password_password"), "RSNArcc3BqI="): Text ****** has been set on object 'Object Repository/Page_valid_invalid/Page_/input_Password_password'
+
+2023-11-29 11:38:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_valid_invalid/Page_/input_Password_password'
+
+2023-11-29 11:38:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_valid_invalid/Page_/button_Login")): Object: 'Object Repository/Page_valid_invalid/Page_/button_Login' is clicked on
+
+2023-11-29 11:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_valid_invalid/Page_/button_Login' is clicked on
+
+2023-11-29 11:38:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_valid_invalid/Page_/span_Invalid Credentials"), "Invalid Credentials"): Actual text and expected text of test object 'Object Repository/Page_valid_invalid/Page_/span_Invalid Credentials' are matched.
+
+2023-11-29 11:38:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_valid_invalid/Page_/span_Invalid Credentials' are matched.
+
+2023-11-29 11:38:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-29 11:38:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Page/test_invalidusername_validpassword" time="6.047" classname="Test Cases/Login_Page/test_invalidusername_validpassword" status="PASSED">
+         <system-out><![CDATA[2023-11-29 11:38:47 - [TEST_CASE][PASSED] - Test Cases/Login_Page/test_invalidusername_validpassword: Test Cases/Login_Page/test_invalidusername_validpassword
+
+2023-11-29 11:38:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-29 11:38:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-29 11:38:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-29 11:38:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-29 11:38:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-29 11:38:48 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-29 11:38:48 - [TEST_STEP][PASSED] - navigateToUrl("https://dash.admetrics.ai/"): Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:38:49 - [MESSAGE][PASSED] - Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_invalid_valid/Page_/input_User ID_username"), "tibil"): Text 'tibil' is set on object 'Object Repository/Page_invalid_valid/Page_/input_User ID_username'
+
+2023-11-29 11:38:51 - [MESSAGE][PASSED] - Text 'tibil' is set on object 'Object Repository/Page_invalid_valid/Page_/input_User ID_username'
+
+2023-11-29 11:38:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_invalid_valid/Page_/input_Password_password"), "7Dxoto1EjKfQbGop/Ov+1g=="): Text ****** has been set on object 'Object Repository/Page_invalid_valid/Page_/input_Password_password'
+
+2023-11-29 11:38:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_invalid_valid/Page_/input_Password_password'
+
+2023-11-29 11:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_invalid_valid/Page_/button_Login")): Object: 'Object Repository/Page_invalid_valid/Page_/button_Login' is clicked on
+
+2023-11-29 11:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_invalid_valid/Page_/button_Login' is clicked on
+
+2023-11-29 11:38:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_invalid_valid/Page_/span_Invalid Credentials"), "Invalid Credentials"): Actual text and expected text of test object 'Object Repository/Page_invalid_valid/Page_/span_Invalid Credentials' are matched.
+
+2023-11-29 11:38:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_invalid_valid/Page_/span_Invalid Credentials' are matched.
+
+2023-11-29 11:38:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-29 11:38:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Page/test_invalid_username_password" time="6.022" classname="Test Cases/Login_Page/test_invalid_username_password" status="PASSED">
+         <system-out><![CDATA[2023-11-29 11:38:53 - [TEST_CASE][PASSED] - Test Cases/Login_Page/test_invalid_username_password: Test Cases/Login_Page/test_invalid_username_password
+
+2023-11-29 11:38:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-29 11:38:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-29 11:38:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-29 11:38:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-29 11:38:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-29 11:38:54 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-29 11:38:54 - [TEST_STEP][PASSED] - navigateToUrl("https://dash.admetrics.ai/"): Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:38:55 - [MESSAGE][PASSED] - Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:38:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Invalid/Page_/input_User ID_username"), "cqube"): Text 'cqube' is set on object 'Object Repository/Page_Invalid/Page_/input_User ID_username'
+
+2023-11-29 11:38:58 - [MESSAGE][PASSED] - Text 'cqube' is set on object 'Object Repository/Page_Invalid/Page_/input_User ID_username'
+
+2023-11-29 11:38:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Invalid/Page_/input_Password_password"), "KNgadmoWMNQLHR89HR7ydQ=="): Text ****** has been set on object 'Object Repository/Page_Invalid/Page_/input_Password_password'
+
+2023-11-29 11:38:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Invalid/Page_/input_Password_password'
+
+2023-11-29 11:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Invalid/Page_/button_Login")): Object: 'Object Repository/Page_Invalid/Page_/button_Login' is clicked on
+
+2023-11-29 11:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Invalid/Page_/button_Login' is clicked on
+
+2023-11-29 11:38:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Invalid/Page_/span_Invalid Credentials"), "Invalid Credentials"): Actual text and expected text of test object 'Object Repository/Page_Invalid/Page_/span_Invalid Credentials' are matched.
+
+2023-11-29 11:38:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Invalid/Page_/span_Invalid Credentials' are matched.
+
+2023-11-29 11:38:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-29 11:38:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Page/test_empty_credentials" time="5.45" classname="Test Cases/Login_Page/test_empty_credentials" status="PASSED">
+         <system-out><![CDATA[2023-11-29 11:38:59 - [TEST_CASE][PASSED] - Test Cases/Login_Page/test_empty_credentials: Test Cases/Login_Page/test_empty_credentials
+
+2023-11-29 11:38:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-29 11:38:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-29 11:38:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-29 11:39:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-29 11:39:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-29 11:39:00 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-29 11:39:00 - [TEST_STEP][PASSED] - navigateToUrl("https://dash.admetrics.ai/"): Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:39:01 - [MESSAGE][PASSED] - Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Empty_credentials/Page_/input_User ID_username")): Object: 'Object Repository/Page_Empty_credentials/Page_/input_User ID_username' is clicked on
+
+2023-11-29 11:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Empty_credentials/Page_/input_User ID_username' is clicked on
+
+2023-11-29 11:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Empty_credentials/Page_/button_Login")): Object: 'Object Repository/Page_Empty_credentials/Page_/button_Login' is clicked on
+
+2023-11-29 11:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Empty_credentials/Page_/button_Login' is clicked on
+
+2023-11-29 11:39:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Empty_credentials/Page_/span_Invalid Credentials"), "Invalid Credentials"): Actual text and expected text of test object 'Object Repository/Page_Empty_credentials/Page_/span_Invalid Credentials' are matched.
+
+2023-11-29 11:39:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Empty_credentials/Page_/span_Invalid Credentials' are matched.
+
+2023-11-29 11:39:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-29 11:39:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Page/test_valid_login" time="8.544" classname="Test Cases/Login_Page/test_valid_login" status="PASSED">
+         <system-out><![CDATA[2023-11-29 11:39:05 - [TEST_CASE][PASSED] - Test Cases/Login_Page/test_valid_login: Test Cases/Login_Page/test_valid_login
+
+2023-11-29 11:39:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-29 11:39:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-29 11:39:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-29 11:39:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-29 11:39:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-29 11:39:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-29 11:39:05 - [TEST_STEP][PASSED] - navigateToUrl("https://dash.admetrics.ai/"): Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:39:06 - [MESSAGE][PASSED] - Navigate to 'https://dash.admetrics.ai/' successfully
+
+2023-11-29 11:39:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_valid_login/Page_/input_User ID_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_valid_login/Page_/input_User ID_username'
+
+2023-11-29 11:39:09 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_valid_login/Page_/input_User ID_username'
+
+2023-11-29 11:39:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_valid_login/Page_/input_Password_password"), "7Dxoto1EjKfQbGop/Ov+1g=="): Text ****** has been set on object 'Object Repository/Page_valid_login/Page_/input_Password_password'
+
+2023-11-29 11:39:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_valid_login/Page_/input_Password_password'
+
+2023-11-29 11:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_valid_login/Page_/button_Login")): Object: 'Object Repository/Page_valid_login/Page_/button_Login' is clicked on
+
+2023-11-29 11:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_valid_login/Page_/button_Login' is clicked on
+
+2023-11-29 11:39:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_valid_login/Page_/p_Summary Statistics"), "Summary Statistics"): Actual text and expected text of test object 'Object Repository/Page_valid_login/Page_/p_Summary Statistics' are matched.
+
+2023-11-29 11:39:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_valid_login/Page_/p_Summary Statistics' are matched.
+
+2023-11-29 11:39:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-29 11:39:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-29 11:38:34 - [TEST_SUITE][PASSED] - test_login: Test Cases/Login_Page/test_valid_login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

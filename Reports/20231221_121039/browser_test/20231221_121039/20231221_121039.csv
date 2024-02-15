@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+browser_test,Chrome 120.0.0.0,,,2023-12-21 12:10:47,2023-12-21 12:13:34,2m - 46.215s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_login_demo,Chrome 120.0.0.0,,,2023-12-21 12:10:48,2023-12-21 12:10:55,7.376s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-21 12:10:48,2023-12-21 12:10:51,2.595s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-21 12:10:51,2023-12-21 12:10:51,0.183s,PASSED
+"navigateToUrl(""https://dev-dash.admetrics.ai/"")",Chrome 120.0.0.0,,,2023-12-21 12:10:51,2023-12-21 12:10:52,1.035s,PASSED
+"setText(findTestObject(""Object Repository/page_login_demo/Page_/input_User ID_username""), ""admin"")",Chrome 120.0.0.0,,,2023-12-21 12:10:52,2023-12-21 12:10:54,1.890s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/page_login_demo/Page_/input_Password_password""), ""7Dxoto1EjKfQbGop/Ov+1g=="")",Chrome 120.0.0.0,,,2023-12-21 12:10:54,2023-12-21 12:10:54,0.715s,PASSED
+"click(findTestObject(""Object Repository/page_login_demo/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-21 12:10:54,2023-12-21 12:10:55,0.577s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_report,Chrome 120.0.0.0,,,2023-12-21 12:10:55,2023-12-21 12:11:06,10.879s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo/Page_/div_Monthly Spend Report""))",Chrome 120.0.0.0,,,2023-12-21 12:10:56,2023-12-21 12:11:00,3.899s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo/Page_/svg_Enter a date range_mat-datepicker-toggl_ef015c""))",Chrome 120.0.0.0,,,2023-12-21 12:11:00,2023-12-21 12:11:02,2.556s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo/Page_/button_SEPT 2023_mat-focus-indicator mat-ca_7a0138""))",Chrome 120.0.0.0,,,2023-12-21 12:11:02,2023-12-21 12:11:03,0.988s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo/Page_/button_SEPT 2023_mat-focus-indicator mat-ca_7a0138""))",Chrome 120.0.0.0,,,2023-12-21 12:11:03,2023-12-21 12:11:04,1.024s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo/Page_/div_1""))",Chrome 120.0.0.0,,,2023-12-21 12:11:04,2023-12-21 12:11:05,1.053s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo/Page_/div_31""))",Chrome 120.0.0.0,,,2023-12-21 12:11:05,2023-12-21 12:11:06,0.579s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_report2,Chrome 120.0.0.0,,,2023-12-21 12:11:06,2023-12-21 12:12:17,1m - 10.837s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo2/Page_/div_Daily Spend Report""))",Chrome 120.0.0.0,,,2023-12-21 12:11:06,2023-12-21 12:11:08,2.046s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo2/Page_/svg_Enter a date range_mat-datepicker-toggl_ef015c""))",Chrome 120.0.0.0,,,2023-12-21 12:11:08,2023-12-21 12:11:11,2.335s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo2/Page_/button_DEC 2023_mat-focus-indicator mat-cal_bd9491""))",Chrome 120.0.0.0,,,2023-12-21 12:11:11,2023-12-21 12:11:12,1.058s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo2/Page_/div_1""))",Chrome 120.0.0.0,,,2023-12-21 12:11:12,2023-12-21 12:11:44,32.528s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo2/Page_/div_30""))",Chrome 120.0.0.0,,,2023-12-21 12:11:44,2023-12-21 12:12:17,32.332s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_report3,Chrome 120.0.0.0,,,2023-12-21 12:12:17,2023-12-21 12:13:34,1m - 16.825s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/page_report_demo3/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,2023-12-21 12:12:17,2023-12-21 12:12:19,1.716s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo3/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,2023-12-21 12:12:19,2023-12-21 12:12:20,0.537s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/page_report_demo3/Page_/div_Daily Spends Monitoring Report""))",Chrome 120.0.0.0,,,2023-12-21 12:12:20,2023-12-21 12:12:22,2.334s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo3/Page_/div_Daily Spends Monitoring Report""))",Chrome 120.0.0.0,,,2023-12-21 12:12:22,2023-12-21 12:12:23,0.696s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/page_report_demo3/Page_/svg_Enter a date range_mat-datepicker-toggl_ef015c""))",Chrome 120.0.0.0,,,2023-12-21 12:12:23,2023-12-21 12:12:25,2.030s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/page_report_demo3/Page_/mat-icon_clear""))",Chrome 120.0.0.0,,,2023-12-21 12:12:25,2023-12-21 12:12:25,0.477s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo2/Page_/svg_Enter a date range_mat-datepicker-toggl_ef015c""))",Chrome 120.0.0.0,,,2023-12-21 12:12:25,2023-12-21 12:12:26,0.657s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/page_report_demo3/Page_/button_DEC 2023_mat-focus-indicator mat-cal_bd9491""))",Chrome 120.0.0.0,,,2023-12-21 12:12:26,2023-12-21 12:12:27,0.968s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/page_report_demo3/Page_/button_DEC 2023_mat-focus-indicator mat-cal_bd9491""))",Chrome 120.0.0.0,,,2023-12-21 12:12:27,2023-12-21 12:12:27,0.490s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo3/Page_/button_DEC 2023_mat-focus-indicator mat-cal_bd9491""))",Chrome 120.0.0.0,,,2023-12-21 12:12:27,2023-12-21 12:12:28,0.625s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo3/Page_/div_1""))",Chrome 120.0.0.0,,,2023-12-21 12:12:28,2023-12-21 12:13:00,32.322s,PASSED
+"click(findTestObject(""Object Repository/page_report_demo3/Page_/div_30""))",Chrome 120.0.0.0,,,2023-12-21 12:13:00,2023-12-21 12:13:33,32.362s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-21 12:13:33,2023-12-21 12:13:34,0.835s,PASSED

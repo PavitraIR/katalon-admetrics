@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select Channel</name>
+   <tag></tag>
+   <elementGuidId>270e2f5a-1323-4f60-bd3f-a643ede1f04d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ng-placeholder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ng-select[@id='filter-Channel']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>09758de5-28b2-4278-a25d-f0881d116928</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-placeholder</value>
+      <webElementGuid>cd7ffe4a-4fec-436d-aa7f-77fbed947555</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Channel</value>
+      <webElementGuid>707d3ad1-b06a-4520-bbca-b1ad58473fb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;filter-Channel&quot;)/div[@class=&quot;ng-select-container ng-has-value&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-placeholder&quot;]</value>
+      <webElementGuid>24272a29-21ab-4eb6-9650-f2a3376b1782</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ng-select[@id='filter-Channel']/div/div/div</value>
+      <webElementGuid>9c91ac01-413e-4825-be5b-5f832446cc1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng-select/div/div/div</value>
+      <webElementGuid>25d05219-c82c-4e04-9d0a-b4029ffb50ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select Channel' or . = 'Select Channel')]</value>
+      <webElementGuid>c4d6aaec-854a-4824-870e-1bb364a866fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

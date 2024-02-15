@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_mat-datepicker-toggle-default-icon ng-s_f1b13c</name>
+   <tag></tag>
+   <elementGuidId>fdff39d6-1934-4b40-a250-75a7572ab884</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.mat-datepicker-toggle-default-icon.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>5c745083-2260-4a9c-9273-1e4c84b5c9d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>f04c03cc-5ea4-415f-8971-8a2a69dc523c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24px</value>
+      <webElementGuid>ffd9a297-3fe0-4bc9-ab57-5a7d67524258</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24px</value>
+      <webElementGuid>4ee20210-0ed9-42a6-ae9b-f351d862e1c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>307dd275-c9c2-48e5-a8bb-7e5ab60969cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>0ed180ba-d8e1-4573-82ec-f6d14d9a96b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-datepicker-toggle-default-icon ng-star-inserted</value>
+      <webElementGuid>bbef99d7-e85a-4fc8-86e0-0f728ba3a6fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-2&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-7 ng-trigger ng-trigger-translateTab&quot;]/app-campaign-metric[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;filter-row grid grid-cols-10&quot;]/div[@class=&quot;time-series-filter xmd:col-span-5 md:col-span-4 lg:col-span-3 col-span-10&quot;]/app-time-series-filter-panel[1]/div[@class=&quot;container-fluid&quot;]/mat-form-field[@class=&quot;mat-form-field d-block ng-tns-c107-16 mat-primary mat-form-field-type-mat-date-range-input mat-form-field-appearance-fill mat-form-field-can-float mat-form-field-should-float mat-form-field-has-label ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c107-16&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c107-16&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c107-16 ng-star-inserted&quot;]/mat-datepicker-toggle[@class=&quot;mat-datepicker-toggle ng-tns-c107-16&quot;]/button[@class=&quot;mat-focus-indicator mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/svg[@class=&quot;mat-datepicker-toggle-default-icon ng-star-inserted&quot;]</value>
+      <webElementGuid>9a0ff67e-b942-472c-a05e-b91dfe21943f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

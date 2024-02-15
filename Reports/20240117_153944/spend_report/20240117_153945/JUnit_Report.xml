@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="spend_report" time="784.029" tests="10" failures="0" errors="0">
+   <testsuite name="spend_report" tests="10" failures="0" errors="0" time="784.029" skipped="0" timestamp="17-01-2024T15:39:52" hostname="Pavitra I R - DESKTOP-MFB1Q4P" id="Test Suites/spend_report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Pavitra I R\\Katalon Studio\\Admetrics\\Reports\\20240117_153944\\spend_report\\20240117_153945"/>
+         <property name="logFiles" value="C:\\Users\\Pavitra I R\\Katalon Studio\\Admetrics\\Reports\\20240117_153944\\spend_report\\20240117_153945\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pavitra I R - DESKTOP-MFB1Q4P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.32"/>
+         <property name="sessionId" value="a123976fc10b93f197e4de6c66f61c64"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Spend_Report/test_verify_navigating_spend_report" time="8.877" classname="Test Cases/Spend_Report/test_verify_navigating_spend_report" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:39:53 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_verify_navigating_spend_report: Test Cases/Spend_Report/test_verify_navigating_spend_report
+
+17-01-2024T15:39:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Login' successfully
+
+17-01-2024T15:39:53 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Login: Test Cases/Reusable_Functions/Login
+
+17-01-2024T15:39:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-01-2024T15:39:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-01-2024T15:39:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-01-2024T15:39:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-01-2024T15:39:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-01-2024T15:39:55 - [MESSAGE][PASSED] - Current window maximized
+
+17-01-2024T15:39:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://dash.admetrics.ai/' successfully
+
+17-01-2024T15:39:56 - [MESSAGE][PASSED] - Navigate to 'https://dash.admetrics.ai/' successfully
+
+17-01-2024T15:39:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_valid_login/Page_/input_User ID_username"), username): Text 'moonlyte_admin' is set on object 'Object Repository/Page_valid_login/Page_/input_User ID_username'
+
+17-01-2024T15:39:57 - [MESSAGE][PASSED] - Text 'moonlyte_admin' is set on object 'Object Repository/Page_valid_login/Page_/input_User ID_username'
+
+17-01-2024T15:39:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_valid_login/Page_/input_Password_password"), password): Text ****** has been set on object 'Object Repository/Page_valid_login/Page_/input_Password_password'
+
+17-01-2024T15:39:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_valid_login/Page_/input_Password_password'
+
+17-01-2024T15:39:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_valid_login/Page_/button_Login")): Object: 'Object Repository/Page_valid_login/Page_/button_Login' is clicked on
+
+17-01-2024T15:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_valid_login/Page_/button_Login' is clicked on
+
+17-01-2024T15:39:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Login' successfully
+
+17-01-2024T15:39:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report")): Object 'Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report' is clickable
+
+17-01-2024T15:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report' is clickable
+
+17-01-2024T15:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report")): Object: 'Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report' is clicked on
+
+17-01-2024T15:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report' is clicked on
+
+17-01-2024T15:40:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report"), 0): Object 'Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report' is present
+
+17-01-2024T15:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T15:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report' is present
+
+17-01-2024T15:40:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report"), "Spend Report"): Actual text and expected text of test object 'Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report' are matched.
+
+17-01-2024T15:40:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Spend_Report/test_weekly_tab" time="3.143" classname="Test Cases/Spend_Report/test_weekly_tab" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:40:01 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_weekly_tab: Test Cases/Spend_Report/test_weekly_tab
+
+17-01-2024T15:40:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report"), "Weekly Spend Report"): Actual text and expected text of test object 'Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report' are matched.
+
+17-01-2024T15:40:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report' are matched.
+
+17-01-2024T15:40:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report")): Object 'Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report' is clickable
+
+17-01-2024T15:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report' is clickable
+
+17-01-2024T15:40:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report")): Object: 'Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report' is clicked on
+
+17-01-2024T15:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report' is clicked on
+
+17-01-2024T15:40:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:40:05 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Spend_Report/test_weekly_calender" time="145.195" classname="Test Cases/Spend_Report/test_weekly_calender" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:40:05 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_weekly_calender: Test Cases/Spend_Report/test_weekly_calender
+
+17-01-2024T15:40:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Calender"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Calender' successfully
+
+17-01-2024T15:40:05 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Calender: Test Cases/Reusable_Functions/Calender
+
+17-01-2024T15:40:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/mat-icon_clear")): Object 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clickable
+
+17-01-2024T15:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clickable
+
+17-01-2024T15:40:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/mat-icon_clear")): Object: 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clicked on
+
+17-01-2024T15:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clicked on
+
+17-01-2024T15:40:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c")): Object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clickable
+
+17-01-2024T15:40:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:40:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c'. Try using Self-healing.
+
+17-01-2024T15:40:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' was broken. Propose an alternative one: 'svg.mat-datepicker-toggle-default-icon.ng-star-inserted'.
+
+17-01-2024T15:40:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clickable
+
+17-01-2024T15:40:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c")): Object: 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clicked on
+
+17-01-2024T15:41:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:41:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c'. Try using Self-healing.
+
+17-01-2024T15:41:09 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' was broken. Propose an alternative one: 'svg.mat-datepicker-toggle-default-icon.ng-star-inserted'.
+
+17-01-2024T15:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clicked on
+
+17-01-2024T15:41:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:41:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:41:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:41:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:41:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/span_DEC 2023")): Object 'Object Repository/Page_Calender/Page_/span_DEC 2023' is clickable
+
+17-01-2024T15:41:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/span_DEC 2023' is clickable
+
+17-01-2024T15:41:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/polygon")): Object: 'Object Repository/Page_Calender/Page_/polygon' is clicked on
+
+17-01-2024T15:41:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:41:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/polygon'. Try using Self-healing.
+
+17-01-2024T15:41:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/polygon' was broken. Propose an alternative one: 'polygon'.
+
+17-01-2024T15:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/polygon' is clicked on
+
+17-01-2024T15:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert")): Object: 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert' is clicked on
+
+17-01-2024T15:42:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:42:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert'. Try using Self-healing.
+
+17-01-2024T15:42:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert' was broken. Propose an alternative one: 'svg.mat-calendar-arrow.mat-calendar-invert'.
+
+17-01-2024T15:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert' is clicked on
+
+17-01-2024T15:42:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:42:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:42:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/div_1")): Object: 'Object Repository/Page_Calender/Page_/div_1' is clicked on
+
+17-01-2024T15:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/div_1' is clicked on
+
+17-01-2024T15:42:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/div_31")): Object: 'Object Repository/Page_Calender/Page_/div_31' is clicked on
+
+17-01-2024T15:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/div_31' is clicked on
+
+17-01-2024T15:42:17 - [MESSAGE][INFO] - 
+
+17-01-2024T15:42:17 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+17-01-2024T15:42:17 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+17-01-2024T15:42:17 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+17-01-2024T15:42:17 - [MESSAGE][INFO] - ==============================================================
+
+17-01-2024T15:42:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Calender' successfully
+
+17-01-2024T15:42:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Fullscreen"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully
+
+17-01-2024T15:42:17 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Fullscreen: Test Cases/Reusable_Functions/Fullscreen
+
+17-01-2024T15:42:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+17-01-2024T15:42:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+17-01-2024T15:42:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+17-01-2024T15:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+17-01-2024T15:42:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:42:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-01-2024T15:42:28 - [TEST_STEP][PASSED] - executeJavaScript("document.exitFullscreen();", null): Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:42:28 - [MESSAGE][PASSED] - Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:42:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:42:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-01-2024T15:42:30 - [MESSAGE][INFO] - 
+
+17-01-2024T15:42:30 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+17-01-2024T15:42:30 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+17-01-2024T15:42:30 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+17-01-2024T15:42:30 - [MESSAGE][INFO] - ==============================================================
+
+17-01-2024T15:42:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Spend_Report/test_monthly_tab" time="1.118" classname="Test Cases/Spend_Report/test_monthly_tab" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:42:30 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_monthly_tab: Test Cases/Spend_Report/test_monthly_tab
+
+17-01-2024T15:42:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report"), "Monthly Spend Report"): Actual text and expected text of test object 'Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report' are matched.
+
+17-01-2024T15:42:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report' are matched.
+
+17-01-2024T15:42:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report")): Object 'Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report' is clickable
+
+17-01-2024T15:42:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report' is clickable
+
+17-01-2024T15:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report")): Object: 'Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report' is clicked on
+
+17-01-2024T15:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Spend_Report/test_monthly_calender" time="315.143" classname="Test Cases/Spend_Report/test_monthly_calender" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:42:31 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_monthly_calender: Test Cases/Spend_Report/test_monthly_calender
+
+17-01-2024T15:42:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Calender"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Calender' successfully
+
+17-01-2024T15:42:31 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Calender: Test Cases/Reusable_Functions/Calender
+
+17-01-2024T15:42:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/mat-icon_clear")): Object 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clickable
+
+17-01-2024T15:43:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-weekly-admetric/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:43:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/mat-icon_clear'. Try using Self-healing.
+
+17-01-2024T15:43:03 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/mat-icon_clear' was broken. Propose an alternative one: '//mat-icon'.
+
+17-01-2024T15:43:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clickable
+
+17-01-2024T15:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/mat-icon_clear")): Object: 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clicked on
+
+17-01-2024T15:43:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-weekly-admetric/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:43:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/mat-icon_clear'. Try using Self-healing.
+
+17-01-2024T15:43:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/mat-icon_clear' was broken. Propose an alternative one: '//mat-icon'.
+
+17-01-2024T15:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clicked on
+
+17-01-2024T15:43:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c")): Object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clickable
+
+17-01-2024T15:44:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:44:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c'. Try using Self-healing.
+
+17-01-2024T15:44:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' was broken. Propose an alternative one: 'svg.mat-datepicker-toggle-default-icon.ng-star-inserted'.
+
+17-01-2024T15:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clickable
+
+17-01-2024T15:44:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c")): Object: 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clicked on
+
+17-01-2024T15:44:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:44:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c'. Try using Self-healing.
+
+17-01-2024T15:44:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' was broken. Propose an alternative one: 'svg.mat-datepicker-toggle-default-icon.ng-star-inserted'.
+
+17-01-2024T15:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clicked on
+
+17-01-2024T15:44:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:44:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:44:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:44:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/span_DEC 2023")): Object 'Object Repository/Page_Calender/Page_/span_DEC 2023' is clickable
+
+17-01-2024T15:45:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:45:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/span_DEC 2023'. Try using Self-healing.
+
+17-01-2024T15:45:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/span_DEC 2023' was broken. Propose an alternative one: '//div/div/button/span'.
+
+17-01-2024T15:45:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/span_DEC 2023' is clickable
+
+17-01-2024T15:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/polygon")): Object: 'Object Repository/Page_Calender/Page_/polygon' is clicked on
+
+17-01-2024T15:45:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:45:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/polygon'. Try using Self-healing.
+
+17-01-2024T15:45:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/polygon' was broken. Propose an alternative one: 'polygon'.
+
+17-01-2024T15:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/polygon' is clicked on
+
+17-01-2024T15:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert")): Object: 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert' is clicked on
+
+17-01-2024T15:46:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:46:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert'. Try using Self-healing.
+
+17-01-2024T15:46:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert' was broken. Propose an alternative one: 'svg.mat-calendar-arrow.mat-calendar-invert'.
+
+17-01-2024T15:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert' is clicked on
+
+17-01-2024T15:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:46:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:46:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/div_1")): Object: 'Object Repository/Page_Calender/Page_/div_1' is clicked on
+
+17-01-2024T15:46:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[2]/td/button/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:46:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/div_1'. Try using Self-healing.
+
+17-01-2024T15:46:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/div_1' was broken. Propose an alternative one: '//td/button/div'.
+
+17-01-2024T15:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/div_1' is clicked on
+
+17-01-2024T15:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/div_31")): Object: 'Object Repository/Page_Calender/Page_/div_31' is clicked on
+
+17-01-2024T15:47:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:47:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/div_31'. Try using Self-healing.
+
+17-01-2024T15:47:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[6]/td[3]/button/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:47:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/div_31' was broken. Propose an alternative one: '//div[(text() = ' 31 ' or . = ' 31 ')]'.
+
+17-01-2024T15:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/div_31' is clicked on
+
+17-01-2024T15:47:20 - [MESSAGE][INFO] - 
+
+17-01-2024T15:47:20 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+17-01-2024T15:47:20 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+17-01-2024T15:47:20 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+17-01-2024T15:47:20 - [MESSAGE][INFO] - ==============================================================
+
+17-01-2024T15:47:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Calender' successfully
+
+17-01-2024T15:47:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Fullscreen"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully
+
+17-01-2024T15:47:20 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Fullscreen: Test Cases/Reusable_Functions/Fullscreen
+
+17-01-2024T15:47:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+17-01-2024T15:47:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+17-01-2024T15:47:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+17-01-2024T15:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+17-01-2024T15:47:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:47:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-01-2024T15:47:44 - [TEST_STEP][PASSED] - executeJavaScript("document.exitFullscreen();", null): Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:47:44 - [MESSAGE][PASSED] - Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:47:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:47:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-01-2024T15:47:46 - [MESSAGE][INFO] - 
+
+17-01-2024T15:47:46 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+17-01-2024T15:47:46 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+17-01-2024T15:47:46 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+17-01-2024T15:47:46 - [MESSAGE][INFO] - ==============================================================
+
+17-01-2024T15:47:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Spend_Report/test_daily_tab" time="3.18" classname="Test Cases/Spend_Report/test_daily_tab" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:47:46 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_daily_tab: Test Cases/Spend_Report/test_daily_tab
+
+17-01-2024T15:47:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report"), "Daily Spend Report"): Actual text and expected text of test object 'Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report' are matched.
+
+17-01-2024T15:47:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report' are matched.
+
+17-01-2024T15:47:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report")): Object 'Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report' is clickable
+
+17-01-2024T15:47:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report' is clickable
+
+17-01-2024T15:47:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report")): Object: 'Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report' is clicked on
+
+17-01-2024T15:47:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report' is clicked on
+
+17-01-2024T15:47:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:47:49 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Spend_Report/test_daily_calender" time="287.638" classname="Test Cases/Spend_Report/test_daily_calender" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:47:49 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_daily_calender: Test Cases/Spend_Report/test_daily_calender
+
+17-01-2024T15:47:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Calender"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Calender' successfully
+
+17-01-2024T15:47:49 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Calender: Test Cases/Reusable_Functions/Calender
+
+17-01-2024T15:47:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/mat-icon_clear")): Object 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clickable
+
+17-01-2024T15:48:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-weekly-admetric/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:48:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/mat-icon_clear'. Try using Self-healing.
+
+17-01-2024T15:48:21 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/mat-icon_clear' was broken. Propose an alternative one: '//mat-icon'.
+
+17-01-2024T15:48:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clickable
+
+17-01-2024T15:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/mat-icon_clear")): Object: 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clicked on
+
+17-01-2024T15:48:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-weekly-admetric/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:48:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/mat-icon_clear'. Try using Self-healing.
+
+17-01-2024T15:48:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/mat-icon_clear' was broken. Propose an alternative one: '//mat-icon'.
+
+17-01-2024T15:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/mat-icon_clear' is clicked on
+
+17-01-2024T15:48:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c")): Object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clickable
+
+17-01-2024T15:49:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:49:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c'. Try using Self-healing.
+
+17-01-2024T15:49:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' was broken. Propose an alternative one: 'svg.mat-datepicker-toggle-default-icon.ng-star-inserted'.
+
+17-01-2024T15:49:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clickable
+
+17-01-2024T15:49:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c")): Object: 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clicked on
+
+17-01-2024T15:49:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:49:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c'. Try using Self-healing.
+
+17-01-2024T15:49:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' was broken. Propose an alternative one: 'svg.mat-datepicker-toggle-default-icon.ng-star-inserted'.
+
+17-01-2024T15:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clicked on
+
+17-01-2024T15:49:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:49:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:49:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:49:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+17-01-2024T15:49:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Calender/Page_/span_DEC 2023")): Object 'Object Repository/Page_Calender/Page_/span_DEC 2023' is clickable
+
+17-01-2024T15:50:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:50:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/span_DEC 2023'. Try using Self-healing.
+
+17-01-2024T15:50:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/span_DEC 2023' was broken. Propose an alternative one: '//div/div/button/span'.
+
+17-01-2024T15:50:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Calender/Page_/span_DEC 2023' is clickable
+
+17-01-2024T15:50:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/polygon")): Object: 'Object Repository/Page_Calender/Page_/polygon' is clicked on
+
+17-01-2024T15:51:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:51:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/polygon'. Try using Self-healing.
+
+17-01-2024T15:51:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/polygon' was broken. Propose an alternative one: 'polygon'.
+
+17-01-2024T15:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/polygon' is clicked on
+
+17-01-2024T15:51:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert")): Object: 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert' is clicked on
+
+17-01-2024T15:51:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:51:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert'. Try using Self-healing.
+
+17-01-2024T15:51:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert' was broken. Propose an alternative one: 'svg.mat-calendar-arrow.mat-calendar-invert'.
+
+17-01-2024T15:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert' is clicked on
+
+17-01-2024T15:51:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+17-01-2024T15:51:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/div_1")): Object: 'Object Repository/Page_Calender/Page_/div_1' is clicked on
+
+17-01-2024T15:52:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[2]/td/button/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:52:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/div_1'. Try using Self-healing.
+
+17-01-2024T15:52:05 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/div_1' was broken. Propose an alternative one: '//td/button/div'.
+
+17-01-2024T15:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/div_1' is clicked on
+
+17-01-2024T15:52:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calender/Page_/div_31")): Object: 'Object Repository/Page_Calender/Page_/div_31' is clicked on
+
+17-01-2024T15:52:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-01-2024T15:52:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Calender/Page_/div_31'. Try using Self-healing.
+
+17-01-2024T15:52:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Calender/Page_/div_31' was broken. Propose an alternative one: '//tr[6]/td[3]/button/div'.
+
+17-01-2024T15:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calender/Page_/div_31' is clicked on
+
+17-01-2024T15:52:37 - [MESSAGE][INFO] - 
+
+17-01-2024T15:52:37 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+17-01-2024T15:52:37 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+17-01-2024T15:52:37 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+17-01-2024T15:52:37 - [MESSAGE][INFO] - ==============================================================
+
+17-01-2024T15:52:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Calender' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Spend_Report/test_weekly_zoom" time="7.347" classname="Test Cases/Spend_Report/test_weekly_zoom" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:52:37 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_weekly_zoom: Test Cases/Spend_Report/test_weekly_zoom
+
+17-01-2024T15:52:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Weekly_Zoom/Page_/div_Weekly Spend Report")): Object: 'Object Repository/Page_Weekly_Zoom/Page_/div_Weekly Spend Report' is clicked on
+
+17-01-2024T15:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Weekly_Zoom/Page_/div_Weekly Spend Report' is clicked on
+
+17-01-2024T15:52:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Weekly_Zoom/Page_/img")): Object 'Object Repository/Page_Weekly_Zoom/Page_/img' is clickable
+
+17-01-2024T15:52:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Weekly_Zoom/Page_/img' is clickable
+
+17-01-2024T15:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Weekly_Zoom/Page_/img")): Object: 'Object Repository/Page_Weekly_Zoom/Page_/img' is clicked on
+
+17-01-2024T15:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Weekly_Zoom/Page_/img' is clicked on
+
+17-01-2024T15:52:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:52:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-01-2024T15:52:42 - [TEST_STEP][PASSED] - executeJavaScript("document.exitFullscreen();", null): Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:52:42 - [MESSAGE][PASSED] - Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:52:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:52:44 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Spend_Report/test_monthly_zoom" time="6.085" classname="Test Cases/Spend_Report/test_monthly_zoom" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:52:44 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_monthly_zoom: Test Cases/Spend_Report/test_monthly_zoom
+
+17-01-2024T15:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Monthly_Zoom/Page_/div_Monthly Spend Report")): Object: 'Object Repository/Page_Monthly_Zoom/Page_/div_Monthly Spend Report' is clicked on
+
+17-01-2024T15:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monthly_Zoom/Page_/div_Monthly Spend Report' is clicked on
+
+17-01-2024T15:52:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Monthly_Zoom/Page_/img")): Object 'Object Repository/Page_Monthly_Zoom/Page_/img' is clickable
+
+17-01-2024T15:52:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Monthly_Zoom/Page_/img' is clickable
+
+17-01-2024T15:52:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Monthly_Zoom/Page_/img")): Object: 'Object Repository/Page_Monthly_Zoom/Page_/img' is clicked on
+
+17-01-2024T15:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Monthly_Zoom/Page_/img' is clicked on
+
+17-01-2024T15:52:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:52:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-01-2024T15:52:48 - [TEST_STEP][PASSED] - executeJavaScript("document.exitFullscreen();", null): Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:52:48 - [MESSAGE][PASSED] - Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:52:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:52:50 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Spend_Report/test_daily_zoom" time="6.065" classname="Test Cases/Spend_Report/test_daily_zoom" status="PASSED">
+         <system-out><![CDATA[17-01-2024T15:52:50 - [TEST_CASE][PASSED] - Test Cases/Spend_Report/test_daily_zoom: Test Cases/Spend_Report/test_daily_zoom
+
+17-01-2024T15:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Daily_Zoom/Page_/div_Daily Spend Report")): Object: 'Object Repository/Page_Daily_Zoom/Page_/div_Daily Spend Report' is clicked on
+
+17-01-2024T15:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daily_Zoom/Page_/div_Daily Spend Report' is clicked on
+
+17-01-2024T15:52:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Daily_Zoom/Page_/img")): Object 'Object Repository/Page_Daily_Zoom/Page_/img' is clickable
+
+17-01-2024T15:52:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Daily_Zoom/Page_/img' is clickable
+
+17-01-2024T15:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Daily_Zoom/Page_/img")): Object: 'Object Repository/Page_Daily_Zoom/Page_/img' is clicked on
+
+17-01-2024T15:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daily_Zoom/Page_/img' is clicked on
+
+17-01-2024T15:52:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:52:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-01-2024T15:52:54 - [TEST_STEP][PASSED] - executeJavaScript("document.exitFullscreen();", null): Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:52:54 - [MESSAGE][PASSED] - Execute JavaScript 'document.exitFullscreen();' successfully
+
+17-01-2024T15:52:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-01-2024T15:52:56 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2024T15:39:52 - [TEST_SUITE][PASSED] - spend_report: Test Cases/Spend_Report/test_daily_zoom]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

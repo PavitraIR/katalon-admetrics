@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_alter_table_items_dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e5ec92d-bffc-4f6a-825e-bb15f77642f5</testCaseGuid>
+</TestCaseEntity>

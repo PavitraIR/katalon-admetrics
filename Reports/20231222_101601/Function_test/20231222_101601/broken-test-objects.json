@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3",
+      "brokenLocator": "//div[@id\u003d\u0027background\u0027]/div/div/div/div/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_101601/Function_test/20231222_101601/Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Project_Title/Page_/p_admetrics",
+      "brokenLocator": "//div[@id\u003d\u0027background\u0027]/div/div/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User ID\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_101601/Function_test/20231222_101601/Object Repository/Page_Project_Title/Page_/p_admetrics_neighbor.png"
+    }
+  ]
+}

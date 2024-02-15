@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Campaign_report" time="1257.171" tests="17" failures="0" errors="0">
+   <testsuite name="Campaign_report" tests="17" failures="0" errors="0" time="1257.171" skipped="0" timestamp="18-01-2024T14:55:33" hostname="Pavitra I R - DESKTOP-MFB1Q4P" id="Test Suites/Campaign_report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Pavitra I R\\Katalon Studio\\Admetrics\\Reports\\20240118_145526\\Campaign_report\\20240118_145527"/>
+         <property name="logFiles" value="C:\\Users\\Pavitra I R\\Katalon Studio\\Admetrics\\Reports\\20240118_145526\\Campaign_report\\20240118_145527\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pavitra I R - DESKTOP-MFB1Q4P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.32"/>
+         <property name="sessionId" value="816b1c1c4ee38495d270e6d6f41b08d4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Campaign Report/test_verify_navigating_campaign_report" time="10.81" classname="Test Cases/Campaign Report/test_verify_navigating_campaign_report" status="PASSED">
+         <system-out><![CDATA[18-01-2024T14:55:33 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_verify_navigating_campaign_report: Test Cases/Campaign Report/test_verify_navigating_campaign_report
+
+18-01-2024T14:55:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Login' successfully
+
+18-01-2024T14:55:34 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Login: Test Cases/Reusable_Functions/Login
+
+18-01-2024T14:55:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-01-2024T14:55:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-01-2024T14:55:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-01-2024T14:55:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-01-2024T14:55:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-01-2024T14:55:36 - [MESSAGE][PASSED] - Current window maximized
+
+18-01-2024T14:55:36 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://dash.admetrics.ai/' successfully
+
+18-01-2024T14:55:37 - [MESSAGE][PASSED] - Navigate to 'https://dash.admetrics.ai/' successfully
+
+18-01-2024T14:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_valid_login/Page_/input_User ID_username"), username): Text 'moonlyte_admin' is set on object 'Object Repository/Page_valid_login/Page_/input_User ID_username'
+
+18-01-2024T14:55:39 - [MESSAGE][PASSED] - Text 'moonlyte_admin' is set on object 'Object Repository/Page_valid_login/Page_/input_User ID_username'
+
+18-01-2024T14:55:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_valid_login/Page_/input_Password_password"), password): Text ****** has been set on object 'Object Repository/Page_valid_login/Page_/input_Password_password'
+
+18-01-2024T14:55:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_valid_login/Page_/input_Password_password'
+
+18-01-2024T14:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_valid_login/Page_/button_Login")): Object: 'Object Repository/Page_valid_login/Page_/button_Login' is clicked on
+
+18-01-2024T14:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_valid_login/Page_/button_Login' is clicked on
+
+18-01-2024T14:55:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Login' successfully
+
+18-01-2024T14:55:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/li_Campaign")): Object 'Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/li_Campaign' is clickable
+
+18-01-2024T14:55:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/li_Campaign' is clickable
+
+18-01-2024T14:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/li_Campaign")): Object: 'Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/li_Campaign' is clicked on
+
+18-01-2024T14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/li_Campaign' is clicked on
+
+18-01-2024T14:55:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/p_Campaign Analytics"), "Campaign Analytics"): Actual text and expected text of test object 'Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/p_Campaign Analytics' are matched.
+
+18-01-2024T14:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/p_Campaign Analytics' are matched.
+
+18-01-2024T14:55:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/p_Campaign Analytics"), 0): Object 'Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/p_Campaign Analytics' is present
+
+18-01-2024T14:55:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T14:55:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/p_Campaign Analytics' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_tab" time="3.553" classname="Test Cases/Campaign Report/test_campaign_metrics_tab" status="PASSED">
+         <system-out><![CDATA[18-01-2024T14:55:44 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_tab: Test Cases/Campaign Report/test_campaign_metrics_tab
+
+18-01-2024T14:55:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics"), "Campaign Metrics"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' are matched.
+
+18-01-2024T14:55:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' are matched.
+
+18-01-2024T14:55:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics"), 0): Object 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' is present
+
+18-01-2024T14:55:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T14:55:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' is present
+
+18-01-2024T14:55:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics")): Object 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' is clickable
+
+18-01-2024T14:55:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' is clickable
+
+18-01-2024T14:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics")): Object: 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' is clicked on
+
+18-01-2024T14:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' is clicked on
+
+18-01-2024T14:55:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T14:55:48 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_calender" time="68.7" classname="Test Cases/Campaign Report/test_campaign_metrics_calender" status="PASSED">
+         <system-out><![CDATA[18-01-2024T14:55:48 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_calender: Test Cases/Campaign Report/test_campaign_metrics_calender
+
+18-01-2024T14:55:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c")): Object 'Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clickable
+
+18-01-2024T14:56:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T14:56:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c'. Try using Self-healing.
+
+18-01-2024T14:56:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' was broken. Propose an alternative one: 'svg.mat-datepicker-toggle-default-icon.ng-star-inserted'.
+
+18-01-2024T14:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clickable
+
+18-01-2024T14:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c")): Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clicked on
+
+18-01-2024T14:56:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T14:56:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c'. Try using Self-healing.
+
+18-01-2024T14:56:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' was broken. Propose an alternative one: 'svg.mat-datepicker-toggle-default-icon.ng-star-inserted'.
+
+18-01-2024T14:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c' is clicked on
+
+18-01-2024T14:56:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+18-01-2024T14:56:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+18-01-2024T14:56:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+18-01-2024T14:56:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clickable
+
+18-01-2024T14:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+18-01-2024T14:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+18-01-2024T14:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+18-01-2024T14:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+18-01-2024T14:56:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7")): Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+18-01-2024T14:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7' is clicked on
+
+18-01-2024T14:56:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_calender/Page_/div_1")): Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/div_1' is clicked on
+
+18-01-2024T14:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/div_1' is clicked on
+
+18-01-2024T14:56:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_calender/Page_/div_31")): Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/div_31' is clicked on
+
+18-01-2024T14:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_calender/Page_/div_31' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_verify_channel" time="2.915" classname="Test Cases/Campaign Report/test_campaign_metrics_verify_channel" status="PASSED">
+         <system-out><![CDATA[18-01-2024T14:56:56 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_verify_channel: Test Cases/Campaign Report/test_campaign_metrics_verify_channel
+
+18-01-2024T14:56:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel"), 0): Object 'Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel' is present
+
+18-01-2024T14:56:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T14:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel' is present
+
+18-01-2024T14:56:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel"), "Select Channel"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel' are matched.
+
+18-01-2024T14:56:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel' are matched.
+
+18-01-2024T14:56:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/span_ng-arrow-wrapper")): Object 'Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/span_ng-arrow-wrapper' is clickable
+
+18-01-2024T14:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/span_ng-arrow-wrapper' is clickable
+
+18-01-2024T14:56:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Channel_dropdown_verify"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Channel_dropdown_verify' successfully
+
+18-01-2024T14:56:58 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Channel_dropdown_verify: Test Cases/Reusable_Functions/Channel_dropdown_verify
+
+18-01-2024T14:56:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Channel_Dropdown_Verify/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Channel_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Channel_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Channel_Dropdown_Verify/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Channel_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Channel_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:56:59 - [TEST_STEP][PASSED] - options = findTestObject("Object Repository/Page_Channel_Dropdown_Verify/Page_/span_ng-arrow-wrapper"): null
+
+18-01-2024T14:56:59 - [TEST_STEP][PASSED] - if (options): null
+
+18-01-2024T14:56:59 - [TEST_STEP][PASSED] - println("Options are present in the channel dropdown"): null
+
+18-01-2024T14:56:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Channel_dropdown_verify' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_select_channel_dropdown" time="100.217" classname="Test Cases/Campaign Report/test_campaign_metrics_select_channel_dropdown" status="PASSED">
+         <system-out><![CDATA[18-01-2024T14:56:59 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_select_channel_dropdown: Test Cases/Campaign Report/test_campaign_metrics_select_channel_dropdown
+
+18-01-2024T14:57:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Select_Channel_dropdown"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Select_Channel_dropdown' successfully
+
+18-01-2024T14:57:00 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Select_Channel_dropdown: Test Cases/Reusable_Functions/Select_Channel_dropdown
+
+18-01-2024T14:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Channel_Dropdown/Page_/div_Facebook")): Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/div_Facebook' is clicked on
+
+18-01-2024T14:57:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a6657b7781cf-1']'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T14:57:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Channel_Dropdown/Page_/div_Facebook'. Try using Self-healing.
+
+18-01-2024T14:57:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Channel_Dropdown/Page_/div_Facebook' was broken. Propose an alternative one: '//div/div[2]/div[2]'.
+
+18-01-2024T14:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/div_Facebook' is clicked on
+
+18-01-2024T14:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:57:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Channel_Dropdown/Page_/span_LinkedIn")): Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_LinkedIn' is clicked on
+
+18-01-2024T14:58:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='aa8af3a59024-2']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T14:58:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_LinkedIn'. Try using Self-healing.
+
+18-01-2024T14:58:05 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_LinkedIn' was broken. Propose an alternative one: '//div[3]/span'.
+
+18-01-2024T14:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_LinkedIn' is clicked on
+
+18-01-2024T14:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Channel_Dropdown/Page_/span_Google Ads")): Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_Google Ads' is clicked on
+
+18-01-2024T14:58:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a37164784a7d-0']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T14:58:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_Google Ads'. Try using Self-healing.
+
+18-01-2024T14:58:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_Google Ads' was broken. Propose an alternative one: '//div[2]/div/span'.
+
+18-01-2024T14:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Channel_Dropdown/Page_/span_Google Ads' is clicked on
+
+18-01-2024T14:58:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T14:58:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T14:58:40 - [MESSAGE][INFO] - 
+
+18-01-2024T14:58:40 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+18-01-2024T14:58:40 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+18-01-2024T14:58:40 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+18-01-2024T14:58:40 - [MESSAGE][INFO] - ==============================================================
+
+18-01-2024T14:58:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Select_Channel_dropdown' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_verify_businessline" time="2.412" classname="Test Cases/Campaign Report/test_campaign_metrics_verify_businessline" status="PASSED">
+         <system-out><![CDATA[18-01-2024T14:58:40 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_verify_businessline: Test Cases/Campaign Report/test_campaign_metrics_verify_businessline
+
+18-01-2024T14:58:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline"), "Select Businessline"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline' are matched.
+
+18-01-2024T14:58:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline' are matched.
+
+18-01-2024T14:58:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline"), 0): Object 'Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline' is present
+
+18-01-2024T14:58:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T14:58:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline' is present
+
+18-01-2024T14:58:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/span_ng-arrow-wrapper")): Object 'Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/span_ng-arrow-wrapper' is clickable
+
+18-01-2024T14:58:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/span_ng-arrow-wrapper' is clickable
+
+18-01-2024T14:58:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Businessline_dropdown_verify"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Businessline_dropdown_verify' successfully
+
+18-01-2024T14:58:41 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Businessline_dropdown_verify: Test Cases/Reusable_Functions/Businessline_dropdown_verify
+
+18-01-2024T14:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Businessline_Dropdown_Verify/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Businessline_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Businessline_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Businessline_Dropdown_Verify/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Businessline_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Businessline_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:58:42 - [TEST_STEP][PASSED] - options = findTestObject("Object Repository/Page_Businessline_Dropdown_Verify/Page_/span_ng-arrow-wrapper"): null
+
+18-01-2024T14:58:42 - [TEST_STEP][PASSED] - if (options): null
+
+18-01-2024T14:58:42 - [TEST_STEP][PASSED] - println("Options are present in the businessline dropdown"): null
+
+18-01-2024T14:58:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Businessline_dropdown_verify' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_select_businessline_dropdown" time="67.156" classname="Test Cases/Campaign Report/test_campaign_metrics_select_businessline_dropdown" status="PASSED">
+         <system-out><![CDATA[18-01-2024T14:58:42 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_select_businessline_dropdown: Test Cases/Campaign Report/test_campaign_metrics_select_businessline_dropdown
+
+18-01-2024T14:58:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Select_Businessline_Dropdown"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Select_Businessline_Dropdown' successfully
+
+18-01-2024T14:58:42 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Select_Businessline_Dropdown: Test Cases/Reusable_Functions/Select_Businessline_Dropdown
+
+18-01-2024T14:58:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Businessline_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Businessline_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Businessline_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Seller")): Object: 'Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Seller' is clicked on
+
+18-01-2024T14:59:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a10e27a609e2-1']'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T14:59:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Seller'. Try using Self-healing.
+
+18-01-2024T14:59:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Seller' was broken. Propose an alternative one: '//div/div[2]/div[2]'.
+
+18-01-2024T14:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Seller' is clicked on
+
+18-01-2024T14:59:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Businessline_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Businessline_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Businessline_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:59:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Buyer")): Object: 'Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Buyer' is clicked on
+
+18-01-2024T14:59:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a40d287fdf29-0']'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T14:59:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Buyer'. Try using Self-healing.
+
+18-01-2024T14:59:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Buyer' was broken. Propose an alternative one: '//ng-dropdown-panel/div/div[2]/div'.
+
+18-01-2024T14:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Buyer' is clicked on
+
+18-01-2024T14:59:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T14:59:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T14:59:49 - [MESSAGE][INFO] - 
+
+18-01-2024T14:59:49 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+18-01-2024T14:59:49 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+18-01-2024T14:59:49 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+18-01-2024T14:59:49 - [MESSAGE][INFO] - ==============================================================
+
+18-01-2024T14:59:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Select_Businessline_Dropdown' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_verify_status" time="3.877" classname="Test Cases/Campaign Report/test_campaign_metrics_verify_status" status="PASSED">
+         <system-out><![CDATA[18-01-2024T14:59:49 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_verify_status: Test Cases/Campaign Report/test_campaign_metrics_verify_status
+
+18-01-2024T14:59:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status"), "Select Campaign Status"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status' are matched.
+
+18-01-2024T14:59:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status' are matched.
+
+18-01-2024T14:59:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status"), 0): Object 'Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status' is present
+
+18-01-2024T14:59:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T14:59:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status' is present
+
+18-01-2024T14:59:50 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/span_ng-arrow-wrapper")): Object 'Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/span_ng-arrow-wrapper' is clickable
+
+18-01-2024T14:59:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/span_ng-arrow-wrapper' is clickable
+
+18-01-2024T14:59:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Campaign_status_dropdown_verify"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Campaign_status_dropdown_verify' successfully
+
+18-01-2024T14:59:51 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Campaign_status_dropdown_verify: Test Cases/Reusable_Functions/Campaign_status_dropdown_verify
+
+18-01-2024T14:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Status_Dropdown_Verify/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Campaign_Status_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Status_Dropdown_Verify/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:59:51 - [TEST_STEP][PASSED] - options = findTestObject("Object Repository/Page_Campaign_Status_Dropdown_Verify/Page_/span_ng-arrow-wrapper"): null
+
+18-01-2024T14:59:51 - [TEST_STEP][PASSED] - if (options): null
+
+18-01-2024T14:59:51 - [TEST_STEP][PASSED] - println("Options are present in the status dropdown"): null
+
+18-01-2024T14:59:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T14:59:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T14:59:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Campaign_status_dropdown_verify' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_select_status_dropdown" time="165.98" classname="Test Cases/Campaign Report/test_campaign_metrics_select_status_dropdown" status="PASSED">
+         <system-out><![CDATA[18-01-2024T14:59:53 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_select_status_dropdown: Test Cases/Campaign Report/test_campaign_metrics_select_status_dropdown
+
+18-01-2024T14:59:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Select_Status_Dropdown"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Select_Status_Dropdown' successfully
+
+18-01-2024T14:59:53 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Select_Status_Dropdown: Test Cases/Reusable_Functions/Select_Status_Dropdown
+
+18-01-2024T14:59:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T14:59:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/div_ACTIVE")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/div_ACTIVE' is clicked on
+
+18-01-2024T15:00:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="ae7aee40ddbf-1"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:00:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Status_Dropdown/Page_/div_ACTIVE'. Try using Self-healing.
+
+18-01-2024T15:00:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Status_Dropdown/Page_/div_ACTIVE' was broken. Propose an alternative one: '//div/div[2]/div[2]'.
+
+18-01-2024T15:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/div_ACTIVE' is clicked on
+
+18-01-2024T15:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/span_COMPLETED")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_COMPLETED' is clicked on
+
+18-01-2024T15:00:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='ac3a0f81e3e7-2']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:00:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Status_Dropdown/Page_/span_COMPLETED'. Try using Self-healing.
+
+18-01-2024T15:00:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Status_Dropdown/Page_/span_COMPLETED' was broken. Propose an alternative one: '//div[3]/span'.
+
+18-01-2024T15:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_COMPLETED' is clicked on
+
+18-01-2024T15:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:00:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/span_DRAFT")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_DRAFT' is clicked on
+
+18-01-2024T15:01:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a2a2eab78cbb-3']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:01:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Status_Dropdown/Page_/span_DRAFT'. Try using Self-healing.
+
+18-01-2024T15:01:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Status_Dropdown/Page_/span_DRAFT' was broken. Propose an alternative one: '//div[4]/span'.
+
+18-01-2024T15:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_DRAFT' is clicked on
+
+18-01-2024T15:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/span_PAUSED")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_PAUSED' is clicked on
+
+18-01-2024T15:02:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a177651a9929-4']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:02:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Status_Dropdown/Page_/span_PAUSED'. Try using Self-healing.
+
+18-01-2024T15:02:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Status_Dropdown/Page_/span_PAUSED' was broken. Propose an alternative one: '//div[5]/span'.
+
+18-01-2024T15:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_PAUSED' is clicked on
+
+18-01-2024T15:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Status_Dropdown/Page_/span_ENABLED")): Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ENABLED' is clicked on
+
+18-01-2024T15:02:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a7993938e362-0']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:02:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ENABLED'. Try using Self-healing.
+
+18-01-2024T15:02:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ENABLED' was broken. Propose an alternative one: '//div[2]/div/span'.
+
+18-01-2024T15:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Status_Dropdown/Page_/span_ENABLED' is clicked on
+
+18-01-2024T15:02:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T15:02:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T15:02:39 - [MESSAGE][INFO] - 
+
+18-01-2024T15:02:39 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+18-01-2024T15:02:39 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+18-01-2024T15:02:39 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+18-01-2024T15:02:39 - [MESSAGE][INFO] - ==============================================================
+
+18-01-2024T15:02:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Select_Status_Dropdown' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_verify_name" time="96.034" classname="Test Cases/Campaign Report/test_campaign_metrics_verify_name" status="PASSED">
+         <system-out><![CDATA[18-01-2024T15:02:39 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_verify_name: Test Cases/Campaign Report/test_campaign_metrics_verify_name
+
+18-01-2024T15:02:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/input_text"), ""): Actual text and expected text of test object 'Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/input_text' are matched.
+
+18-01-2024T15:02:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/input_text' are matched.
+
+18-01-2024T15:02:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/span_ng-arrow-wrapper")): Object 'Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/span_ng-arrow-wrapper' is clickable
+
+18-01-2024T15:03:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-1-1']/div/app-campaign-conversion/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:03:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/span_ng-arrow-wrapper'. Try using Self-healing.
+
+18-01-2024T15:03:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//mat-tab-body[@id='mat-tab-content-1-1']/div/app-campaign-conversion/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span'.
+
+18-01-2024T15:03:12 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[4]/ng-select/div/span'.
+
+18-01-2024T15:03:12 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Pavitra I R/Katalon Studio/Admetrics/Reports/Self-healing/Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/span_ng-arrow-wrapper_position.png
+
+18-01-2024T15:03:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/span_ng-arrow-wrapper' was broken. Propose an alternative one: '//div[4]/ng-select/div/span'.
+
+18-01-2024T15:03:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/span_ng-arrow-wrapper' is clickable
+
+18-01-2024T15:03:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Campaign_Name_Dropdown_verify"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Campaign_Name_Dropdown_verify' successfully
+
+18-01-2024T15:03:12 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Campaign_Name_Dropdown_verify: Test Cases/Reusable_Functions/Campaign_Name_Dropdown_verify
+
+18-01-2024T15:03:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1")): Object: 'Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1' is clicked on
+
+18-01-2024T15:03:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-1-0']/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:03:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1'. Try using Self-healing.
+
+18-01-2024T15:03:44 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1' was broken. Propose an alternative one: '//div[4]/ng-select/div/span'.
+
+18-01-2024T15:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1' is clicked on
+
+18-01-2024T15:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1_2")): Object: 'Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1_2' is clicked on
+
+18-01-2024T15:04:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-1-0']/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:04:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1_2'. Try using Self-healing.
+
+18-01-2024T15:04:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1_2' was broken. Propose an alternative one: '//div[4]/ng-select/div/span'.
+
+18-01-2024T15:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1_2' is clicked on
+
+18-01-2024T15:04:15 - [TEST_STEP][PASSED] - options = findTestObject("Object Repository/Page_Campaign_Name_Dropdown_Verify/Page_/span_ng-arrow-wrapper_1"): null
+
+18-01-2024T15:04:15 - [TEST_STEP][PASSED] - if (options): null
+
+18-01-2024T15:04:15 - [TEST_STEP][PASSED] - println("Options are present in the Name dropdown"): null
+
+18-01-2024T15:04:15 - [MESSAGE][INFO] - 
+
+18-01-2024T15:04:15 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+18-01-2024T15:04:15 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+18-01-2024T15:04:15 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+18-01-2024T15:04:15 - [MESSAGE][INFO] - ==============================================================
+
+18-01-2024T15:04:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Campaign_Name_Dropdown_verify' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_select_name_dropdown" time="381.206" classname="Test Cases/Campaign Report/test_campaign_metrics_select_name_dropdown" status="PASSED">
+         <system-out><![CDATA[18-01-2024T15:04:15 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_select_name_dropdown: Test Cases/Campaign Report/test_campaign_metrics_select_name_dropdown
+
+18-01-2024T15:04:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Select_Name_Dropdown"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Select_Name_Dropdown' successfully
+
+18-01-2024T15:04:15 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Select_Name_Dropdown: Test Cases/Reusable_Functions/Select_Name_Dropdown
+
+18-01-2024T15:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/span_ng-arrow-wrapper")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:04:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-1-0']/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:04:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/span_ng-arrow-wrapper'. Try using Self-healing.
+
+18-01-2024T15:04:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/span_ng-arrow-wrapper' was broken. Propose an alternative one: '//div[4]/ng-select/div/span'.
+
+18-01-2024T15:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/span_ng-arrow-wrapper' is clicked on
+
+18-01-2024T15:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF' is clicked on
+
+18-01-2024T15:05:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a9cd4762defc-0']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:05:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF'. Try using Self-healing.
+
+18-01-2024T15:05:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF' was broken. Propose an alternative one: '//div[2]/div[2]/div/div'.
+
+18-01-2024T15:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF' is clicked on
+
+18-01-2024T15:05:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c' is clicked on
+
+18-01-2024T15:05:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a9cd4762defc-1']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:05:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c'. Try using Self-healing.
+
+18-01-2024T15:05:50 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c' was broken. Propose an alternative one: '//div[2]/div[2]/div[2]/div'.
+
+18-01-2024T15:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c' is clicked on
+
+18-01-2024T15:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d' is clicked on
+
+18-01-2024T15:06:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a9cd4762defc-2']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:06:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d'. Try using Self-healing.
+
+18-01-2024T15:06:22 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d' was broken. Propose an alternative one: '//div[2]/div[3]/div'.
+
+18-01-2024T15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d' is clicked on
+
+18-01-2024T15:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42' is clicked on
+
+18-01-2024T15:06:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a9cd4762defc-3']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:06:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42'. Try using Self-healing.
+
+18-01-2024T15:06:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42' was broken. Propose an alternative one: '//div[4]/div'.
+
+18-01-2024T15:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42' is clicked on
+
+18-01-2024T15:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit' is clicked on
+
+18-01-2024T15:07:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //ng-dropdown-panel[@id='a9cd4762defc']/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:07:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit'. Try using Self-healing.
+
+18-01-2024T15:07:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit' was broken. Propose an alternative one: '//ng-dropdown-panel/div/button'.
+
+18-01-2024T15:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit' is clicked on
+
+18-01-2024T15:07:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/div_Select Campaign Name Search 50 OFF  WIZ_f59f03")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Select Campaign Name Search 50 OFF  WIZ_f59f03' is clicked on
+
+18-01-2024T15:07:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-1-0']/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:07:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Select Campaign Name Search 50 OFF  WIZ_f59f03'. Try using Self-healing.
+
+18-01-2024T15:07:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Select Campaign Name Search 50 OFF  WIZ_f59f03' was broken. Propose an alternative one: '//div[4]/ng-select/div/div'.
+
+18-01-2024T15:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Select Campaign Name Search 50 OFF  WIZ_f59f03' is clicked on
+
+18-01-2024T15:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF' is clicked on
+
+18-01-2024T15:08:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a9cd4762defc-0']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:08:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF'. Try using Self-healing.
+
+18-01-2024T15:08:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF' was broken. Propose an alternative one: '//div[2]/div[2]/div/div'.
+
+18-01-2024T15:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_Search 50 OFF' is clicked on
+
+18-01-2024T15:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c' is clicked on
+
+18-01-2024T15:08:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a9cd4762defc-1']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:08:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c'. Try using Self-healing.
+
+18-01-2024T15:09:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c' was broken. Propose an alternative one: '//div[2]/div[2]/div[2]/div'.
+
+18-01-2024T15:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Google__Search_Retargeting_Microgig_16735c' is clicked on
+
+18-01-2024T15:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d' is clicked on
+
+18-01-2024T15:09:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a9cd4762defc-2']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:09:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d'. Try using Self-healing.
+
+18-01-2024T15:09:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d' was broken. Propose an alternative one: '//div[2]/div[3]/div'.
+
+18-01-2024T15:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_df922d' is clicked on
+
+18-01-2024T15:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42' is clicked on
+
+18-01-2024T15:10:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='a9cd4762defc-3']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:10:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42'. Try using Self-healing.
+
+18-01-2024T15:10:03 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42' was broken. Propose an alternative one: '//div[4]/div'.
+
+18-01-2024T15:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42' is clicked on
+
+18-01-2024T15:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit")): Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit' is clicked on
+
+18-01-2024T15:10:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //ng-dropdown-panel[@id='a9cd4762defc']/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:10:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit'. Try using Self-healing.
+
+18-01-2024T15:10:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit' was broken. Propose an alternative one: '//ng-dropdown-panel/div/button'.
+
+18-01-2024T15:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select_Name_Dropdown/Page_/button_Submit' is clicked on
+
+18-01-2024T15:10:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T15:10:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T15:10:36 - [MESSAGE][INFO] - 
+
+18-01-2024T15:10:36 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+18-01-2024T15:10:36 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+18-01-2024T15:10:36 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+18-01-2024T15:10:36 - [MESSAGE][INFO] - ==============================================================
+
+18-01-2024T15:10:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Select_Name_Dropdown' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_table_title" time="7.195" classname="Test Cases/Campaign Report/test_campaign_metrics_table_title" status="PASSED">
+         <system-out><![CDATA[18-01-2024T15:10:36 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_table_title: Test Cases/Campaign Report/test_campaign_metrics_table_title
+
+18-01-2024T15:10:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/h2_Campaign Metrics"), "Campaign Metrics"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/h2_Campaign Metrics' are matched.
+
+18-01-2024T15:10:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/h2_Campaign Metrics' are matched.
+
+18-01-2024T15:10:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/h2_Campaign Metrics"), 0): Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/h2_Campaign Metrics' is present
+
+18-01-2024T15:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T15:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/h2_Campaign Metrics' is present
+
+18-01-2024T15:10:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Date"), "Date"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Date' are matched.
+
+18-01-2024T15:10:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Date' are matched.
+
+18-01-2024T15:10:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Date"), 0): Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Date' is present
+
+18-01-2024T15:10:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T15:10:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Date' is present
+
+18-01-2024T15:10:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Channel"), "Channel"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Channel' are matched.
+
+18-01-2024T15:10:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Channel' are matched.
+
+18-01-2024T15:10:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Channel"), 0): Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Channel' is present
+
+18-01-2024T15:10:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T15:10:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Channel' is present
+
+18-01-2024T15:10:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Campaign Name"), "Campaign Name"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Campaign Name' are matched.
+
+18-01-2024T15:10:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Campaign Name' are matched.
+
+18-01-2024T15:10:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Campaign Name"), 0): Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Campaign Name' is present
+
+18-01-2024T15:10:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T15:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Campaign Name' is present
+
+18-01-2024T15:10:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Clicks"), "Clicks"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Clicks' are matched.
+
+18-01-2024T15:10:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Clicks' are matched.
+
+18-01-2024T15:10:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Clicks"), 0): Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Clicks' is present
+
+18-01-2024T15:10:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T15:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Clicks' is present
+
+18-01-2024T15:10:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Impressions"), "Impressions"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Impressions' are matched.
+
+18-01-2024T15:10:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Impressions' are matched.
+
+18-01-2024T15:10:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Impressions"), 0): Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Impressions' is present
+
+18-01-2024T15:10:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T15:10:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Impressions' is present
+
+18-01-2024T15:10:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_CTR"), "CTR"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_CTR' are matched.
+
+18-01-2024T15:10:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_CTR' are matched.
+
+18-01-2024T15:10:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_CTR"), 0): Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_CTR' is present
+
+18-01-2024T15:10:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T15:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_CTR' is present
+
+18-01-2024T15:10:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Reach"), "Reach"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Reach' are matched.
+
+18-01-2024T15:10:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Reach' are matched.
+
+18-01-2024T15:10:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Reach"), 0): Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Reach' is present
+
+18-01-2024T15:10:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T15:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Reach' is present
+
+18-01-2024T15:10:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Spend"), "Spend"): Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Spend' are matched.
+
+18-01-2024T15:10:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Spend' are matched.
+
+18-01-2024T15:10:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Spend"), 0): Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Spend' is present
+
+18-01-2024T15:10:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-01-2024T15:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Spend' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_table_ascending_decending" time="11.252" classname="Test Cases/Campaign Report/test_campaign_metrics_table_ascending_decending" status="PASSED">
+         <system-out><![CDATA[18-01-2024T15:10:44 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_table_ascending_decending: Test Cases/Campaign Report/test_campaign_metrics_table_ascending_decending
+
+18-01-2024T15:10:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_918987")): Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_918987' is clickable
+
+18-01-2024T15:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_918987' is clickable
+
+18-01-2024T15:10:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-14_1")): Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-14_1' is clickable
+
+18-01-2024T15:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-14_1' is clickable
+
+18-01-2024T15:10:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_a05da3_1")): Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_a05da3_1' is clickable
+
+18-01-2024T15:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_a05da3_1' is clickable
+
+18-01-2024T15:10:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_Clicks")): Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_Clicks' is clickable
+
+18-01-2024T15:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_Clicks' is clickable
+
+18-01-2024T15:10:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_d21120_1")): Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_d21120_1' is clickable
+
+18-01-2024T15:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_d21120_1' is clickable
+
+18-01-2024T15:10:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_292eca")): Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_292eca' is clickable
+
+18-01-2024T15:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_292eca' is clickable
+
+18-01-2024T15:10:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_213f72_1")): Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_213f72_1' is clickable
+
+18-01-2024T15:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_213f72_1' is clickable
+
+18-01-2024T15:10:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-20")): Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-20' is clickable
+
+18-01-2024T15:10:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-20' is clickable
+
+18-01-2024T15:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13' is clicked on
+
+18-01-2024T15:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13' is clicked on
+
+18-01-2024T15:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13_1")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13_1' is clicked on
+
+18-01-2024T15:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13_1' is clicked on
+
+18-01-2024T15:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc' is clicked on
+
+18-01-2024T15:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc' is clicked on
+
+18-01-2024T15:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc_1")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc_1' is clicked on
+
+18-01-2024T15:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc_1' is clicked on
+
+18-01-2024T15:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-15")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-15' is clicked on
+
+18-01-2024T15:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-15' is clicked on
+
+18-01-2024T15:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-15_1")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-15_1' is clicked on
+
+18-01-2024T15:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-15_1' is clicked on
+
+18-01-2024T15:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7bf2ed")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7bf2ed' is clicked on
+
+18-01-2024T15:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7bf2ed' is clicked on
+
+18-01-2024T15:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7bf2ed_1")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7bf2ed_1' is clicked on
+
+18-01-2024T15:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7bf2ed_1' is clicked on
+
+18-01-2024T15:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-17")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-17' is clicked on
+
+18-01-2024T15:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-17' is clicked on
+
+18-01-2024T15:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-left ng-tns-c99_d3d3c9")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-left ng-tns-c99_d3d3c9' is clicked on
+
+18-01-2024T15:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-left ng-tns-c99_d3d3c9' is clicked on
+
+18-01-2024T15:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-left ng-tns-c99_37d94a")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-left ng-tns-c99_37d94a' is clicked on
+
+18-01-2024T15:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-left ng-tns-c99_37d94a' is clicked on
+
+18-01-2024T15:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_a7c147_1")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_a7c147_1' is clicked on
+
+18-01-2024T15:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_a7c147_1' is clicked on
+
+18-01-2024T15:10:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-19")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-19' is clicked on
+
+18-01-2024T15:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-19' is clicked on
+
+18-01-2024T15:10:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-19_1")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-19_1' is clicked on
+
+18-01-2024T15:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-19_1' is clicked on
+
+18-01-2024T15:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-20")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-20' is clicked on
+
+18-01-2024T15:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-20' is clicked on
+
+18-01-2024T15:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7b626c")): Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7b626c' is clicked on
+
+18-01-2024T15:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7b626c' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_items_dropdown" time="315.488" classname="Test Cases/Campaign Report/test_campaign_metrics_items_dropdown" status="PASSED">
+         <system-out><![CDATA[18-01-2024T15:10:55 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_items_dropdown: Test Cases/Campaign Report/test_campaign_metrics_items_dropdown
+
+18-01-2024T15:10:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Items_per_page"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Items_per_page' successfully
+
+18-01-2024T15:10:55 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Items_per_page: Test Cases/Reusable_Functions/Items_per_page
+
+18-01-2024T15:10:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Items_Per_Page/Page_/div_Items per page"), "Items per page:"): Actual text and expected text of test object 'Object Repository/Page_Items_Per_Page/Page_/div_Items per page' are matched.
+
+18-01-2024T15:11:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='table1']/app-weekly-approved-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:11:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/div_Items per page'. Try using Self-healing.
+
+18-01-2024T15:11:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/div_Items per page' was broken. Propose an alternative one: '//mat-paginator/div/div/div/div'.
+
+18-01-2024T15:11:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Items_Per_Page/Page_/div_Items per page' are matched.
+
+18-01-2024T15:11:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10")): Object 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10' is clickable
+
+18-01-2024T15:11:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-select[@id='mat-select-0']/div/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:11:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10'. Try using Self-healing.
+
+18-01-2024T15:11:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10' was broken. Propose an alternative one: '//mat-select/div/div[2]/div'.
+
+18-01-2024T15:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10' is clickable
+
+18-01-2024T15:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10")): Object: 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10' is clicked on
+
+18-01-2024T15:12:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-select[@id='mat-select-0']/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:12:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10'. Try using Self-healing.
+
+18-01-2024T15:12:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10' was broken. Propose an alternative one: '//mat-select/div/div[2]'.
+
+18-01-2024T15:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10' is clicked on
+
+18-01-2024T15:12:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Items_Per_Page/Page_/span_10")): Object: 'Object Repository/Page_Items_Per_Page/Page_/span_10' is clicked on
+
+18-01-2024T15:13:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-option[@id='mat-option-1']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:13:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/span_10'. Try using Self-healing.
+
+18-01-2024T15:13:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/span_10' was broken. Propose an alternative one: '//mat-option[2]/span'.
+
+18-01-2024T15:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Items_Per_Page/Page_/span_10' is clicked on
+
+18-01-2024T15:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10")): Object: 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10' is clicked on
+
+18-01-2024T15:13:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-select[@id='mat-select-0']/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:13:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10'. Try using Self-healing.
+
+18-01-2024T15:13:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10' was broken. Propose an alternative one: '//mat-select/div/div[2]'.
+
+18-01-2024T15:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10' is clicked on
+
+18-01-2024T15:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Items_Per_Page/Page_/span_20")): Object: 'Object Repository/Page_Items_Per_Page/Page_/span_20' is clicked on
+
+18-01-2024T15:14:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-option[@id='mat-option-2']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:14:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/span_20'. Try using Self-healing.
+
+18-01-2024T15:14:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/span_20' was broken. Propose an alternative one: '//mat-option[3]/span'.
+
+18-01-2024T15:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Items_Per_Page/Page_/span_20' is clicked on
+
+18-01-2024T15:14:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10")): Object: 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10' is clicked on
+
+18-01-2024T15:14:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-select[@id='mat-select-0']/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:14:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10'. Try using Self-healing.
+
+18-01-2024T15:14:36 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10' was broken. Propose an alternative one: '//mat-select/div/div[2]'.
+
+18-01-2024T15:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10' is clicked on
+
+18-01-2024T15:14:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Items_Per_Page/Page_/span_30")): Object: 'Object Repository/Page_Items_Per_Page/Page_/span_30' is clicked on
+
+18-01-2024T15:15:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-option[@id='mat-option-3']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:15:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/span_30'. Try using Self-healing.
+
+18-01-2024T15:15:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/span_30' was broken. Propose an alternative one: '//mat-option[4]/span'.
+
+18-01-2024T15:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Items_Per_Page/Page_/span_30' is clicked on
+
+18-01-2024T15:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10")): Object: 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10' is clicked on
+
+18-01-2024T15:15:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-select[@id='mat-select-0']/div/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:15:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10'. Try using Self-healing.
+
+18-01-2024T15:15:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10' was broken. Propose an alternative one: '//mat-select/div/div[2]/div'.
+
+18-01-2024T15:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10' is clicked on
+
+18-01-2024T15:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Items_Per_Page/Page_/span_5")): Object: 'Object Repository/Page_Items_Per_Page/Page_/span_5' is clicked on
+
+18-01-2024T15:16:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-option[@id='mat-option-0']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-01-2024T15:16:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Items_Per_Page/Page_/span_5'. Try using Self-healing.
+
+18-01-2024T15:16:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Items_Per_Page/Page_/span_5' was broken. Propose an alternative one: '//mat-option/span'.
+
+18-01-2024T15:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Items_Per_Page/Page_/span_5' is clicked on
+
+18-01-2024T15:16:10 - [MESSAGE][INFO] - 
+
+18-01-2024T15:16:10 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+18-01-2024T15:16:10 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+18-01-2024T15:16:10 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+18-01-2024T15:16:10 - [MESSAGE][INFO] - ==============================================================
+
+18-01-2024T15:16:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Items_per_page' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_cac_zoom" time="6.545" classname="Test Cases/Campaign Report/test_campaign_cac_zoom" status="PASSED">
+         <system-out><![CDATA[18-01-2024T15:16:10 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_cac_zoom: Test Cases/Campaign Report/test_campaign_cac_zoom
+
+18-01-2024T15:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Compaign_CAC_Zoom/Page_/div_Campaign CAC")): Object: 'Object Repository/Page_Compaign_CAC_Zoom/Page_/div_Campaign CAC' is clicked on
+
+18-01-2024T15:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Compaign_CAC_Zoom/Page_/div_Campaign CAC' is clicked on
+
+18-01-2024T15:16:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Fullscreen"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully
+
+18-01-2024T15:16:11 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Fullscreen: Test Cases/Reusable_Functions/Fullscreen
+
+18-01-2024T15:16:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+18-01-2024T15:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+18-01-2024T15:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+18-01-2024T15:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+18-01-2024T15:16:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T15:16:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T15:16:15 - [TEST_STEP][PASSED] - executeJavaScript("document.exitFullscreen();", null): Execute JavaScript 'document.exitFullscreen();' successfully
+
+18-01-2024T15:16:15 - [MESSAGE][PASSED] - Execute JavaScript 'document.exitFullscreen();' successfully
+
+18-01-2024T15:16:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T15:16:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T15:16:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_conversions_zoom" time="6.437" classname="Test Cases/Campaign Report/test_campaign_conversions_zoom" status="PASSED">
+         <system-out><![CDATA[18-01-2024T15:16:17 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_conversions_zoom: Test Cases/Campaign Report/test_campaign_conversions_zoom
+
+18-01-2024T15:16:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Campaign_Conversions_Zoom/Page_/div_Campaign Conversions")): Object: 'Object Repository/Page_Campaign_Conversions_Zoom/Page_/div_Campaign Conversions' is clicked on
+
+18-01-2024T15:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Conversions_Zoom/Page_/div_Campaign Conversions' is clicked on
+
+18-01-2024T15:16:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Campaign_Conversions_Zoom/Page_/img")): Object 'Object Repository/Page_Campaign_Conversions_Zoom/Page_/img' is clickable
+
+18-01-2024T15:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Conversions_Zoom/Page_/img' is clickable
+
+18-01-2024T15:16:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Fullscreen"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully
+
+18-01-2024T15:16:19 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Fullscreen: Test Cases/Reusable_Functions/Fullscreen
+
+18-01-2024T15:16:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+18-01-2024T15:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+18-01-2024T15:16:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+18-01-2024T15:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+18-01-2024T15:16:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T15:16:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T15:16:21 - [TEST_STEP][PASSED] - executeJavaScript("document.exitFullscreen();", null): Execute JavaScript 'document.exitFullscreen();' successfully
+
+18-01-2024T15:16:21 - [MESSAGE][PASSED] - Execute JavaScript 'document.exitFullscreen();' successfully
+
+18-01-2024T15:16:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T15:16:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T15:16:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Campaign Report/test_campaign_metrics_zoom" time="7.01" classname="Test Cases/Campaign Report/test_campaign_metrics_zoom" status="PASSED">
+         <system-out><![CDATA[18-01-2024T15:16:23 - [TEST_CASE][PASSED] - Test Cases/Campaign Report/test_campaign_metrics_zoom: Test Cases/Campaign Report/test_campaign_metrics_zoom
+
+18-01-2024T15:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics")): Object: 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' is clicked on
+
+18-01-2024T15:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics' is clicked on
+
+18-01-2024T15:16:24 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Campaign_Conversions_Zoom/Page_/img")): Object 'Object Repository/Page_Campaign_Conversions_Zoom/Page_/img' is clickable
+
+18-01-2024T15:16:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Campaign_Conversions_Zoom/Page_/img' is clickable
+
+18-01-2024T15:16:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable_Functions/Fullscreen"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully
+
+18-01-2024T15:16:25 - [TEST_CASE][PASSED] - Test Cases/Reusable_Functions/Fullscreen: Test Cases/Reusable_Functions/Fullscreen
+
+18-01-2024T15:16:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+18-01-2024T15:16:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Fullscreen/Page_/img' is clickable
+
+18-01-2024T15:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Fullscreen/Page_/img")): Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+18-01-2024T15:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fullscreen/Page_/img' is clicked on
+
+18-01-2024T15:16:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T15:16:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T15:16:28 - [TEST_STEP][PASSED] - executeJavaScript("document.exitFullscreen();", null): Execute JavaScript 'document.exitFullscreen();' successfully
+
+18-01-2024T15:16:28 - [MESSAGE][PASSED] - Execute JavaScript 'document.exitFullscreen();' successfully
+
+18-01-2024T15:16:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+18-01-2024T15:16:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+18-01-2024T15:16:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable_Functions/Fullscreen' successfully
+
+18-01-2024T15:16:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-01-2024T15:16:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-01-2024T14:55:33 - [TEST_SUITE][PASSED] - Campaign_report: Test Cases/Campaign Report/test_campaign_metrics_zoom]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Spend Report</name>
+   <tag></tag>
+   <elementGuidId>cb168d57-47e4-43b3-8725-56f27da7daee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-unext-spend-report/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.program-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>6892cb40-4cae-4d5c-a3e8-c952a4a96d58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>program-title</value>
+      <webElementGuid>0526eb5b-b75f-45ea-8a3f-06d6367ff429</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Spend Report</value>
+      <webElementGuid>949e05a9-ebdc-42c8-a7fa-cc49e8d0f4cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;sidebaractive&quot;]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[@class=&quot;app-content-wrapper&quot;]/div[@class=&quot;app-content&quot;]/app-unext-spend-report[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;metric-card-wrapper&quot;]/div[@class=&quot;grid gap-4 grid-cols-6 xmd:grid-cols-12&quot;]/div[@class=&quot;col-span-12&quot;]/p[@class=&quot;program-title&quot;]</value>
+      <webElementGuid>911f1869-acd9-4b69-85c6-7526f52c75cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-unext-spend-report/div/div/div/p</value>
+      <webElementGuid>169cabac-5654-437a-b581-82859364f4e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Spend Report' or . = 'Spend Report')]</value>
+      <webElementGuid>5373310f-c8cc-4f5a-98a9-68556c9fbb44</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

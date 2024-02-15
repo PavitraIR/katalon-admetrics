@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_campaign_metrics_verify_status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9cb9ecfd-3914-4153-89dc-b20ddf229ade</testCaseGuid>
+</TestCaseEntity>

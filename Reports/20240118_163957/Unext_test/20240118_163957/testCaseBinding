@@ -1,0 +1,16 @@
+{"testCaseName":"Test Cases/Login_Page/test_verify_unext_login","testCaseId":"Test Cases/Login_Page/test_verify_unext_login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_verify_unext_navigating_spend_report","testCaseId":"Test Cases/Spend_Report/test_verify_unext_navigating_spend_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_daily_tab","testCaseId":"Test Cases/Spend_Report/test_daily_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Reusable_Functions/Unext_calender","testCaseId":"Test Cases/Reusable_Functions/Unext_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Spend_Report/test_daily_zoom","testCaseId":"Test Cases/Spend_Report/test_daily_zoom","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_verify_navigating_campaign_report","testCaseId":"Test Cases/Campaign Report/test_verify_navigating_campaign_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_tab","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_calender","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_calender","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_verify_channel","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_verify_channel","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_select_channel_dropdown","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_select_channel_dropdown","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_verify_status","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_verify_status","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_select_status_dropdown","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_select_status_dropdown","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_table_title","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_table_title","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_table_ascending_decending","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_table_ascending_decending","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_items_dropdown","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_items_dropdown","iterationVariableName":""}
+{"testCaseName":"Test Cases/Campaign Report/test_campaign_metrics_zoom","testCaseId":"Test Cases/Campaign Report/test_campaign_metrics_zoom","iterationVariableName":""}

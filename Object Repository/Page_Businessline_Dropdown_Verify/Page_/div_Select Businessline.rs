@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select Businessline</name>
+   <tag></tag>
+   <elementGuidId>8197854b-f57f-4722-a19e-3c6adc9d1c45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#filter-Businessline > div.ng-select-container.ng-has-value > div.ng-value-container > div.ng-placeholder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ng-select[@id='filter-Businessline']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9a3c5d79-08bf-46d8-a9b0-51738512c80a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-placeholder</value>
+      <webElementGuid>ac3093ff-c904-48f8-b279-073d4a29fbcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Businessline</value>
+      <webElementGuid>6591fa74-e2c9-47dd-bdf8-87da1fc3af99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;filter-Businessline&quot;)/div[@class=&quot;ng-select-container ng-has-value&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-placeholder&quot;]</value>
+      <webElementGuid>99517080-ceb4-4e1b-9cff-bf8f64d5316b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ng-select[@id='filter-Businessline']/div/div/div</value>
+      <webElementGuid>b0379232-2447-48ea-a626-c421128ae499</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ng-select/div/div/div</value>
+      <webElementGuid>a4aba163-f79b-47b5-8090-841f7344dbba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select Businessline' or . = 'Select Businessline')]</value>
+      <webElementGuid>225b2c8f-0e48-4ce8-8016-962ee797d025</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

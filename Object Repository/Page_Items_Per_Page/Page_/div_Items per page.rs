@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Items per page</name>
+   <tag></tag>
+   <elementGuidId>40763d8b-3636-4a64-b416-5d74d440ed33</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-paginator-page-size-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-weekly-approved-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4802bb8e-d46f-4eef-8e35-ddd938776edb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-paginator-page-size-label</value>
+      <webElementGuid>5530f3b3-c489-43cb-b0d5-4aa7feab5c51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Items per page: </value>
+      <webElementGuid>e1224490-825c-4c6a-8c92-0574bf6f42f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-5 ng-trigger ng-trigger-translateTab&quot;]/app-weekly-buyer-cac-trendline-chart[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;row-wrapper grid grid-cols-2 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-weekly-approved-vs-campaign-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/mat-paginator[@class=&quot;mat-paginator&quot;]/div[@class=&quot;mat-paginator-outer-container&quot;]/div[@class=&quot;mat-paginator-container&quot;]/div[@class=&quot;mat-paginator-page-size ng-star-inserted&quot;]/div[@class=&quot;mat-paginator-page-size-label&quot;]</value>
+      <webElementGuid>c3757363-97f2-44f3-9022-59128382b0c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-weekly-approved-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/div</value>
+      <webElementGuid>480950e8-d4d9-473e-b7ea-a78ba796c845</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-paginator/div/div/div/div</value>
+      <webElementGuid>5f559127-34f2-46ba-b175-23326f7574fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Items per page: ' or . = ' Items per page: ')]</value>
+      <webElementGuid>b1c2728f-559b-4a3c-83c1-9861e0c50c54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo_test,Chrome 120.0.0.0,,,2023-12-20 11:11:18,2023-12-20 11:11:28,10.418s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_validate_login_page,Chrome 120.0.0.0,,,2023-12-20 11:11:18,2023-12-20 11:11:28,10.083s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-20 11:11:19,2023-12-20 11:11:22,2.665s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-20 11:11:22,2023-12-20 11:11:22,0.195s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,2023-12-20 11:11:22,2023-12-20 11:11:23,1.581s,PASSED
+"setText(findTestObject(""Object Repository/Page_Invalid/Page_/input_User ID_username""), username)",Chrome 120.0.0.0,,,2023-12-20 11:11:23,2023-12-20 11:11:26,2.811s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Invalid/Page_/input_Password_password""), password)",Chrome 120.0.0.0,,,2023-12-20 11:11:26,2023-12-20 11:11:27,0.503s,PASSED
+"click(findTestObject(""Object Repository/Page_Invalid/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-20 11:11:27,2023-12-20 11:11:27,0.451s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-20 11:11:27,2023-12-20 11:11:28,0.566s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-20 11:11:28,2023-12-20 11:11:28,0.797s,PASSED

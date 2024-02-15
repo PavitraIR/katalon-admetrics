@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Brand Campaign - 2023</name>
+   <tag></tag>
+   <elementGuidId>ce2cc837-3979-4ea1-8d23-346d2fc74f25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a4cecaed5c61-0']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3fb0a1fb-1b3c-440f-ac61-789edebec02b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row ng-star-inserted</value>
+      <webElementGuid>ebd75aea-16e1-413f-ba3c-d122f71138af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Brand Campaign - 2023 </value>
+      <webElementGuid>83e22a35-9e5c-42e0-8462-f4e096ecd771</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a4cecaed5c61-0&quot;)/div[@class=&quot;row ng-star-inserted&quot;]</value>
+      <webElementGuid>8c1b2a64-6b99-428b-8e1d-f0821b414dfb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a4cecaed5c61-0']/div</value>
+      <webElementGuid>23b8c488-6fb1-44f7-81cf-17c957c3593c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>59ac82f5-92e6-4bed-bdd6-4f888fb457cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Brand Campaign - 2023 ' or . = ' Brand Campaign - 2023 ')]</value>
+      <webElementGuid>7ff5f7fa-60ff-4e99-b2bb-5280cf16bd69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

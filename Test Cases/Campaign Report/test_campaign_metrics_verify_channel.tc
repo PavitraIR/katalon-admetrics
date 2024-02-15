@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_campaign_metrics_verify_channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9acb054d-8a67-49f3-9f43-88b957926e4b</testCaseGuid>
+</TestCaseEntity>

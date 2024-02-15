@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_COMPLETED</name>
+   <tag></tag>
+   <elementGuidId>fcd39a7c-3bee-4a32-93de-6fda932887d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ac3a0f81e3e7-2 > span.ng-option-label.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ac3a0f81e3e7-2']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f71ffc40-11c1-4df6-8dc3-cf5c27fb891e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-option-label ng-star-inserted</value>
+      <webElementGuid>2b2490b7-fda8-4538-bb83-4dbbfc4b3119</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>COMPLETED</value>
+      <webElementGuid>cf628c42-ce48-4910-8249-bef25a4b28e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ac3a0f81e3e7-2&quot;)/span[@class=&quot;ng-option-label ng-star-inserted&quot;]</value>
+      <webElementGuid>8dcf2c2b-083b-4dc9-b5b5-c58af949aab8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ac3a0f81e3e7-2']/span</value>
+      <webElementGuid>94fb3309-9522-42ad-b0dc-3a128a78577e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>5c5c23d6-115c-4c1e-bf73-9bdf321eabde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'COMPLETED' or . = 'COMPLETED')]</value>
+      <webElementGuid>f498bc3f-acf1-415b-97e6-8eda4753448e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

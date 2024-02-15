@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Discovery_Custom_Keywords_After12</name>
+   <tag></tag>
+   <elementGuidId>c8463760-319d-4f7d-b1d1-d9b8f286c26d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a4cecaed5c61-4']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#a4cecaed5c61-4 > div.row.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4f85633c-4009-4a31-b561-b1c3a2366c48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row ng-star-inserted</value>
+      <webElementGuid>dbb6eff5-706a-4a50-ab8b-dc8f09deb3af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Discovery_Custom_Keywords_After12 </value>
+      <webElementGuid>a28febb6-5530-41f6-8c9f-d5417557b262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a4cecaed5c61-4&quot;)/div[@class=&quot;row ng-star-inserted&quot;]</value>
+      <webElementGuid>5bda48d8-2f1d-48dc-9593-e9ef2e7a40da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a4cecaed5c61-4']/div</value>
+      <webElementGuid>d07e81b4-2f67-4f5d-aa5f-589cf85d1b6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div</value>
+      <webElementGuid>10ede8bf-a0bc-4e61-b9c2-89f12b27a4e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Discovery_Custom_Keywords_After12 ' or . = ' Discovery_Custom_Keywords_After12 ')]</value>
+      <webElementGuid>a2c12462-61eb-4758-83ce-607453ce5233</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

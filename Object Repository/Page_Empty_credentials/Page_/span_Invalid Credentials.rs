@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Invalid Credentials</name>
+   <tag></tag>
+   <elementGuidId>3a834a87-d162-4a40-8b50-2c9e2dffe8ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kc-content-wrapper']/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.pficon.fa.fa-times-circle.fa-2x.text-danger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>38429825-c04f-4054-8428-3ae0922ef2a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pficon fa fa-times-circle fa-2x text-danger</value>
+      <webElementGuid>a619fe2c-661c-4a25-a490-8f65655c02c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invalid Credentials</value>
+      <webElementGuid>158222a6-b1d9-4c1b-b65d-05b9a410932e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kc-content-wrapper&quot;)/div[1]/div[@class=&quot;alert alert-error d-flex ng-star-inserted&quot;]/span[@class=&quot;pficon fa fa-times-circle fa-2x text-danger&quot;]</value>
+      <webElementGuid>355a811d-36c8-4584-9d36-5da8fad3efa9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kc-content-wrapper']/div/div/span</value>
+      <webElementGuid>114a201d-77c2-4ad6-b5ed-b0dc1934e4e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/preceding::span[2]</value>
+      <webElementGuid>f540b0a4-25ef-44a8-b7a9-db8fdc4e6a6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::span[2]</value>
+      <webElementGuid>59b9051b-af0a-4adc-b59e-3e16a56defce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invalid Credentials']/parent::*</value>
+      <webElementGuid>b8d369ed-7575-49ae-af4f-d55e341a821c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>054d686b-d8ba-42d2-b62c-dc95f289892e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Invalid Credentials' or . = 'Invalid Credentials')]</value>
+      <webElementGuid>a2990131-8b42-49e4-a1b8-be0802ec76a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

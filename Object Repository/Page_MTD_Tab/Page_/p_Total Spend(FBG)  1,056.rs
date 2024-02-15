@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Total Spend(FBG)  1,056</name>
+   <tag></tag>
+   <elementGuidId>4b730f8c-1995-46b9-a3d6-d31d76a47da4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-mtd-spend-pie-chart/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.spend</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>5d92e5ca-3878-4f07-8fb2-78cc4ba8a61a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>spend</value>
+      <webElementGuid>adcdb150-e5b9-4189-88b2-79b0e7f31322</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Total Spend(FB+G) : 1,056</value>
+      <webElementGuid>bab2ec9e-2420-4b10-9355-780dcf505dd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-1 ng-trigger ng-trigger-translateTab&quot;]/app-mtd-spend[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;row-wrapper grid grid-cols-4 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-mtd-spend-pie-chart[1]/p[@class=&quot;spend&quot;]</value>
+      <webElementGuid>709bdfc9-78a9-47dc-90e2-4c3597586507</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-mtd-spend-pie-chart/p</value>
+      <webElementGuid>30ed7012-83e5-4e37-99f7-d5553e022e08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monthly Spend'])[1]/following::p[1]</value>
+      <webElementGuid>da41f8a5-57bb-494a-b8c1-276d26a3d62a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MTD Spend'])[1]/following::p[1]</value>
+      <webElementGuid>e285f650-a9c3-4858-85d6-fcfb431ebd24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::p[2]</value>
+      <webElementGuid>964a7ca0-7e8d-4aa0-9fc7-87136fdc5ed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Total Spend(FB+G) : 1,056']/parent::*</value>
+      <webElementGuid>2c5e7578-57e5-448f-bfce-e3a6834ca7c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-mtd-spend-pie-chart/p</value>
+      <webElementGuid>7bcf1229-4a55-4365-8fe3-28f0a9b57d52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Total Spend(FB+G) : 1,056' or . = 'Total Spend(FB+G) : 1,056')]</value>
+      <webElementGuid>1333e0ce-b621-448e-8c5c-e27ef0429b83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

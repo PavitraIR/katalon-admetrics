@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo_test,Chrome 120.0.0.0,,,2023-12-20 11:14:20,2023-12-20 11:14:50,29.732s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_valid_login,Chrome 120.0.0.0,,,2023-12-20 11:14:21,2023-12-20 11:14:41,20.250s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-20 11:14:21,2023-12-20 11:14:24,2.458s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-20 11:14:24,2023-12-20 11:14:24,0.193s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,2023-12-20 11:14:24,2023-12-20 11:14:27,3.622s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_login/Page_/input_User ID_username""), username)",Chrome 120.0.0.0,,,2023-12-20 11:14:27,2023-12-20 11:14:30,2.505s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_login/Page_/input_Password_password""), password)",Chrome 120.0.0.0,,,2023-12-20 11:14:30,2023-12-20 11:14:32,2.440s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_login/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-20 11:14:32,2023-12-20 11:14:33,0.444s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,2023-12-20 11:14:33,2023-12-20 11:14:38,5.208s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-20 11:14:38,2023-12-20 11:14:40,2.041s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-20 11:14:40,2023-12-20 11:14:41,0.913s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_validate_login_page,Chrome 120.0.0.0,,,2023-12-20 11:14:41,2023-12-20 11:14:50,9.174s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-20 11:14:41,2023-12-20 11:14:43,1.370s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-20 11:14:43,2023-12-20 11:14:43,0.159s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,2023-12-20 11:14:43,2023-12-20 11:14:44,1.371s,PASSED
+"setText(findTestObject(""Object Repository/Page_Invalid/Page_/input_User ID_username""), username)",Chrome 120.0.0.0,,,2023-12-20 11:14:44,2023-12-20 11:14:46,1.674s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Invalid/Page_/input_Password_password""), password)",Chrome 120.0.0.0,,,2023-12-20 11:14:46,2023-12-20 11:14:48,2.368s,PASSED
+"click(findTestObject(""Object Repository/Page_Invalid/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-20 11:14:48,2023-12-20 11:14:49,0.382s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-20 11:14:49,2023-12-20 11:14:49,0.542s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-20 11:14:49,2023-12-20 11:14:50,0.953s,PASSED

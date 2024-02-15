@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_campaign_cac_select_status_dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a340257e-a7b8-4c8b-aaae-736a630dd1f0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Campaign</name>
+   <tag></tag>
+   <elementGuidId>a2c5dcab-4872-4f72-aa82-353ea28d478e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='menu-item-3']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menu-item-3 > div.btn.active.inside.btnActive > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4adc90f9-b186-469b-961c-7a1c8991bbd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign</value>
+      <webElementGuid>341c406b-de9a-4db2-800b-28f0505c61a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-item-3&quot;)/div[@class=&quot;btn active inside btnActive&quot;]/span[1]</value>
+      <webElementGuid>8b71488c-e7f8-4555-a344-700c24ba2ced</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='menu-item-3']/div/span</value>
+      <webElementGuid>67b12e1e-74d6-4909-95a1-1b901c0f6eaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/span</value>
+      <webElementGuid>ea7459bd-a99c-4553-89ff-9549b3d723fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Campaign' or . = 'Campaign')]</value>
+      <webElementGuid>707d15ba-2f74-4dbe-a1fb-a0d5087b7106</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

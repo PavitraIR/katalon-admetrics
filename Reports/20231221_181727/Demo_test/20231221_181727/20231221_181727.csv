@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo_test,Chrome 120.0.0.0,,,2023-12-21 18:17:36,2023-12-21 18:19:25,1m - 48.603s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_verify_project_title,Chrome 120.0.0.0,,,2023-12-21 18:17:36,2023-12-21 18:18:47,1m - 10.799s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-21 18:17:37,2023-12-21 18:17:39,2.598s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-21 18:17:39,2023-12-21 18:17:39,0.194s,PASSED
+"navigateToUrl(""https://dev-dash.admetrics.ai/"")",Chrome 120.0.0.0,,,2023-12-21 18:17:39,2023-12-21 18:17:40,0.953s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3""))",Chrome 120.0.0.0,,,2023-12-21 18:17:40,2023-12-21 18:18:12,31.765s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/p_admetrics""), ""admetrics"")",Chrome 120.0.0.0,,,2023-12-21 18:18:12,2023-12-21 18:18:44,31.821s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/label_User ID""), ""User ID"")",Chrome 120.0.0.0,,,2023-12-21 18:18:44,2023-12-21 18:18:44,0.504s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/input_User ID_username""), """")",Chrome 120.0.0.0,,,2023-12-21 18:18:44,2023-12-21 18:18:45,0.516s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/label_Password""), ""Password"")",Chrome 120.0.0.0,,,2023-12-21 18:18:45,2023-12-21 18:18:45,0.503s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/input_Password_password""), """")",Chrome 120.0.0.0,,,2023-12-21 18:18:45,2023-12-21 18:18:46,0.511s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/button_Login""), ""Login"")",Chrome 120.0.0.0,,,2023-12-21 18:18:46,2023-12-21 18:18:47,0.536s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Project_Title/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-21 18:18:47,2023-12-21 18:18:47,0.508s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_valid_login,Chrome 120.0.0.0,,,2023-12-21 18:18:47,2023-12-21 18:18:56,9.074s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_login/Page_/input_User ID_username""), username)",Chrome 120.0.0.0,,,2023-12-21 18:18:48,2023-12-21 18:18:49,1.475s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_login/Page_/input_Password_password""), password)",Chrome 120.0.0.0,,,2023-12-21 18:18:49,2023-12-21 18:18:50,0.731s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_login/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-21 18:18:50,2023-12-21 18:18:51,0.598s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,2023-12-21 18:18:51,2023-12-21 18:18:54,3.370s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-21 18:18:54,2023-12-21 18:18:56,2.075s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_monthly_spend_report,Chrome 120.0.0.0,,,2023-12-21 18:18:56,2023-12-21 18:19:25,28.429s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-21 18:18:57,2023-12-21 18:19:04,7.040s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/div_Monthly Spend Report""))",Chrome 120.0.0.0,,,2023-12-21 18:19:04,2023-12-21 18:19:09,4.965s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/div_Monthly Spend Report""))",Chrome 120.0.0.0,,,2023-12-21 18:19:09,2023-12-21 18:19:10,0.591s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/svg_Enter a date range_mat-datepicker-toggl_ef015c""))",Chrome 120.0.0.0,,,2023-12-21 18:19:10,2023-12-21 18:19:12,2.283s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/mat-icon_clear""))",Chrome 120.0.0.0,,,2023-12-21 18:19:12,2023-12-21 18:19:12,0.479s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/svg_Enter a date range_mat-datepicker-toggl_ef015c""))",Chrome 120.0.0.0,,,2023-12-21 18:19:12,2023-12-21 18:19:13,0.661s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/button_SEPT 2023_mat-focus-indicator mat-ca_7a0138""))",Chrome 120.0.0.0,,,2023-12-21 18:19:13,2023-12-21 18:19:14,0.909s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/button_SEPT 2023_mat-focus-indicator mat-ca_7a0138""))",Chrome 120.0.0.0,,,2023-12-21 18:19:14,2023-12-21 18:19:14,0.450s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/button_SEPT 2023_mat-focus-indicator mat-ca_7a0138""))",Chrome 120.0.0.0,,,2023-12-21 18:19:14,2023-12-21 18:19:15,0.607s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/div_1""))",Chrome 120.0.0.0,,,2023-12-21 18:19:15,2023-12-21 18:19:16,1.009s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Spend_Report/Page_/div_31""))",Chrome 120.0.0.0,,,2023-12-21 18:19:16,2023-12-21 18:19:16,0.578s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-21 18:19:16,2023-12-21 18:19:19,2.019s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-21 18:19:19,2023-12-21 18:19:25,6.059s,PASSED

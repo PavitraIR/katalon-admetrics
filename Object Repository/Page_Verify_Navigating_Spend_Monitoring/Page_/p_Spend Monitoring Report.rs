@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Spend Monitoring Report</name>
+   <tag></tag>
+   <elementGuidId>282c31cb-dd8d-4692-befe-a40b196f87bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-layout/div/div/div/div/app-spend-monitoring-report/div[1]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.program-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>4fef8c9c-2944-4348-a6f0-f6051e76a9b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>program-title</value>
+      <webElementGuid>151ba8f6-9626-4181-b178-3e2a1ea8106b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Spend Monitoring Report</value>
+      <webElementGuid>98bec2f1-275f-4f45-81d4-75abce3d54b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;sidebaractive&quot;]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[@class=&quot;app-content-wrapper&quot;]/div[@class=&quot;app-content&quot;]/app-spend-monitoring-report[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;metric-card-wrapper&quot;]/div[@class=&quot;grid gap-4 grid-cols-6 xmd:grid-cols-12&quot;]/div[@class=&quot;col-span-12&quot;]/p[@class=&quot;program-title&quot;]</value>
+      <webElementGuid>f3d2250d-8ec1-4982-b5cb-4262bf993eeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>52f2c6e6-d351-4926-9e4d-5fb6f71816f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Spend Monitoring Report' or . = 'Spend Monitoring Report')]</value>
+      <webElementGuid>b3981cef-5862-41c3-8012-c4b80cf2f5a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

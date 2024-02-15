@@ -1,0 +1,744 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3",
+      "brokenLocator": "//div[@id\u003d\u0027background\u0027]/div/div/div/div/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Project_Title/Page_/p_admetrics",
+      "brokenLocator": "//div[@id\u003d\u0027background\u0027]/div/div/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User ID\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Project_Title/Page_/p_admetrics_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Spend_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Spend_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Spend_Report/Page_/div_30",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr[5]/td[7]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[59]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Spend_Report/Page_/div_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Spend_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Spend_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Spend_Report/Page_/div_30",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr[5]/td[7]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[59]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Spend_Report/Page_/div_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Spends_Monitoring_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[2]/td/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OCT\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Spends_Monitoring_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Spends_Monitoring_Report/Page_/div_31",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[61]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Spends_Monitoring_Report/Page_/div_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Spend_Monitoring_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SEPT\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Spend_Monitoring_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Spend_Monitoring_Report/Page_/div_30",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr[5]/td[7]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SEPT\u0027])[1]/following::div[59]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Spend_Monitoring_Report/Page_/div_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MTD_Spend_Monitoring/Page_/div_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_MTD_Spend_Monitoring/Page_/div_20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MTD_Spend_Monitoring/Page_/div_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_MTD_Spend_Monitoring/Page_/div_10_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MTD_Spend_Monitoring/Page_/div_5",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_MTD_Spend_Monitoring/Page_/div_5_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_Weekly Buyer CAC Report",
+      "brokenLocator": "//div[@id\u003d\u0027mat-tab-label-1-0\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Campaign\u0027])[1]/following::div[14]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_Weekly Buyer CAC Report_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-0\u0027]/div/app-weekly-buyer-cac-trendline-chart/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027–\u0027])[1]/following::mat-icon[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/mat-icon_clear_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr[2]/td/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OCT\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_31",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OCT\u0027])[1]/following::div[61]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_b66081",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Items per page:\u0027])[1]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_b66081_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow ng-tns-c110-10",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow ng-tns-c110-10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/span_10_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/span_20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/span_30",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Buyer_CAC_Report/Page_/span_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_Weekly Seller CAC Report",
+      "brokenLocator": "//div[@id\u003d\u0027mat-tab-label-1-1\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Weekly Buyer CAC Report\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_Weekly Seller CAC Report_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Seller_CAC_Report/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-1\u0027]/div/app-weekly-seller-cac-trendline-chart/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027–\u0027])[1]/following::mat-icon[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Seller_CAC_Report/Page_/mat-icon_clear_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[2]/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AUG\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_31",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[6]/td[5]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AUG\u0027])[1]/following::div[61]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_f05958",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-2\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Items per page:\u0027])[1]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_f05958_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_Items per page_mat-select-arrow ng-tns-c110-18",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-2\u0027]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Seller_CAC_Report/Page_/div_Items per page_mat-select-arrow ng-tns-c110-18_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Seller_CAC_Report/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-5\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Seller_CAC_Report/Page_/span_10_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Seller_CAC_Report/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-6\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Seller_CAC_Report/Page_/span_20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Seller_CAC_Report/Page_/span_30",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-7\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Weekly_Seller_CAC_Report/Page_/span_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Daily Buyer CAC Report",
+      "brokenLocator": "//div[@id\u003d\u0027mat-tab-label-1-2\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Weekly Seller CAC Report\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Daily Buyer CAC Report_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-2\u0027]/div/app-daily-buyer-cac-trendline-chart/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027–\u0027])[1]/following::mat-icon[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/mat-icon_clear_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SEPT\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_30",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[5]/td[7]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SEPT\u0027])[1]/following::div[59]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_5ef953",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-6\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Items per page:\u0027])[1]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_5ef953_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow ng-tns-c110-21",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-6\u0027]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow ng-tns-c110-21_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-13\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/span_10_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-14\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/span_20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/span_30",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-15\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/span_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow ng-tns-c110-19",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-4\u0027]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//app-total-projects-by-source-channel-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/mat-form-field/div/div/div/mat-select/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow ng-tns-c110-19_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_6ffc19",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-4\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Items per page:\u0027])[2]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_6ffc19_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_615eef",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-2\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Items per page:\u0027])[3]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Daily_Buyer_CAC_Report/Page_/div_Items per page_mat-select-arrow-wrapper_615eef_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/div_Campaign CAC",
+      "brokenLocator": "//div[@id\u003d\u0027mat-tab-label-1-0\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Campaign\u0027])[1]/following::div[14]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/div_Campaign CAC_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-0\u0027]/div/app-campaign-cac/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027–\u0027])[1]/following::mat-icon[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/mat-icon_clear_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr[2]/td/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/div_31",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[61]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/div_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/span_Select Campaign Name_ng-arrow-wrapper",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-0\u0027]/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Campaign Name\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/span_Select Campaign Name_ng-arrow-wrapper_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/span_Select Campaign Name_ng-arrow-wrapper_1",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-0\u0027]/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Campaign Name\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/span_Select Campaign Name_ng-arrow-wrapper_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/span_Select Campaign Name_ng-arrow-wrapper_1_2",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-0\u0027]/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Campaign Name\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/span_Select Campaign Name_ng-arrow-wrapper_1_2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/div_Items per page_mat-select-arrow ng-tns-c110-10",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/div_Items per page_mat-select-arrow ng-tns-c110-10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/div_Items per page_mat-select-arrow-wrapper_b66081",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Items per page:\u0027])[1]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/div_Items per page_mat-select-arrow-wrapper_b66081_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/span_10_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/span_20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/span_30",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_CAC_Report1/Page_/span_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversion_Report/Page_/div_Campaign Conversions",
+      "brokenLocator": "//div[@id\u003d\u0027mat-tab-label-1-1\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Campaign CAC\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Conversion_Report/Page_/div_Campaign Conversions_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversion_Report/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-1\u0027]/div/app-campaign-conversion/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027–\u0027])[1]/following::mat-icon[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Conversion_Report/Page_/mat-icon_clear_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversion_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[2]/td/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OCT\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Conversion_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversion_Report/Page_/div_31",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[61]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Conversion_Report/Page_/div_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversion_Report/Page_/span_Select Campaign Name_ng-arrow-wrapper",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-1\u0027]/div/app-campaign-conversion/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Campaign Name\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Conversion_Report/Page_/span_Select Campaign Name_ng-arrow-wrapper_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversion_Report/Page_/span_Select Campaign Name_ng-arrow-wrapper_1",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-1\u0027]/div/app-campaign-conversion/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Campaign Name\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Conversion_Report/Page_/span_Select Campaign Name_ng-arrow-wrapper_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversion_Report/Page_/span_Select Campaign Name_ng-arrow-wrapper_1_2",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-1\u0027]/div/app-campaign-conversion/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Campaign Name\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Conversion_Report/Page_/span_Select Campaign Name_ng-arrow-wrapper_1_2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/div_Campaign Metrics",
+      "brokenLocator": "//div[@id\u003d\u0027mat-tab-label-1-2\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Campaign Conversions\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/div_Campaign Metrics_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-2\u0027]/div/app-campaign-metric/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027–\u0027])[1]/following::mat-icon[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/mat-icon_clear_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[2]/td/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OCT\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/div_31",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OCT\u0027])[1]/following::div[61]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/div_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/span_Select Campaign Name_ng-arrow-wrapper",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-2\u0027]/div/app-campaign-metric/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Campaign Name\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/span_Select Campaign Name_ng-arrow-wrapper_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/span_Select Campaign Name_ng-arrow-wrapper_1",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-2\u0027]/div/app-campaign-metric/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Campaign Name\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/span_Select Campaign Name_ng-arrow-wrapper_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/span_Select Campaign Name_ng-arrow-wrapper_1_2",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-1-2\u0027]/div/app-campaign-metric/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Campaign Name\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/span_Select Campaign Name_ng-arrow-wrapper_1_2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/div_Items per page_mat-select-arrow ng-tns-c110-18",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-2\u0027]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/div_Items per page_mat-select-arrow ng-tns-c110-18_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-5\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/span_10_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/div_Items per page_mat-select-arrow-wrapper_f05958",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-2\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Items per page:\u0027])[1]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/div_Items per page_mat-select-arrow-wrapper_f05958_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-6\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/span_20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Metric_Table/Page_/span_30",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-7\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sort\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_155247/Function_test/20231222_155247/Object Repository/Page_Campaign_Metric_Table/Page_/span_30_neighbor.png"
+    }
+  ]
+}

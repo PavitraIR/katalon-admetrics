@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Campaign Spend</name>
+   <tag></tag>
+   <elementGuidId>cbf4780c-6665-4950-9f75-f80bd18d5164</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-sort-header-content.ng-tns-c99-14</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table2']/app-cac-cost-of-conversion-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[3]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7f610d6b-b043-46ec-9549-1be12e69f3ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-sort-header-content ng-tns-c99-14</value>
+      <webElementGuid>bf247866-5037-4c3e-a98a-97084fce91fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign Spend</value>
+      <webElementGuid>2e85d74d-35e9-45bc-af68-6dd70c7b02c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table2&quot;)/app-cac-cost-of-conversion-table[1]/div[@class=&quot;component-wrapper&quot;]/div[@class=&quot;chart-wrapper&quot;]/div[@class=&quot;xs:col-span-full text-center py-2 ng-star-inserted&quot;]/app-material-heat-chart-drilldown-table[1]/div[@class=&quot;Mattable&quot;]/table[@class=&quot;mat-table cdk-table mat-sort&quot;]/thead[1]/tr[@class=&quot;mat-header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-sort-header mat-header-cell cdk-header-cell text-neutral-600 xmd:text-sm md:text-md ng-tns-c99-14 cdk-column-campaign_spend mat-column-campaign_spend ng-star-inserted mat-table-sticky mat-table-sticky-border-elem-top cdk-focused cdk-mouse-focused&quot;]/div[@class=&quot;mat-sort-header-container mat-focus-indicator ng-tns-c99-14&quot;]/div[@class=&quot;mat-sort-header-content ng-tns-c99-14&quot;]</value>
+      <webElementGuid>de56c84c-41c4-4f5b-a066-8e0dfbe5d459</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table2']/app-cac-cost-of-conversion-table/div/div/div/app-material-heat-chart-drilldown-table/div/table/thead/tr/th[3]/div/div</value>
+      <webElementGuid>d76ad19b-a976-4082-9296-fc43708a4f94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/div/div</value>
+      <webElementGuid>00339bef-528c-4b95-a3e6-58c0c8ccbd80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Campaign Spend' or . = 'Campaign Spend')]</value>
+      <webElementGuid>1ef8252d-a2c4-4160-b1da-a864d7812211</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

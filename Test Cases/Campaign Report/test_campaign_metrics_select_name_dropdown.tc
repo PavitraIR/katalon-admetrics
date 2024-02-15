@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_campaign_metrics_select_name_dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa3584c2-ed6e-4985-bf6c-a8c07b2589f2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Campaign Analytics</name>
+   <tag></tag>
+   <elementGuidId>18069842-561f-4da0-bff5-860aef321809</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-unext-campaign-analytics-report/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.program-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>9977addf-1e17-4d0c-89ca-9b38f7d2b289</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>program-title</value>
+      <webElementGuid>db775c52-2a7d-419c-b90f-077ea8796f65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign Analytics</value>
+      <webElementGuid>2f0e6165-3dec-4ae2-814c-75cd4db4e9bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;sidebaractive&quot;]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[@class=&quot;app-content-wrapper&quot;]/div[@class=&quot;app-content&quot;]/app-unext-campaign-analytics-report[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;metric-card-wrapper&quot;]/div[@class=&quot;grid gap-4 grid-cols-6 xmd:grid-cols-12&quot;]/div[@class=&quot;col-span-12&quot;]/p[@class=&quot;program-title&quot;]</value>
+      <webElementGuid>d0d3cdb1-0639-4d64-b6f0-c0a5ff81914b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-unext-campaign-analytics-report/div/div/div/p</value>
+      <webElementGuid>81c7b5ba-eb73-47c0-9873-8be707f4e3dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Campaign Analytics' or . = 'Campaign Analytics')]</value>
+      <webElementGuid>c700e710-c70f-49ac-8062-e4005c199362</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

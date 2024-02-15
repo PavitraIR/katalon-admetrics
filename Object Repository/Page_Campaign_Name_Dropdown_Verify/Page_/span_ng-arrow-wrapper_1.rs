@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ng-arrow-wrapper_1</name>
+   <tag></tag>
+   <elementGuidId>89ead781-d54f-43ce-8ad8-ef6c9389a781</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ng-select.ng-select-multiple.ng-select-searchable.ng-select-clearable.ng-select.ng-pristine.ng-valid.ng-star-inserted.ng-select-focused.ng-touched.ng-select-bottom.ng-select-opened > div.ng-select-container > span.ng-arrow-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>66aec3ca-1ef8-4cd5-b82b-878836f09cf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-arrow-wrapper</value>
+      <webElementGuid>99a83bc5-148e-4e30-8b0d-026b270048c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-5 ng-trigger ng-trigger-translateTab&quot;]/app-campaign-cac[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;filter-row grid grid-cols-10&quot;]/div[@class=&quot;xmd:col-span-5 md:col-span-7 lg:col-span-8 col-span-7 p-2&quot;]/app-filter-panel[1]/div[@class=&quot;wrapper ng-star-inserted&quot;]/div[@class=&quot;grid grid-cols-10 filter-panel-wrapper align-items-center&quot;]/div[@class=&quot;col-span-full xmd:col-span-full&quot;]/div[@class=&quot;grid grid-cols-12&quot;]/div[@class=&quot;filter-wrapper md:col-span-3 xs:col-span-12 xmd:col-span-4 4k:col-span-2 ng-star-inserted&quot;]/ng-select[@class=&quot;ng-select-multiple ng-select-searchable ng-select-clearable ng-select ng-pristine ng-valid ng-star-inserted ng-select-focused ng-touched ng-select-bottom ng-select-opened&quot;]/div[@class=&quot;ng-select-container&quot;]/span[@class=&quot;ng-arrow-wrapper&quot;]</value>
+      <webElementGuid>53fa2752-0069-4934-8f06-7756cb939649</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/span</value>
+      <webElementGuid>8a3d2cab-f44e-4aa8-a574-410f76ea9e0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/ng-select/div/span</value>
+      <webElementGuid>f62af6a8-8fe8-4348-8c0e-367163d90148</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

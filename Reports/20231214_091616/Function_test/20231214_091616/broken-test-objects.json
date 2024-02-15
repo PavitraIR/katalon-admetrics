@@ -1,0 +1,114 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monthly_Spend_Report/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-0-0\u0027]/div/app-monthly-admetric/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027–\u0027])[1]/following::mat-icon[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/Page_Monthly_Spend_Report/Page_/mat-icon_clear_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monthly_Spend_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027JUN\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/Page_Monthly_Spend_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monthly_Spend_Report/Page_/div_30",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr[5]/td[6]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027JUN\u0027])[1]/following::div[59]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/Page_Monthly_Spend_Report/Page_/div_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monthly_Spend_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/Page_Monthly_Spend_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Monthly_Spend_Report/Page_/div_31",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr[6]/td[4]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[61]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/Page_Monthly_Spend_Report/Page_/div_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Spend_Report/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-0-1\u0027]/div/app-weekly-admetric/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027–\u0027])[1]/following::mat-icon[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/Page_Weekly_Spend_Report/Page_/mat-icon_clear_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Spend_Report/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/Page_Weekly_Spend_Report/Page_/div_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Spend_Report/Page_/div_30",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/div/mat-month-view/table/tbody/tr[5]/td[7]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Saturday\u0027])[1]/following::div[59]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/Page_Weekly_Spend_Report/Page_/div_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/mtd_spend_monitoring/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/mtd_spend_monitoring/Page_/span_20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/mtd_spend_monitoring/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/mtd_spend_monitoring/Page_/span_10_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/mtd_spend_monitoring/Page_/span_5",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_091616/Function_test/20231214_091616/Object Repository/mtd_spend_monitoring/Page_/span_5_neighbor.png"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_WIZ_Moonlyte_Buyer_Freelancer_Google_Se_8dff42</name>
+   <tag></tag>
+   <elementGuidId>6d899d35-9c88-4249-bd3e-4304138087db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#a9cd4762defc-3 > div.row.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a9cd4762defc-3']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>72016031-b210-473f-8c86-25a234877cfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row ng-star-inserted</value>
+      <webElementGuid>34086802-d6fe-46a6-b254-2abe0710453d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> WIZ_Moonlyte_Buyer_Freelancer_Google_Search_Ads_Jan_2023 #3 </value>
+      <webElementGuid>e6997e83-3908-4f55-b85a-c6ac9c2c77b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a9cd4762defc-3&quot;)/div[@class=&quot;row ng-star-inserted&quot;]</value>
+      <webElementGuid>fded45d2-cd08-4de6-8829-37283d62965c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a9cd4762defc-3']/div</value>
+      <webElementGuid>cf2a5b6c-2963-4fc0-a620-895fe63db74b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div</value>
+      <webElementGuid>d2cf48d9-580f-4424-accd-8d6eb820b211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' WIZ_Moonlyte_Buyer_Freelancer_Google_Search_Ads_Jan_2023 #3 ' or . = ' WIZ_Moonlyte_Buyer_Freelancer_Google_Search_Ads_Jan_2023 #3 ')]</value>
+      <webElementGuid>2de005bc-0f93-4d92-ab12-714899da7ff8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

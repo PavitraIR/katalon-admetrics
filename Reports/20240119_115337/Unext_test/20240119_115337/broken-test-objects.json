@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240119_115337/Unext_test/20240119_115337/Object Repository/Page_Unext_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Calender/Page_/svg_mat-calendar-arrow",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-calendar-arrow",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240119_115337/Unext_test/20240119_115337/Object Repository/Page_Unext_Calender/Page_/svg_mat-calendar-arrow_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Calender/Page_/polygon",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "polygon",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240119_115337/Unext_test/20240119_115337/Object Repository/Page_Unext_Calender/Page_/polygon_CSS.png"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select Campaign Name Search 50 OFF  WIZ_f59f03</name>
+   <tag></tag>
+   <elementGuidId>cf2f8197-2ba3-4464-8868-f3fbde289f15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ng-select.ng-select-multiple.ng-select-searchable.ng-select-clearable.ng-select.ng-untouched.ng-pristine.ng-valid.ng-star-inserted.ng-select-focused.ng-select-bottom.ng-select-opened > div.ng-select-container.ng-has-value > div.ng-value-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a39ff0bf-e63b-48bd-acff-bf4748b214ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-value-container</value>
+      <webElementGuid>570772a4-e35e-4681-8339-dc8f8c0bbf37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Campaign Name Search 50% OFF  WIZ_Google__Search_R 3 more...</value>
+      <webElementGuid>1d0ddd8b-c3ab-4eb7-b1d3-59706255407c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-5 ng-trigger ng-trigger-translateTab&quot;]/app-campaign-cac[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;filter-row grid grid-cols-10&quot;]/div[@class=&quot;xmd:col-span-5 md:col-span-7 lg:col-span-8 col-span-7 p-2&quot;]/app-filter-panel[1]/div[@class=&quot;wrapper ng-star-inserted&quot;]/div[@class=&quot;grid grid-cols-10 filter-panel-wrapper align-items-center&quot;]/div[@class=&quot;col-span-full xmd:col-span-full&quot;]/div[@class=&quot;grid grid-cols-12&quot;]/div[@class=&quot;filter-wrapper md:col-span-3 xs:col-span-12 xmd:col-span-4 4k:col-span-2 ng-star-inserted&quot;]/ng-select[@class=&quot;ng-select-multiple ng-select-searchable ng-select-clearable ng-select ng-untouched ng-pristine ng-valid ng-star-inserted ng-select-focused ng-select-bottom ng-select-opened&quot;]/div[@class=&quot;ng-select-container ng-has-value&quot;]/div[@class=&quot;ng-value-container&quot;]</value>
+      <webElementGuid>242940d2-4daa-4a5b-8baf-3f7672c60893</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-1-0']/div/app-campaign-cac/div/div/div[2]/app-filter-panel/div/div/div/div/div[4]/ng-select/div/div</value>
+      <webElementGuid>bb21e5d7-f8d9-4342-a196-eeb9eea8aa59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/ng-select/div/div</value>
+      <webElementGuid>10eba431-d511-400d-860e-8bb9312ea02d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select Campaign Name Search 50% OFF  WIZ_Google__Search_R 3 more...' or . = 'Select Campaign Name Search 50% OFF  WIZ_Google__Search_R 3 more...')]</value>
+      <webElementGuid>b0e562dc-eef6-4ca9-b9f8-292655ff4536</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,64 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_Conversion_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_154317/Campaign_report/20240118_154318/Object Repository/Page_Campaign_Conversion_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Channel_Dropdown/Page_/div_Facebook",
+      "brokenLocator": "//div[@id\u003d\u0027a6657b7781cf-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_154317/Campaign_report/20240118_154318/Object Repository/Page_Select_Channel_Dropdown/Page_/div_Facebook_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Channel_Dropdown/Page_/span_LinkedIn",
+      "brokenLocator": "//div[@id\u003d\u0027aa8af3a59024-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_154317/Campaign_report/20240118_154318/Object Repository/Page_Select_Channel_Dropdown/Page_/span_LinkedIn_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Channel_Dropdown/Page_/span_Google Ads",
+      "brokenLocator": "//div[@id\u003d\u0027a37164784a7d-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_154317/Campaign_report/20240118_154318/Object Repository/Page_Select_Channel_Dropdown/Page_/span_Google Ads_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Seller",
+      "brokenLocator": "//div[@id\u003d\u0027a10e27a609e2-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_154317/Campaign_report/20240118_154318/Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Seller_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Buyer",
+      "brokenLocator": "//div[@id\u003d\u0027a40d287fdf29-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ng-dropdown-panel/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_154317/Campaign_report/20240118_154318/Object Repository/Page_Select_Businessline_Dropdown/Page_/div_Buyer_position.png"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Calender/Page_/svg_mat-calendar-arrow",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-calendar-arrow",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Calender/Page_/svg_mat-calendar-arrow_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Calender/Page_/polygon",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "polygon",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Calender/Page_/polygon_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Campaign_Metric_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Campaign_Metric_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Campaign_Metric_Calender/Page_/svg_mat-calendar-arrow",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-calendar-arrow",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Campaign_Metric_Calender/Page_/svg_mat-calendar-arrow_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Campaign_Metric_Calender/Page_/span_2016  2039",
+      "brokenLocator": "//span[@id\u003d\u0027mat-calendar-button-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-1\u0027]/mat-calendar-header/div/div/button/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Campaign_Metric_Calender/Page_/span_2016  2039_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Selected_Channel_Dropdown/Page_/span_Facebook",
+      "brokenLocator": "//div[@id\u003d\u0027a1a77d8da640-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Selected_Channel_Dropdown/Page_/span_Facebook_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Selected_Channel_Dropdown/Page_/span_LinkedIn",
+      "brokenLocator": "//div[@id\u003d\u0027a413878ccb88-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Selected_Channel_Dropdown/Page_/span_LinkedIn_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Selected_Channel_Dropdown/Page_/span_Google Ads",
+      "brokenLocator": "//div[@id\u003d\u0027ad6648fbfc8f-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Selected_Channel_Dropdown/Page_/span_Google Ads_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_ACTIVE",
+      "brokenLocator": "//div[@id\u003d\u0027aa2a7dcde7d8-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_ACTIVE_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_COMPLETED",
+      "brokenLocator": "//div[@id\u003d\u0027a1c970502b0e-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_COMPLETED_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_DRAFT",
+      "brokenLocator": "//div[@id\u003d\u0027afb1ab2ce352-3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_DRAFT_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_PAUSED",
+      "brokenLocator": "//div[@id\u003d\u0027a7d0356c3ca7-4\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_PAUSED_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_ENABLED",
+      "brokenLocator": "//div[@id\u003d\u0027a4aa7bc8f9a8-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Status_Dropdown/Page_/span_ENABLED_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Brand Campaign - 2023",
+      "brokenLocator": "//div[@id\u003d\u0027a4cecaed5c61-0\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Brand Campaign - 2023_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Career Assist - Brand",
+      "brokenLocator": "//div[@id\u003d\u0027a4cecaed5c61-1\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Career Assist - Brand_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_BBA",
+      "brokenLocator": "//div[@id\u003d\u0027a4cecaed5c61-2\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[3]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_BBA_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_BCA",
+      "brokenLocator": "//div[@id\u003d\u0027a4cecaed5c61-3\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_BCA_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_Keywords_After12",
+      "brokenLocator": "//div[@id\u003d\u0027a4cecaed5c61-4\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_Keywords_After12_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_KWs",
+      "brokenLocator": "//div[@id\u003d\u0027a4cecaed5c61-5\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[6]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_KWs_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_MBA",
+      "brokenLocator": "//div[@id\u003d\u0027a4cecaed5c61-6\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[7]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_MBA_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_MCA",
+      "brokenLocator": "//div[@id\u003d\u0027a4cecaed5c61-7\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[8]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/div_Discovery_Custom_MCA_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/button_Submit",
+      "brokenLocator": "//ng-dropdown-panel[@id\u003d\u0027a4cecaed5c61\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ng-dropdown-panel/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Unext_Select_Name_Dropdwon/Page_/button_Submit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/div_Items per page",
+      "brokenLocator": "//div[@id\u003d\u0027table1\u0027]/app-weekly-approved-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-paginator/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Items_Per_Page/Page_/div_Items per page_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Items_Per_Page/Page_/span_10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Items_Per_Page/Page_/span_20_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_30",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[4]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Items_Per_Page/Page_/span_30_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_5",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240119_120012/Unext_test/20240119_120012/Object Repository/Page_Items_Per_Page/Page_/span_5_position.png"
+    }
+  ]
+}

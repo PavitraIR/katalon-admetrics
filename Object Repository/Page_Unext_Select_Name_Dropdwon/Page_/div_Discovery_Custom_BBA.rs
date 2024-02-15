@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Discovery_Custom_BBA</name>
+   <tag></tag>
+   <elementGuidId>638f36ac-0938-4b56-bcc5-81d16d071d5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a4cecaed5c61-2']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#a4cecaed5c61-2 > div.row.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c368df84-a776-4ffe-b5dc-9d8f8c787b20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row ng-star-inserted</value>
+      <webElementGuid>e7d8fb33-85af-4979-bbdb-d3b1aeef5f65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Discovery_Custom_BBA </value>
+      <webElementGuid>2a4c843c-3c44-4235-af65-59ce7b33fa77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a4cecaed5c61-2&quot;)/div[@class=&quot;row ng-star-inserted&quot;]</value>
+      <webElementGuid>70333a8c-d3bb-430b-b9c5-2bdae39b09b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a4cecaed5c61-2']/div</value>
+      <webElementGuid>b04a682c-09be-40a0-9865-254f002fa724</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div</value>
+      <webElementGuid>a087192e-4043-4f4a-9dd2-8a4928039bda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Discovery_Custom_BBA ' or . = ' Discovery_Custom_BBA ')]</value>
+      <webElementGuid>86b1240f-8640-461d-b98d-b1e8a65e9e6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

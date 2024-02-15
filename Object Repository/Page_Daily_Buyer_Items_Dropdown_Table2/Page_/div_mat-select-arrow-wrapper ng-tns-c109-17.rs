@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_mat-select-arrow-wrapper ng-tns-c109-17</name>
+   <tag></tag>
+   <elementGuidId>3b36d56b-3d96-4756-aa49-d3074d09184d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-select[@id='mat-select-2']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-select-arrow-wrapper.ng-tns-c109-17</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2f1a83a4-cc3e-49cc-afed-71ffd5e63409</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-arrow-wrapper ng-tns-c109-17</value>
+      <webElementGuid>a465e38a-fcdb-459a-9abd-334e96d20c67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-2&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c109-17&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c109-17&quot;]</value>
+      <webElementGuid>9b7b5685-5620-4dec-990d-24e761124038</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-select[@id='mat-select-2']/div/div[2]</value>
+      <webElementGuid>1f61a0c4-8152-4917-b187-21571ab94b4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-total-projects-by-source-channel-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/mat-form-field/div/div/div/mat-select/div/div[2]</value>
+      <webElementGuid>d741e480-0bc4-49c0-99b0-540f55502212</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

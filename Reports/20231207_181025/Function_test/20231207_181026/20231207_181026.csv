@@ -1,0 +1,174 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Function_test,Chrome 120.0.0.0,,,2023-12-07 18:10:36,2023-12-07 18:13:37,3m - 0.908s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_empty_credentials,Chrome 120.0.0.0,,,2023-12-07 18:10:37,2023-12-07 18:10:45,8.844s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-07 18:10:37,2023-12-07 18:10:39,2.611s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-07 18:10:39,2023-12-07 18:10:40,0.174s,PASSED
+"navigateToUrl(""https://dev-dash.admetrics.ai/"")",Chrome 120.0.0.0,,,2023-12-07 18:10:40,2023-12-07 18:10:41,1.657s,PASSED
+"click(findTestObject(""Object Repository/Page_Empty_credentials/Page_/input_User ID_username""))",Chrome 120.0.0.0,,,2023-12-07 18:10:41,2023-12-07 18:10:43,2.054s,PASSED
+"click(findTestObject(""Object Repository/Page_Empty_credentials/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-07 18:10:43,2023-12-07 18:10:44,0.568s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Empty_credentials/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-07 18:10:44,2023-12-07 18:10:45,0.568s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:10:45,2023-12-07 18:10:45,0.863s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_invalidusername_validpassword,Chrome 120.0.0.0,,,2023-12-07 18:10:45,2023-12-07 18:10:53,7.716s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-07 18:10:46,2023-12-07 18:10:47,1.386s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-07 18:10:47,2023-12-07 18:10:47,0.158s,PASSED
+"navigateToUrl(""https://dev-dash.admetrics.ai/"")",Chrome 120.0.0.0,,,2023-12-07 18:10:47,2023-12-07 18:10:48,0.600s,PASSED
+"setText(findTestObject(""Object Repository/Page_invalid_valid/Page_/input_User ID_username""), ""tibil"")",Chrome 120.0.0.0,,,2023-12-07 18:10:48,2023-12-07 18:10:51,2.820s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_invalid_valid/Page_/input_Password_password""), ""7Dxoto1EjKfQbGop/Ov+1g=="")",Chrome 120.0.0.0,,,2023-12-07 18:10:51,2023-12-07 18:10:51,0.526s,PASSED
+"click(findTestObject(""Object Repository/Page_invalid_valid/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-07 18:10:51,2023-12-07 18:10:52,0.460s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_invalid_valid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-07 18:10:52,2023-12-07 18:10:52,0.587s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:10:52,2023-12-07 18:10:53,0.878s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_invalid_username_password,Chrome 120.0.0.0,,,2023-12-07 18:10:53,2023-12-07 18:11:01,7.370s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-07 18:10:53,2023-12-07 18:10:55,1.306s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-07 18:10:55,2023-12-07 18:10:55,0.152s,PASSED
+"navigateToUrl(""https://dev-dash.admetrics.ai/"")",Chrome 120.0.0.0,,,2023-12-07 18:10:55,2023-12-07 18:10:55,0.551s,PASSED
+"setText(findTestObject(""Object Repository/Page_Invalid/Page_/input_User ID_username""), ""cqube"")",Chrome 120.0.0.0,,,2023-12-07 18:10:55,2023-12-07 18:10:58,2.688s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Invalid/Page_/input_Password_password""), ""KNgadmoWMNQLHR89HR7ydQ=="")",Chrome 120.0.0.0,,,2023-12-07 18:10:58,2023-12-07 18:10:59,0.584s,PASSED
+"click(findTestObject(""Object Repository/Page_Invalid/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-07 18:10:59,2023-12-07 18:10:59,0.528s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-07 18:10:59,2023-12-07 18:11:00,0.480s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:11:00,2023-12-07 18:11:00,0.821s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_validusername_invalipassword,Chrome 120.0.0.0,,,2023-12-07 18:11:01,2023-12-07 18:11:08,7.931s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-07 18:11:01,2023-12-07 18:11:02,1.351s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-07 18:11:02,2023-12-07 18:11:02,0.173s,PASSED
+"navigateToUrl(""https://dev-dash.admetrics.ai/"")",Chrome 120.0.0.0,,,2023-12-07 18:11:02,2023-12-07 18:11:03,0.773s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_invalid/Page_/input_User ID_username""), ""admin"")",Chrome 120.0.0.0,,,2023-12-07 18:11:03,2023-12-07 18:11:06,2.768s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_invalid/Page_/input_Password_password""), ""RSNArcc3BqI="")",Chrome 120.0.0.0,,,2023-12-07 18:11:06,2023-12-07 18:11:06,0.513s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_invalid/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-07 18:11:06,2023-12-07 18:11:07,0.468s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_valid_invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,2023-12-07 18:11:07,2023-12-07 18:11:08,0.717s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:11:08,2023-12-07 18:11:08,0.882s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_valid_login,Chrome 120.0.0.0,,,2023-12-07 18:11:08,2023-12-07 18:11:17,8.897s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-07 18:11:09,2023-12-07 18:11:10,1.451s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-07 18:11:10,2023-12-07 18:11:10,0.177s,PASSED
+"navigateToUrl(""https://dev-dash.admetrics.ai/"")",Chrome 120.0.0.0,,,2023-12-07 18:11:10,2023-12-07 18:11:11,0.563s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_login/Page_/input_User ID_username""), ""admin"")",Chrome 120.0.0.0,,,2023-12-07 18:11:11,2023-12-07 18:11:14,2.792s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_login/Page_/input_Password_password""), ""7Dxoto1EjKfQbGop/Ov+1g=="")",Chrome 120.0.0.0,,,2023-12-07 18:11:14,2023-12-07 18:11:14,0.518s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_login/Page_/button_Login""))",Chrome 120.0.0.0,,,2023-12-07 18:11:14,2023-12-07 18:11:15,0.461s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_valid_login/Page_/p_Summary Statistics""), ""Summary Statistics"")",Chrome 120.0.0.0,,,2023-12-07 18:11:15,2023-12-07 18:11:17,1.827s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:11:17,2023-12-07 18:11:17,0.814s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_verify_project_title,Chrome 120.0.0.0,,,2023-12-07 18:11:17,2023-12-07 18:11:25,7.891s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-07 18:11:18,2023-12-07 18:11:19,1.486s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-07 18:11:19,2023-12-07 18:11:19,0.150s,PASSED
+"navigateToUrl(""https://dev-dash.admetrics.ai/"")",Chrome 120.0.0.0,,,2023-12-07 18:11:19,2023-12-07 18:11:20,0.581s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/p_Admetrics""), ""Admetrics"")",Chrome 120.0.0.0,,,2023-12-07 18:11:20,2023-12-07 18:11:22,2.368s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Project_Title/img_User ID_logoImg mr-3""))",Chrome 120.0.0.0,,,2023-12-07 18:11:22,2023-12-07 18:11:23,0.525s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/p_India""), ""India"")",Chrome 120.0.0.0,,,2023-12-07 18:11:23,2023-12-07 18:11:23,0.465s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/input_User ID_username""), """")",Chrome 120.0.0.0,,,2023-12-07 18:11:23,2023-12-07 18:11:24,0.400s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/input_Password_password""), """")",Chrome 120.0.0.0,,,2023-12-07 18:11:24,2023-12-07 18:11:24,0.401s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Project_Title/button_Login""))",Chrome 120.0.0.0,,,2023-12-07 18:11:24,2023-12-07 18:11:24,0.460s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:11:24,2023-12-07 18:11:25,0.800s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_campaign_report,Chrome 120.0.0.0,,,2023-12-07 18:11:25,2023-12-07 18:11:43,17.728s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-07 18:11:26,2023-12-07 18:11:32,5.955s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign/Page_/div_Campaign""), ""Campaign"")",Chrome 120.0.0.0,,,2023-12-07 18:11:32,2023-12-07 18:11:35,3.360s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Campaign/Page_/img_Campaign_mg-0""))",Chrome 120.0.0.0,,,2023-12-07 18:11:35,2023-12-07 18:11:35,0.493s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Campaign/Page_/img_Campaign_infoIconImage""))",Chrome 120.0.0.0,,,2023-12-07 18:11:35,2023-12-07 18:11:36,0.696s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign/Page_/p_Access dashboard to""), ""Access dashboard to"")",Chrome 120.0.0.0,,,2023-12-07 18:11:36,2023-12-07 18:11:37,0.484s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign/Page_/p_view details""), ""view details"")",Chrome 120.0.0.0,,,2023-12-07 18:11:37,2023-12-07 18:11:37,0.473s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign/Page_/button_Access dashboard""), ""Access dashboard →"")",Chrome 120.0.0.0,,,2023-12-07 18:11:37,2023-12-07 18:11:37,0.473s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign/Page_/button_Access dashboard""))",Chrome 120.0.0.0,,,2023-12-07 18:11:37,2023-12-07 18:11:38,0.454s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign/Page_/button_Access dashboard""))",Chrome 120.0.0.0,,,2023-12-07 18:11:38,2023-12-07 18:11:39,0.571s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign/Page_/p_Campaign Analytics""), ""Campaign Analytics"")",Chrome 120.0.0.0,,,2023-12-07 18:11:39,2023-12-07 18:11:42,3.617s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:11:42,2023-12-07 18:11:43,0.856s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_performance_report,Chrome 120.0.0.0,,,2023-12-07 18:11:43,2023-12-07 18:11:58,14.774s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-07 18:11:43,2023-12-07 18:11:49,5.733s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Performance/Page_/div_Performance""), ""Performance"")",Chrome 120.0.0.0,,,2023-12-07 18:11:49,2023-12-07 18:11:52,2.489s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Performance/Page_/img_Performance_mg-0""))",Chrome 120.0.0.0,,,2023-12-07 18:11:52,2023-12-07 18:11:52,0.436s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Performance/Page_/img_Performance_infoIconImage""))",Chrome 120.0.0.0,,,2023-12-07 18:11:52,2023-12-07 18:11:53,0.590s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Performance/Page_/p_Access dashboard to""), ""Access dashboard to"")",Chrome 120.0.0.0,,,2023-12-07 18:11:53,2023-12-07 18:11:53,0.451s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Performance/Page_/p_view details""), ""view details"")",Chrome 120.0.0.0,,,2023-12-07 18:11:53,2023-12-07 18:11:53,0.424s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Performance/Page_/button_Access dashboard""), ""Access dashboard →"")",Chrome 120.0.0.0,,,2023-12-07 18:11:53,2023-12-07 18:11:54,0.418s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Performance/Page_/button_Access dashboard""))",Chrome 120.0.0.0,,,2023-12-07 18:11:54,2023-12-07 18:11:54,0.407s,PASSED
+"click(findTestObject(""Object Repository/Page_Performance/Page_/button_Access dashboard""))",Chrome 120.0.0.0,,,2023-12-07 18:11:54,2023-12-07 18:11:55,0.442s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Performance/Page_/p_Performance Report""), ""Performance Report"")",Chrome 120.0.0.0,,,2023-12-07 18:11:55,2023-12-07 18:11:57,2.306s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:11:57,2023-12-07 18:11:58,0.777s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_spend_monitoring_report,Chrome 120.0.0.0,,,2023-12-07 18:11:58,2023-12-07 18:12:13,15.361s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-07 18:11:58,2023-12-07 18:12:04,6.007s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Monitoring/Page_/div_Spend Monitoring""), ""Spend Monitoring"")",Chrome 120.0.0.0,,,2023-12-07 18:12:04,2023-12-07 18:12:06,2.287s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Spend_Monitoring/Page_/img_Spend Monitoring_mg-0""))",Chrome 120.0.0.0,,,2023-12-07 18:12:06,2023-12-07 18:12:07,0.442s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Spend_Monitoring/Page_/img_Spend Monitoring_infoIconImage""))",Chrome 120.0.0.0,,,2023-12-07 18:12:07,2023-12-07 18:12:07,0.615s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Monitoring/Page_/p_Access dashboard to""), ""Access dashboard to"")",Chrome 120.0.0.0,,,2023-12-07 18:12:07,2023-12-07 18:12:08,0.463s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Monitoring/Page_/p_view details""), ""view details"")",Chrome 120.0.0.0,,,2023-12-07 18:12:08,2023-12-07 18:12:08,0.422s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Monitoring/Page_/button_Access dashboard""), ""Access dashboard →"")",Chrome 120.0.0.0,,,2023-12-07 18:12:08,2023-12-07 18:12:09,0.420s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Spend_Monitoring/Page_/button_Access dashboard""))",Chrome 120.0.0.0,,,2023-12-07 18:12:09,2023-12-07 18:12:09,0.363s,PASSED
+"click(findTestObject(""Object Repository/Page_Spend_Monitoring/Page_/button_Access dashboard""))",Chrome 120.0.0.0,,,2023-12-07 18:12:09,2023-12-07 18:12:10,0.469s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Monitoring/Page_/p_Spend Monitoring Report""), ""Spend Monitoring Report"")",Chrome 120.0.0.0,,,2023-12-07 18:12:10,2023-12-07 18:12:12,2.716s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:12:12,2023-12-07 18:12:13,0.894s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_spend_report,Chrome 120.0.0.0,,,2023-12-07 18:12:13,2023-12-07 18:12:30,16.695s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-07 18:12:13,2023-12-07 18:12:20,6.154s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Report/Page_/div_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,2023-12-07 18:12:20,2023-12-07 18:12:23,3.441s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Spend_Report/Page_/img_Spend Report_mg-0""))",Chrome 120.0.0.0,,,2023-12-07 18:12:23,2023-12-07 18:12:23,0.379s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Spend_Report/Page_/img_Spend Report_infoIconImage""))",Chrome 120.0.0.0,,,2023-12-07 18:12:23,2023-12-07 18:12:24,0.551s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Report/Page_/p_Access dashboard to""), ""Access dashboard to"")",Chrome 120.0.0.0,,,2023-12-07 18:12:24,2023-12-07 18:12:24,0.429s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Report/Page_/p_view details""), ""view details"")",Chrome 120.0.0.0,,,2023-12-07 18:12:24,2023-12-07 18:12:25,0.388s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Report/Page_/button_Access dashboard""), ""Access dashboard →"")",Chrome 120.0.0.0,,,2023-12-07 18:12:25,2023-12-07 18:12:25,0.381s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Spend_Report/Page_/button_Access dashboard""))",Chrome 120.0.0.0,,,2023-12-07 18:12:25,2023-12-07 18:12:26,0.441s,PASSED
+"click(findTestObject(""Object Repository/Page_Spend_Report/Page_/button_Access dashboard""))",Chrome 120.0.0.0,,,2023-12-07 18:12:26,2023-12-07 18:12:26,0.554s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Spend_Report/Page_/p_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,2023-12-07 18:12:26,2023-12-07 18:12:29,2.824s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:12:29,2023-12-07 18:12:30,0.884s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_verify_menu,Chrome 120.0.0.0,,"@functional,@smoke",2023-12-07 18:12:30,2023-12-07 18:13:12,42.600s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-07 18:12:30,2023-12-07 18:12:36,6.278s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/p_Summary Statistics""), ""Summary Statistics"")",Chrome 120.0.0.0,,,2023-12-07 18:12:36,2023-12-07 18:12:39,2.521s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img""))",Chrome 120.0.0.0,,,2023-12-07 18:12:39,2023-12-07 18:12:39,0.450s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_admetrics""), ""admetrics"")",Chrome 120.0.0.0,,,2023-12-07 18:12:39,2023-12-07 18:12:40,0.409s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2""))",Chrome 120.0.0.0,,,2023-12-07 18:12:40,2023-12-07 18:12:40,0.393s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2""))",Chrome 120.0.0.0,,,2023-12-07 18:12:40,2023-12-07 18:12:41,0.456s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_RespMenuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:41,2023-12-07 18:12:41,0.621s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2_1""))",Chrome 120.0.0.0,,,2023-12-07 18:12:41,2023-12-07 18:12:42,0.391s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner horizontal""))",Chrome 120.0.0.0,,,2023-12-07 18:12:42,2023-12-07 18:12:42,0.603s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/label_admetrics_sidebarIconToggle""))",Chrome 120.0.0.0,,,2023-12-07 18:12:42,2023-12-07 18:12:43,0.666s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Menu/Page_/img_admetrics_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:43,2023-12-07 18:12:44,0.785s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Menu/Page_/img_Summary Statistics_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:44,2023-12-07 18:12:44,0.708s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Menu/Page_/img_Spend Report_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:44,2023-12-07 18:12:45,0.790s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Menu/Page_/img_Spend Monitoring_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:45,2023-12-07 18:12:46,0.681s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Menu/Page_/img_Performance_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:46,2023-12-07 18:12:47,0.693s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2_1""))",Chrome 120.0.0.0,,,2023-12-07 18:12:47,2023-12-07 18:12:47,0.668s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Summary Statistics""), ""Summary Statistics"")",Chrome 120.0.0.0,,,2023-12-07 18:12:47,2023-12-07 18:12:48,0.490s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_admetrics_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:48,2023-12-07 18:12:48,0.465s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,2023-12-07 18:12:48,2023-12-07 18:12:49,0.448s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_Summary Statistics_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:49,2023-12-07 18:12:49,0.347s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_Spend Report""))",Chrome 120.0.0.0,,,2023-12-07 18:12:49,2023-12-07 18:12:49,0.399s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner horizontal""))",Chrome 120.0.0.0,,,2023-12-07 18:12:49,2023-12-07 18:12:53,3.261s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Spend Monitoring""), ""Spend Monitoring"")",Chrome 120.0.0.0,,,2023-12-07 18:12:53,2023-12-07 18:12:53,0.527s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_Spend Report_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:53,2023-12-07 18:12:53,0.329s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/span_Spend Monitoring""))",Chrome 120.0.0.0,,,2023-12-07 18:12:53,2023-12-07 18:12:54,0.381s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2_1""))",Chrome 120.0.0.0,,,2023-12-07 18:12:54,2023-12-07 18:12:57,2.695s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Performance""), ""Performance"")",Chrome 120.0.0.0,,,2023-12-07 18:12:57,2023-12-07 18:12:57,0.498s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_Spend Monitoring_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:12:57,2023-12-07 18:12:58,0.500s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_Performance""))",Chrome 120.0.0.0,,,2023-12-07 18:12:58,2023-12-07 18:12:58,0.566s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/label_admetrics_sidebarIconToggle_1""))",Chrome 120.0.0.0,,,2023-12-07 18:12:58,2023-12-07 18:13:01,2.495s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Campaign""), ""Campaign"")",Chrome 120.0.0.0,,,2023-12-07 18:13:01,2023-12-07 18:13:01,0.532s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_Spend Monitoring_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:13:01,2023-12-07 18:13:02,0.481s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/span_Performance""))",Chrome 120.0.0.0,,,2023-12-07 18:13:02,2023-12-07 18:13:02,0.550s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/label_admetrics_sidebarIconToggle_1""))",Chrome 120.0.0.0,,,2023-12-07 18:13:02,2023-12-07 18:13:03,0.610s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Campaign""), ""Campaign"")",Chrome 120.0.0.0,,,2023-12-07 18:13:03,2023-12-07 18:13:03,0.501s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_Performance_menuIcon""))",Chrome 120.0.0.0,,,2023-12-07 18:13:03,2023-12-07 18:13:04,0.526s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/span_Campaign""))",Chrome 120.0.0.0,,,2023-12-07 18:13:04,2023-12-07 18:13:04,0.574s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/label_admetrics_sidebarIconToggle_1""))",Chrome 120.0.0.0,,,2023-12-07 18:13:04,2023-12-07 18:13:08,3.454s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/i_Campaign_signOut""))",Chrome 120.0.0.0,,,2023-12-07 18:13:08,2023-12-07 18:13:08,0.606s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/i_Campaign_signOut""))",Chrome 120.0.0.0,,,2023-12-07 18:13:08,2023-12-07 18:13:09,0.451s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/i_Campaign_signOut""))",Chrome 120.0.0.0,,,2023-12-07 18:13:09,2023-12-07 18:13:09,0.572s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-07 18:13:09,2023-12-07 18:13:12,2.019s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:13:12,2023-12-07 18:13:12,0.943s,PASSED
+,,,,,,,
+Test Cases/Dashboard_Page/test_verify_menu_tooltip_information,Chrome 120.0.0.0,,,2023-12-07 18:13:12,2023-12-07 18:13:37,24.719s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,2023-12-07 18:13:13,2023-12-07 18:13:19,6.262s,PASSED
+"click(findTestObject(""Object Repository/Page_tooltip_information/Page_/div_A_spinner horizontal""))",Chrome 120.0.0.0,,,2023-12-07 18:13:19,2023-12-07 18:13:21,1.524s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_tooltip_information/Page_/li_Summary Statistics""))",Chrome 120.0.0.0,,,2023-12-07 18:13:21,2023-12-07 18:13:21,0.936s,PASSED
+"click(findTestObject(""Object Repository/Page_tooltip_information/Page_/li_Spend Report""))",Chrome 120.0.0.0,,,2023-12-07 18:13:21,2023-12-07 18:13:22,0.495s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_tooltip_information/Page_/li_Spend Report""))",Chrome 120.0.0.0,,,2023-12-07 18:13:22,2023-12-07 18:13:25,2.934s,PASSED
+"click(findTestObject(""Object Repository/Page_tooltip_information/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,2023-12-07 18:13:25,2023-12-07 18:13:25,0.551s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_tooltip_information/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,2023-12-07 18:13:25,2023-12-07 18:13:28,2.430s,PASSED
+"click(findTestObject(""Object Repository/Page_tooltip_information/Page_/li_Performance""))",Chrome 120.0.0.0,,,2023-12-07 18:13:28,2023-12-07 18:13:28,0.557s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_tooltip_information/Page_/li_Performance""))",Chrome 120.0.0.0,,,2023-12-07 18:13:28,2023-12-07 18:13:31,2.394s,PASSED
+"click(findTestObject(""Object Repository/Page_tooltip_information/Page_/li_Campaign""))",Chrome 120.0.0.0,,,2023-12-07 18:13:31,2023-12-07 18:13:31,0.387s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_tooltip_information/Page_/li_Campaign""))",Chrome 120.0.0.0,,,2023-12-07 18:13:31,2023-12-07 18:13:36,5.083s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-07 18:13:36,2023-12-07 18:13:37,0.917s,PASSED

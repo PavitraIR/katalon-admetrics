@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_admetrics_spinner diagonal part-2</name>
+   <tag></tag>
+   <elementGuidId>599a7a2b-ce04-4673-a82c-be85d23b0803</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.spinner.diagonal.part-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1d1a335b-fd86-471b-b469-33db14b8a7ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>spinner diagonal part-2</value>
+      <webElementGuid>79c170b6-2ac2-4d92-b055-e5109e6aa6c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;sidebaractive&quot;]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/app-side-nav[1]/aside[@class=&quot;app-side-nav&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;RespMenuIcon&quot;]/label[@class=&quot;sidebarIconToggle&quot;]/div[@class=&quot;spinner diagonal part-2&quot;]</value>
+      <webElementGuid>1273ef17-840b-4503-a55e-f5aefaa682a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div[3]</value>
+      <webElementGuid>29c432b1-3601-4484-8691-1f502b616d12</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

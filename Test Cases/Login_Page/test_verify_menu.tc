@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_verify_menu</name>
+   <tag>@functional,@smoke</tag>
+   <comment></comment>
+   <testCaseGuid>f70da211-28c1-4fd7-a944-7122183c6ba6</testCaseGuid>
+</TestCaseEntity>

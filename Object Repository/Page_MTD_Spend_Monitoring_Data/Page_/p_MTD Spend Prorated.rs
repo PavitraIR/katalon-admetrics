@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_MTD Spend Prorated</name>
+   <tag></tag>
+   <elementGuidId>c7faef3c-f149-43c3-9f50-49d48fe613a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-center.font-medium.py-2.filename.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table1']/app-mtd-spend-column-chart/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>8169b4de-c9f4-4866-9393-9c0999a0ce82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center font-medium py-2 filename ng-star-inserted</value>
+      <webElementGuid>3f3da4bc-297c-404a-b19d-3f714389f479</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MTD Spend Prorated</value>
+      <webElementGuid>73778aba-166e-49f6-8c29-d03cd9d337ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-2&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-7 ng-trigger ng-trigger-translateTab&quot;]/app-mtd-viwes[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;reports-row&quot;]/div[@class=&quot;row-wrapper grid grid-cols-4 gap-4&quot;]/div[@id=&quot;table1&quot;]/app-mtd-spend-column-chart[1]/div[@class=&quot;col-span-full&quot;]/p[@class=&quot;text-center font-medium py-2 filename ng-star-inserted&quot;]</value>
+      <webElementGuid>14d93097-fb9e-44f5-8bae-e0afcf5e27ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table1']/app-mtd-spend-column-chart/div/p</value>
+      <webElementGuid>93e9f918-c25c-4f19-9d5c-1616bc9e0e70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-mtd-spend-column-chart/div/p</value>
+      <webElementGuid>cbdcfbe7-0728-49a3-8011-9089c2d13a43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'MTD Spend Prorated' or . = 'MTD Spend Prorated')]</value>
+      <webElementGuid>4e1d14be-e8ed-4c0b-9a6b-6a83e414c687</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

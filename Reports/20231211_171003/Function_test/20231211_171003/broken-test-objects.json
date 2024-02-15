@@ -1,0 +1,174 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/mtd_spend_monitoring/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-10\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/mtd_spend_monitoring/Page_/span_20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/mtd_spend_monitoring/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-9\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/mtd_spend_monitoring/Page_/span_10_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/mtd_spend_monitoring/Page_/span_5",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/mtd_spend_monitoring/Page_/span_5_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/button_SEPT 2023_mat-focus-indicator mat-ca_7a0138",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[9]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/button_SEPT 2023_mat-focus-indicator mat-ca_7a0138_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_Google Analytics",
+      "brokenLocator": "//div[@id\u003d\u0027ac6e21e70b8f-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027LinkedIn\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_Google Analytics_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_Google Ads",
+      "brokenLocator": "//div[@id\u003d\u0027a856992bb5ab-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Google Analytics\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_Google Ads_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_Facebook",
+      "brokenLocator": "//div[@id\u003d\u0027a9e23fc18fc7-3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Google Ads\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_Facebook_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_LinkedIn",
+      "brokenLocator": "//div[@id\u003d\u0027a0cec368b3b5-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Facebook\u0027])[1]/following::span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_LinkedIn_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_Seller",
+      "brokenLocator": "//div[@id\u003d\u0027a5a62cfd7481-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Buyer\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_Seller_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_Buyer",
+      "brokenLocator": "//div[@id\u003d\u0027a1d540e52848-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Seller\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_Buyer_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_Webinar Zoom Reg Visit_Sep 26, 2022",
+      "brokenLocator": "//div[@id\u003d\u0027a84c392c962b-0\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Submit\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_Webinar Zoom Reg Visit_Sep 26, 2022_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/button_Submit",
+      "brokenLocator": "//ng-dropdown-panel[@id\u003d\u0027a84c392c962b\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Webinar Zoom Reg Vis\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/button_Submit_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_COMPLETED",
+      "brokenLocator": "//div[@id\u003d\u0027a3f8cde03cbb-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ACTIVE\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_COMPLETED_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_DRAFT",
+      "brokenLocator": "//div[@id\u003d\u0027a15113787d0c-2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027COMPLETED\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_DRAFT_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_ENABLED",
+      "brokenLocator": "//div[@id\u003d\u0027a0145c6d4b73-3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027DRAFT\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_ENABLED_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_PAUSED",
+      "brokenLocator": "//div[@id\u003d\u0027a55688dc2e3f-4\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ENABLED\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/span_PAUSED_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_ACTIVE",
+      "brokenLocator": "//div[@id\u003d\u0027af01a7d1c018-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027PAUSED\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_171003/Function_test/20231211_171003/Object Repository/Page_Verify_dropdown_CAC_Report/Page_/div_ACTIVE_neighbor.png"
+    }
+  ]
+}

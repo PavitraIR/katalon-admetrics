@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_WIZ_Google__Search_Retargeting_Microgig_16735c</name>
+   <tag></tag>
+   <elementGuidId>c46a077b-bdae-41be-8e77-b53e8788d2b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#a9cd4762defc-1 > div.row.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a9cd4762defc-1']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3a83c30d-6aa2-46a9-b610-322336282e1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row ng-star-inserted</value>
+      <webElementGuid>53ada011-01bc-4141-87fe-a3ab4fa09406</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> WIZ_Google__Search_Retargeting_Microgigs_Sep_2022 </value>
+      <webElementGuid>1435f7b1-407a-414f-b0ec-956fbe5f7980</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a9cd4762defc-1&quot;)/div[@class=&quot;row ng-star-inserted&quot;]</value>
+      <webElementGuid>dc41b4f3-4275-4757-93f4-1604bf6b43d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a9cd4762defc-1']/div</value>
+      <webElementGuid>eaa65caf-8baa-4efe-8d0a-e260ddaa2618</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div</value>
+      <webElementGuid>85180379-5ebc-4226-8b6e-d475ec54ae47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' WIZ_Google__Search_Retargeting_Microgigs_Sep_2022 ' or . = ' WIZ_Google__Search_Retargeting_Microgigs_Sep_2022 ')]</value>
+      <webElementGuid>55614246-16a6-4962-a3ec-dbd1da8fbbac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

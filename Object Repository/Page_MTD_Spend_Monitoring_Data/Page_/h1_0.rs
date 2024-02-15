@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_0</name>
+   <tag></tag>
+   <elementGuidId>0ea7ff92-ad22-440f-b352-34a3b90993d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.average-percentage</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bignumber2']/div/app-big-number/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>11b29db4-13c8-4220-adb7-3a984e7fe024</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>average-percentage</value>
+      <webElementGuid>6426cec7-9ccf-4bf9-ac61-c0c3afae3097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 0% </value>
+      <webElementGuid>6107f9b9-b01c-4747-98d3-a2f3273300ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bignumber2&quot;)/div[@class=&quot;ng-star-inserted&quot;]/app-big-number[1]/div[@class=&quot;report-wrapper ng-star-inserted&quot;]/div[@class=&quot;average-wrapper&quot;]/h1[@class=&quot;average-percentage&quot;]</value>
+      <webElementGuid>0eceab1e-b7ed-41b0-8dcc-c71b61a135df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bignumber2']/div/app-big-number/div/div/h1</value>
+      <webElementGuid>f0a2bc43-7de2-4824-95aa-c13481addc2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>ae735d5a-ef19-49f2-841e-2491a75e9baf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = ' 0% ' or . = ' 0% ')]</value>
+      <webElementGuid>9dcb7200-a4ae-40a5-89f4-ed4fa4bcae33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/Login_Page/test_verify_project_title","testCaseId":"Test Cases/Login_Page/test_verify_project_title","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_empty_credentials","testCaseId":"Test Cases/Login_Page/test_empty_credentials","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_invalidusername_validpassword","testCaseId":"Test Cases/Login_Page/test_invalidusername_validpassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_invalid_username_password","testCaseId":"Test Cases/Login_Page/test_invalid_username_password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_validusername_invalipassword","testCaseId":"Test Cases/Login_Page/test_validusername_invalipassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login_Page/test_valid_login","testCaseId":"Test Cases/Login_Page/test_valid_login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Dashboard_Page/test_verify_menu","testCaseId":"Test Cases/Dashboard_Page/test_verify_menu","iterationVariableName":""}
+{"testCaseName":"Test Cases/Dashboard_Page/test_spend_report","testCaseId":"Test Cases/Dashboard_Page/test_spend_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Dashboard_Page/test_spend_monitoring_report","testCaseId":"Test Cases/Dashboard_Page/test_spend_monitoring_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Dashboard_Page/test_performance_report","testCaseId":"Test Cases/Dashboard_Page/test_performance_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Dashboard_Page/test_campaign_report","testCaseId":"Test Cases/Dashboard_Page/test_campaign_report","iterationVariableName":""}

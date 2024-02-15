@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_login,Chrome 118.0.0.0,,,2023-11-29 11:38:34,2023-11-29 11:39:13,39.476s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_verify_project_title,Chrome 118.0.0.0,,,2023-11-29 11:38:34,2023-11-29 11:38:41,7.536s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-11-29 11:38:34,2023-11-29 11:38:36,1.560s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-29 11:38:36,2023-11-29 11:38:36,0.137s,PASSED
+"navigateToUrl(""https://dash.admetrics.ai/"")",Chrome 118.0.0.0,,,2023-11-29 11:38:36,2023-11-29 11:38:37,0.935s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/p_Admetrics""), ""Admetrics"")",Chrome 118.0.0.0,,,2023-11-29 11:38:37,2023-11-29 11:38:38,1.404s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Project_Title/img_User ID_logoImg mr-3""))",Chrome 118.0.0.0,,,2023-11-29 11:38:38,2023-11-29 11:38:40,1.948s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/p_India""), ""India"")",Chrome 118.0.0.0,,,2023-11-29 11:38:40,2023-11-29 11:38:41,0.282s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/input_User ID_username""), """")",Chrome 118.0.0.0,,,2023-11-29 11:38:41,2023-11-29 11:38:41,0.272s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/input_Password_password""), """")",Chrome 118.0.0.0,,,2023-11-29 11:38:41,2023-11-29 11:38:41,0.270s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Project_Title/button_Login""))",Chrome 118.0.0.0,,,2023-11-29 11:38:41,2023-11-29 11:38:41,0.298s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-29 11:38:41,2023-11-29 11:38:41,0.083s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_validusername_invalipassword,Chrome 118.0.0.0,,,2023-11-29 11:38:41,2023-11-29 11:38:47,5.590s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-11-29 11:38:42,2023-11-29 11:38:42,0.494s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-29 11:38:42,2023-11-29 11:38:42,0.115s,PASSED
+"navigateToUrl(""https://dash.admetrics.ai/"")",Chrome 118.0.0.0,,,2023-11-29 11:38:42,2023-11-29 11:38:43,0.766s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_invalid/Page_/input_User ID_username""), ""admin"")",Chrome 118.0.0.0,,,2023-11-29 11:38:43,2023-11-29 11:38:46,2.564s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_invalid/Page_/input_Password_password""), ""RSNArcc3BqI="")",Chrome 118.0.0.0,,,2023-11-29 11:38:46,2023-11-29 11:38:46,0.339s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_invalid/Page_/button_Login""))",Chrome 118.0.0.0,,,2023-11-29 11:38:46,2023-11-29 11:38:46,0.306s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_valid_invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 118.0.0.0,,,2023-11-29 11:38:46,2023-11-29 11:38:47,0.780s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-29 11:38:47,2023-11-29 11:38:47,0.075s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_invalidusername_validpassword,Chrome 118.0.0.0,,,2023-11-29 11:38:47,2023-11-29 11:38:53,6.047s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-11-29 11:38:47,2023-11-29 11:38:48,0.494s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-29 11:38:48,2023-11-29 11:38:48,0.113s,PASSED
+"navigateToUrl(""https://dash.admetrics.ai/"")",Chrome 118.0.0.0,,,2023-11-29 11:38:48,2023-11-29 11:38:49,1.125s,PASSED
+"setText(findTestObject(""Object Repository/Page_invalid_valid/Page_/input_User ID_username""), ""tibil"")",Chrome 118.0.0.0,,,2023-11-29 11:38:49,2023-11-29 11:38:51,2.541s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_invalid_valid/Page_/input_Password_password""), ""7Dxoto1EjKfQbGop/Ov+1g=="")",Chrome 118.0.0.0,,,2023-11-29 11:38:51,2023-11-29 11:38:52,0.534s,PASSED
+"click(findTestObject(""Object Repository/Page_invalid_valid/Page_/button_Login""))",Chrome 118.0.0.0,,,2023-11-29 11:38:52,2023-11-29 11:38:52,0.313s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_invalid_valid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 118.0.0.0,,,2023-11-29 11:38:52,2023-11-29 11:38:53,0.706s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-29 11:38:53,2023-11-29 11:38:53,0.071s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_invalid_username_password,Chrome 118.0.0.0,,,2023-11-29 11:38:53,2023-11-29 11:38:59,6.022s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-11-29 11:38:53,2023-11-29 11:38:54,0.532s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-29 11:38:54,2023-11-29 11:38:54,0.114s,PASSED
+"navigateToUrl(""https://dash.admetrics.ai/"")",Chrome 118.0.0.0,,,2023-11-29 11:38:54,2023-11-29 11:38:55,1.062s,PASSED
+"setText(findTestObject(""Object Repository/Page_Invalid/Page_/input_User ID_username""), ""cqube"")",Chrome 118.0.0.0,,,2023-11-29 11:38:55,2023-11-29 11:38:58,2.921s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Invalid/Page_/input_Password_password""), ""KNgadmoWMNQLHR89HR7ydQ=="")",Chrome 118.0.0.0,,,2023-11-29 11:38:58,2023-11-29 11:38:58,0.333s,PASSED
+"click(findTestObject(""Object Repository/Page_Invalid/Page_/button_Login""))",Chrome 118.0.0.0,,,2023-11-29 11:38:58,2023-11-29 11:38:58,0.293s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 118.0.0.0,,,2023-11-29 11:38:58,2023-11-29 11:38:59,0.576s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-29 11:38:59,2023-11-29 11:38:59,0.071s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_empty_credentials,Chrome 118.0.0.0,,,2023-11-29 11:38:59,2023-11-29 11:39:05,5.450s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-11-29 11:38:59,2023-11-29 11:39:00,0.521s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-29 11:39:00,2023-11-29 11:39:00,0.110s,PASSED
+"navigateToUrl(""https://dash.admetrics.ai/"")",Chrome 118.0.0.0,,,2023-11-29 11:39:00,2023-11-29 11:39:01,1.142s,PASSED
+"click(findTestObject(""Object Repository/Page_Empty_credentials/Page_/input_User ID_username""))",Chrome 118.0.0.0,,,2023-11-29 11:39:01,2023-11-29 11:39:03,2.464s,PASSED
+"click(findTestObject(""Object Repository/Page_Empty_credentials/Page_/button_Login""))",Chrome 118.0.0.0,,,2023-11-29 11:39:03,2023-11-29 11:39:04,0.544s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Empty_credentials/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 118.0.0.0,,,2023-11-29 11:39:04,2023-11-29 11:39:05,0.473s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-29 11:39:05,2023-11-29 11:39:05,0.073s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_valid_login,Chrome 118.0.0.0,,,2023-11-29 11:39:05,2023-11-29 11:39:13,8.544s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-11-29 11:39:05,2023-11-29 11:39:05,0.604s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-29 11:39:05,2023-11-29 11:39:05,0.112s,PASSED
+"navigateToUrl(""https://dash.admetrics.ai/"")",Chrome 118.0.0.0,,,2023-11-29 11:39:05,2023-11-29 11:39:06,0.651s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_login/Page_/input_User ID_username""), ""admin"")",Chrome 118.0.0.0,,,2023-11-29 11:39:06,2023-11-29 11:39:09,2.989s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_login/Page_/input_Password_password""), ""7Dxoto1EjKfQbGop/Ov+1g=="")",Chrome 118.0.0.0,,,2023-11-29 11:39:09,2023-11-29 11:39:09,0.316s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_login/Page_/button_Login""))",Chrome 118.0.0.0,,,2023-11-29 11:39:09,2023-11-29 11:39:10,0.286s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_valid_login/Page_/p_Summary Statistics""), ""Summary Statistics"")",Chrome 118.0.0.0,,,2023-11-29 11:39:10,2023-11-29 11:39:13,3.391s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-29 11:39:13,2023-11-29 11:39:13,0.073s,PASSED

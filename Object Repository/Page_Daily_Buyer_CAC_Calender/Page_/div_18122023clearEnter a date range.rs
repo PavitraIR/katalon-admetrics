@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_18122023clearEnter a date range</name>
+   <tag></tag>
+   <elementGuidId>12ce1e8c-ca91-4e93-b05a-e29b05cbe823</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-1-2']/div/app-daily-buyer-cac-trendline-chart/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.filter-row.grid.grid-cols-10</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>53e38e08-07b1-4c66-8886-c7b0ea5724de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filter-row grid grid-cols-10</value>
+      <webElementGuid>1a26bd88-523d-406e-81a9-8c10af41d95b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>18/12/2023–clearEnter a date range</value>
+      <webElementGuid>975c13ac-3a27-41dd-b58d-a3f345196840</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-2&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c164-7 ng-trigger ng-trigger-translateTab&quot;]/app-daily-buyer-cac-trendline-chart[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-span-full tab-wrapper&quot;]/div[@class=&quot;filter-row grid grid-cols-10&quot;]</value>
+      <webElementGuid>ca95be3f-b57b-4ad4-bbca-732367d9dc86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-1-2']/div/app-daily-buyer-cac-trendline-chart/div/div</value>
+      <webElementGuid>14c04578-b573-414b-95d9-d01cbb53c089</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-daily-buyer-cac-trendline-chart/div/div</value>
+      <webElementGuid>72c91c81-602b-42a4-b541-18c79d6dea16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '18/12/2023–clearEnter a date range' or . = '18/12/2023–clearEnter a date range')]</value>
+      <webElementGuid>6ed29af7-f4b3-48c3-a91f-3cc31c921e06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

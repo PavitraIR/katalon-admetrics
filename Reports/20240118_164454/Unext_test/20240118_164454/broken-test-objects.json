@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report",
+      "brokenLocator": "/html/body/app-root/app-layout/div/div/div/div/app-admetric/div[1]/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_164454/Unext_test/20240118_164454/Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report_position.png"
+    }
+  ]
+}

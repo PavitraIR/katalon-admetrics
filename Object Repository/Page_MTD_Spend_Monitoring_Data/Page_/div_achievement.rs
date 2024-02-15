@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_achievement</name>
+   <tag></tag>
+   <elementGuidId>36eba827-02fd-4c9a-b7a0-90ebcb7c5797</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.report-name.text-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bignumber2']/div/app-big-number/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>206723a9-35d0-4703-b54b-8a0dbba01a20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>report-name text-center</value>
+      <webElementGuid>26b387e3-6617-48f0-8cbf-f758f4077b0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> % achievement </value>
+      <webElementGuid>98d6e6d9-717c-4622-9abb-7978ac52747b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bignumber2&quot;)/div[@class=&quot;ng-star-inserted&quot;]/app-big-number[1]/div[@class=&quot;report-wrapper ng-star-inserted&quot;]/div[@class=&quot;report-name text-center&quot;]</value>
+      <webElementGuid>6a10e1cc-7ba1-4a6c-9309-a9fc04a266bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bignumber2']/div/app-big-number/div/div[2]</value>
+      <webElementGuid>ad956592-1640-46f8-991c-dcc57fc5f036</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-big-number/div/div[2]</value>
+      <webElementGuid>0aa444ab-b7ed-4d44-9d6c-d233e5c3ea6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' % achievement ' or . = ' % achievement ')]</value>
+      <webElementGuid>1a92a437-d419-4896-b0c9-649926f0c9cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

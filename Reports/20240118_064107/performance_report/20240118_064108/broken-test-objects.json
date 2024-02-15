@@ -1,0 +1,234 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Weekly_Buyer_CAC_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Weekly_Buyer_CAC_Calender/Page_/polygon",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "polygon",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Weekly_Buyer_CAC_Calender/Page_/polygon_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/mat-icon_clear",
+      "brokenLocator": "//mat-tab-body[@id\u003d\u0027mat-tab-content-0-0\u0027]/div/app-weekly-admetric/div/div/div/app-time-series-filter-panel/div/mat-form-field/div/div/div/mat-icon",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-icon",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Calender/Page_/mat-icon_clear_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/span_DEC 2023",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/mat-calendar-header/div/div/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Calender/Page_/span_DEC 2023_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/polygon",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "polygon",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Calender/Page_/polygon_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-calendar-arrow.mat-calendar-invert",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Calender/Page_/svg_mat-calendar-arrow mat-calendar-invert_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr[2]/td/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td/button/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Calender/Page_/div_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Calender/Page_/div_31",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-0\u0027]/div/mat-month-view/table/tbody/tr[6]/td[3]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[6]/td[3]/button/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Calender/Page_/div_31_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/div_Items per page",
+      "brokenLocator": "//div[@id\u003d\u0027table1\u0027]/app-weekly-approved-vs-campaign-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-paginator/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Items_Per_Page/Page_/div_Items per page_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow ng-tns-c110-10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-0\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-select/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Items_Per_Page/Page_/div_mat-select-arrow-wrapper ng-tns-c110-10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Items_Per_Page/Page_/span_10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Items_Per_Page/Page_/span_20_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_30",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[4]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Items_Per_Page/Page_/span_30_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Items_Per_Page/Page_/span_5",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-0\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Items_Per_Page/Page_/span_5_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.mat-datepicker-toggle-default-icon.ng-star-inserted",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Daily_Buyer_CAC_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Calender/Page_/div_1",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr/td[2]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[2]/button/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Daily_Buyer_CAC_Calender/Page_/div_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_CAC_Calender/Page_/div_30",
+      "brokenLocator": "//mat-calendar[@id\u003d\u0027mat-datepicker-2\u0027]/div/mat-month-view/table/tbody/tr[5]/td[7]/button/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[5]/td[7]/button/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Daily_Buyer_CAC_Calender/Page_/div_30_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_Items_Dropdown_Table2/Page_/div_mat-select-arrow-wrapper ng-tns-c109-17",
+      "brokenLocator": "//mat-select[@id\u003d\u0027mat-select-2\u0027]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//app-total-projects-by-source-channel-table/div/div/div/app-material-heat-chart-drilldown-table/div/mat-paginator/div/div/div/mat-form-field/div/div/div/mat-select/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Daily_Buyer_Items_Dropdown_Table2/Page_/div_mat-select-arrow-wrapper ng-tns-c109-17_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_Items_Dropdown_Table2/Page_/span_10",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-5\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Daily_Buyer_Items_Dropdown_Table2/Page_/span_10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_Items_Dropdown_Table2/Page_/span_20",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-6\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Daily_Buyer_Items_Dropdown_Table2/Page_/span_20_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Buyer_Items_Dropdown_Table2/Page_/span_30",
+      "brokenLocator": "//mat-option[@id\u003d\u0027mat-option-7\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-option[4]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240118_064107/performance_report/20240118_064108/Object Repository/Page_Daily_Buyer_Items_Dropdown_Table2/Page_/span_30_position.png"
+    }
+  ]
+}

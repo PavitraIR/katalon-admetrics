@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Campaign Analytics</name>
+   <tag></tag>
+   <elementGuidId>5b92fbc3-0ae9-4720-8f81-b05410546bea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-layout/div/div/div/div/app-campaign-analytics/div[1]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.program-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>2517eabb-ef64-4354-b6a8-d1b45f574fd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>program-title</value>
+      <webElementGuid>0784992c-997a-483b-979f-6f974ee6f33a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign Analytics</value>
+      <webElementGuid>9bbf368f-f9bc-4c14-95bb-5780cea498d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;sidebaractive&quot;]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[@class=&quot;app-content-wrapper&quot;]/div[@class=&quot;app-content&quot;]/app-campaign-analytics[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;metric-card-wrapper&quot;]/div[@class=&quot;grid gap-4 grid-cols-6 xmd:grid-cols-12&quot;]/div[@class=&quot;col-span-12&quot;]/p[@class=&quot;program-title&quot;]</value>
+      <webElementGuid>96a2746d-b710-4122-ab82-8343d16821e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>3a78e81e-b73b-48fa-be2c-f2f4547844dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Campaign Analytics' or . = 'Campaign Analytics')]</value>
+      <webElementGuid>27c0254a-92fe-4b22-9c55-8f6dee8f9ba7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

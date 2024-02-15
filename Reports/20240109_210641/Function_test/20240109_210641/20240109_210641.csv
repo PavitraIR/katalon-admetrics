@@ -1,0 +1,225 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Function_test,Chrome 120.0.0.0,,,09-01-2024 21:06:48,09-01-2024 21:33:51,27m - 2.533s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_verify_project_title,Chrome 120.0.0.0,,,09-01-2024 21:06:48,09-01-2024 21:08:01,1m - 12.099s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,09-01-2024 21:06:49,09-01-2024 21:06:52,2.826s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,09-01-2024 21:06:52,09-01-2024 21:06:52,0.207s,PASSED
+"navigateToUrl(""https://dash.admetrics.ai/#/login
+"")",Chrome 120.0.0.0,,,09-01-2024 21:06:52,09-01-2024 21:06:54,2.643s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3""))",Chrome 120.0.0.0,,,09-01-2024 21:06:54,09-01-2024 21:07:26,31.889s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/p_admetrics""), ""admetrics"")",Chrome 120.0.0.0,,,09-01-2024 21:07:26,09-01-2024 21:07:58,31.663s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/label_User ID""), ""User ID"")",Chrome 120.0.0.0,,,09-01-2024 21:07:58,09-01-2024 21:07:58,0.441s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/input_User ID_username""), """")",Chrome 120.0.0.0,,,09-01-2024 21:07:58,09-01-2024 21:07:59,0.400s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/label_Password""), ""Password"")",Chrome 120.0.0.0,,,09-01-2024 21:07:59,09-01-2024 21:07:59,0.420s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/input_Password_password""), """")",Chrome 120.0.0.0,,,09-01-2024 21:07:59,09-01-2024 21:08:00,0.413s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Project_Title/Page_/button_Login""), ""Login"")",Chrome 120.0.0.0,,,09-01-2024 21:08:00,09-01-2024 21:08:00,0.446s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Project_Title/Page_/button_Login""))",Chrome 120.0.0.0,,,09-01-2024 21:08:00,09-01-2024 21:08:01,0.452s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_empty_credentials,Chrome 120.0.0.0,,,09-01-2024 21:08:01,09-01-2024 21:08:02,1.733s,PASSED
+"click(findTestObject(""Object Repository/Page_Empty_credentials/Page_/input_User ID_username""))",Chrome 120.0.0.0,,,09-01-2024 21:08:01,09-01-2024 21:08:01,0.485s,PASSED
+"click(findTestObject(""Object Repository/Page_Empty_credentials/Page_/button_Login""))",Chrome 120.0.0.0,,,09-01-2024 21:08:01,09-01-2024 21:08:02,0.499s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Empty_credentials/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,09-01-2024 21:08:02,09-01-2024 21:08:02,0.544s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_invalidusername_validpassword,Chrome 120.0.0.0,,,09-01-2024 21:08:02,09-01-2024 21:08:05,2.578s,PASSED
+"setText(findTestObject(""Object Repository/Page_invalid_valid/Page_/input_User ID_username""), ""tibil"")",Chrome 120.0.0.0,,,09-01-2024 21:08:02,09-01-2024 21:08:03,0.845s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_invalid_valid/Page_/input_Password_password""), ""7Dxoto1EjKfQbGop/Ov+1g=="")",Chrome 120.0.0.0,,,09-01-2024 21:08:03,09-01-2024 21:08:04,0.639s,PASSED
+"click(findTestObject(""Object Repository/Page_invalid_valid/Page_/button_Login""))",Chrome 120.0.0.0,,,09-01-2024 21:08:04,09-01-2024 21:08:04,0.388s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_invalid_valid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,09-01-2024 21:08:04,09-01-2024 21:08:05,0.536s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_validate_login_page,Chrome 120.0.0.0,,,09-01-2024 21:08:05,09-01-2024 21:08:08,2.611s,PASSED
+"setText(findTestObject(""Object Repository/Page_Invalid/Page_/input_User ID_username""), username)",Chrome 120.0.0.0,,,09-01-2024 21:08:05,09-01-2024 21:08:06,0.836s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Invalid/Page_/input_Password_password""), password)",Chrome 120.0.0.0,,,09-01-2024 21:08:06,09-01-2024 21:08:07,0.463s,PASSED
+"click(findTestObject(""Object Repository/Page_Invalid/Page_/button_Login""))",Chrome 120.0.0.0,,,09-01-2024 21:08:07,09-01-2024 21:08:07,0.525s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,09-01-2024 21:08:07,09-01-2024 21:08:08,0.443s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_validusername_invalipassword,Chrome 120.0.0.0,,,09-01-2024 21:08:08,09-01-2024 21:08:10,2.473s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_invalid/Page_/input_User ID_username""), ""admin"")",Chrome 120.0.0.0,,,09-01-2024 21:08:08,09-01-2024 21:08:09,0.826s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_invalid/Page_/input_Password_password""), ""RSNArcc3BqI="")",Chrome 120.0.0.0,,,09-01-2024 21:08:09,09-01-2024 21:08:09,0.445s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_invalid/Page_/button_Login""))",Chrome 120.0.0.0,,,09-01-2024 21:08:09,09-01-2024 21:08:09,0.502s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_valid_invalid/Page_/span_Invalid Credentials""), ""Invalid Credentials"")",Chrome 120.0.0.0,,,09-01-2024 21:08:09,09-01-2024 21:08:10,0.509s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_valid_login,Chrome 120.0.0.0,,,09-01-2024 21:08:10,09-01-2024 21:08:17,6.594s,PASSED
+"setText(findTestObject(""Object Repository/Page_valid_login/Page_/input_User ID_username""), username)",Chrome 120.0.0.0,,,09-01-2024 21:08:10,09-01-2024 21:08:11,1.161s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_valid_login/Page_/input_Password_password""), password)",Chrome 120.0.0.0,,,09-01-2024 21:08:11,09-01-2024 21:08:12,0.532s,PASSED
+"click(findTestObject(""Object Repository/Page_valid_login/Page_/button_Login""))",Chrome 120.0.0.0,,,09-01-2024 21:08:12,09-01-2024 21:08:12,0.466s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,09-01-2024 21:08:12,09-01-2024 21:08:15,2.135s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:08:15,09-01-2024 21:08:17,2.076s,PASSED
+,,,,,,,
+Test Cases/Login_Page/test_verify_menu,Chrome 120.0.0.0,,"@functional,@smoke",09-01-2024 21:08:17,09-01-2024 21:08:43,25.939s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:08:17,09-01-2024 21:08:17,0.391s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_admetrics""), ""admetrics"")",Chrome 120.0.0.0,,,09-01-2024 21:08:17,09-01-2024 21:08:18,0.447s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-1""))",Chrome 120.0.0.0,,,09-01-2024 21:08:18,09-01-2024 21:08:18,0.431s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2""))",Chrome 120.0.0.0,,,09-01-2024 21:08:18,09-01-2024 21:08:19,0.581s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner horizontal""))",Chrome 120.0.0.0,,,09-01-2024 21:08:19,09-01-2024 21:08:19,0.594s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner horizontal_1""))",Chrome 120.0.0.0,,,09-01-2024 21:08:19,09-01-2024 21:08:20,0.686s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2""))",Chrome 120.0.0.0,,,09-01-2024 21:08:20,09-01-2024 21:08:20,0.432s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/label_admetrics_sidebarIconToggle""))",Chrome 120.0.0.0,,,09-01-2024 21:08:20,09-01-2024 21:08:21,0.572s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_admetrics_menuIcon""))",Chrome 120.0.0.0,,,09-01-2024 21:08:21,09-01-2024 21:08:21,0.481s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/li_Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:08:21,09-01-2024 21:08:22,0.526s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/p_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,09-01-2024 21:08:22,09-01-2024 21:08:22,0.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner horizontal_1""))",Chrome 120.0.0.0,,,09-01-2024 21:08:22,09-01-2024 21:08:23,0.430s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/li_Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:08:23,09-01-2024 21:08:23,0.513s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/label_admetrics_sidebarIconToggle""))",Chrome 120.0.0.0,,,09-01-2024 21:08:23,09-01-2024 21:08:24,0.538s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/span_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,09-01-2024 21:08:24,09-01-2024 21:08:24,0.528s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_Spend Report_menuIcon""))",Chrome 120.0.0.0,,,09-01-2024 21:08:24,09-01-2024 21:08:25,0.465s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:08:25,09-01-2024 21:08:25,0.477s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:08:25,09-01-2024 21:08:27,1.295s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2""))",Chrome 120.0.0.0,,,09-01-2024 21:08:27,09-01-2024 21:08:28,1.295s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/p_Spend Monitoring Report""), ""Spend Monitoring Report"")",Chrome 120.0.0.0,,,09-01-2024 21:08:28,09-01-2024 21:08:28,0.459s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2_1""))",Chrome 120.0.0.0,,,09-01-2024 21:08:28,09-01-2024 21:08:29,0.416s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_Spend Monitoring_menuIcon""))",Chrome 120.0.0.0,,,09-01-2024 21:08:29,09-01-2024 21:08:29,0.528s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/li_Performance""))",Chrome 120.0.0.0,,,09-01-2024 21:08:29,09-01-2024 21:08:30,0.481s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/li_Performance""))",Chrome 120.0.0.0,,,09-01-2024 21:08:30,09-01-2024 21:08:31,1.065s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/p_Performance Report""), ""Performance Report"")",Chrome 120.0.0.0,,,09-01-2024 21:08:31,09-01-2024 21:08:32,1.438s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/div_admetrics_spinner diagonal part-2""))",Chrome 120.0.0.0,,,09-01-2024 21:08:32,09-01-2024 21:08:33,0.504s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/label_admetrics_sidebarIconToggle""))",Chrome 120.0.0.0,,,09-01-2024 21:08:33,09-01-2024 21:08:33,0.539s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Menu/Page_/img_Performance_menuIcon""))",Chrome 120.0.0.0,,,09-01-2024 21:08:33,09-01-2024 21:08:34,0.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/li_Campaign""))",Chrome 120.0.0.0,,,09-01-2024 21:08:34,09-01-2024 21:08:34,0.422s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/li_Campaign""))",Chrome 120.0.0.0,,,09-01-2024 21:08:34,09-01-2024 21:08:38,3.847s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/label_admetrics_sidebarIconToggle_1""))",Chrome 120.0.0.0,,,09-01-2024 21:08:38,09-01-2024 21:08:39,0.403s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Menu/Page_/p_Campaign Analytics""), ""Campaign Analytics"")",Chrome 120.0.0.0,,,09-01-2024 21:08:39,09-01-2024 21:08:39,0.479s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/label_admetrics_sidebarIconToggle""))",Chrome 120.0.0.0,,,09-01-2024 21:08:39,09-01-2024 21:08:40,0.473s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Menu/Page_/i_Campaign_signOut""))",Chrome 120.0.0.0,,,09-01-2024 21:08:40,09-01-2024 21:08:40,0.528s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu/Page_/i_Campaign_signOut""))",Chrome 120.0.0.0,,,09-01-2024 21:08:40,09-01-2024 21:08:41,0.409s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:08:41,09-01-2024 21:08:43,2.012s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_verify_navigating_spend_report,Chrome 120.0.0.0,,,09-01-2024 21:08:43,09-01-2024 21:09:01,18.731s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:08:43,09-01-2024 21:08:48,5.674s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:08:48,09-01-2024 21:08:58,9.971s,PASSED
+"click(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:08:58,09-01-2024 21:08:59,0.411s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,09-01-2024 21:08:59,09-01-2024 21:08:59,0.399s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:08:59,09-01-2024 21:09:01,2.004s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_weekly_tab,Chrome 120.0.0.0,,,09-01-2024 21:09:01,09-01-2024 21:09:04,2.992s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report""), ""Weekly Spend Report"")",Chrome 120.0.0.0,,,09-01-2024 21:09:01,09-01-2024 21:09:02,0.305s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:09:02,09-01-2024 21:09:02,0.292s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:09:02,09-01-2024 21:09:02,0.315s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:09:02,09-01-2024 21:09:04,2.006s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_weekly_calender,Chrome 120.0.0.0,,,09-01-2024 21:09:04,09-01-2024 21:11:24,2m - 19.932s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Calender""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:09:04,09-01-2024 21:11:17,2m - 12.953s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:11:17,09-01-2024 21:11:24,6.894s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_monthly_tab,Chrome 120.0.0.0,,,09-01-2024 21:11:24,09-01-2024 21:11:26,1.306s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report""), ""Monthly Spend Report"")",Chrome 120.0.0.0,,,09-01-2024 21:11:24,09-01-2024 21:11:25,0.322s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:11:25,09-01-2024 21:11:25,0.348s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:11:25,09-01-2024 21:11:26,0.569s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_monthly_calender,Chrome 120.0.0.0,,,09-01-2024 21:11:26,09-01-2024 21:16:20,4m - 54.817s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Calender""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:11:26,09-01-2024 21:16:14,4m - 47.927s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:16:14,09-01-2024 21:16:20,6.803s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_daily_tab,Chrome 120.0.0.0,,,09-01-2024 21:16:20,09-01-2024 21:16:24,3.341s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report""), ""Daily Spend Report"")",Chrome 120.0.0.0,,,09-01-2024 21:16:20,09-01-2024 21:16:21,0.334s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:16:21,09-01-2024 21:16:21,0.352s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:16:21,09-01-2024 21:16:22,0.561s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:16:22,09-01-2024 21:16:24,2.014s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_daily_calender,Chrome 120.0.0.0,,,09-01-2024 21:16:24,09-01-2024 21:21:18,4m - 54.290s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Calender""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:16:24,09-01-2024 21:21:11,4m - 47.578s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:21:11,09-01-2024 21:21:18,6.610s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_weekly_zoom,Chrome 120.0.0.0,,,09-01-2024 21:21:18,09-01-2024 21:21:25,6.965s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Zoom/Page_/div_Weekly Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:21:18,09-01-2024 21:21:19,0.444s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Weekly_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:21:19,09-01-2024 21:21:20,1.887s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:21:20,09-01-2024 21:21:21,0.424s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:21:21,09-01-2024 21:21:23,2.021s,PASSED
+"executeJavaScript(""document.exitFullscreen();"", null)",Chrome 120.0.0.0,,,09-01-2024 21:21:23,09-01-2024 21:21:23,0.080s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:21:23,09-01-2024 21:21:25,2.015s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_monthly_zoom,Chrome 120.0.0.0,,,09-01-2024 21:21:25,09-01-2024 21:21:32,7.095s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Zoom/Page_/div_Monthly Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:21:25,09-01-2024 21:21:26,0.501s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Monthly_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:21:26,09-01-2024 21:21:28,2.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:21:28,09-01-2024 21:21:28,0.346s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:21:28,09-01-2024 21:21:30,2.011s,PASSED
+"executeJavaScript(""document.exitFullscreen();"", null)",Chrome 120.0.0.0,,,09-01-2024 21:21:30,09-01-2024 21:21:30,0.105s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:21:30,09-01-2024 21:21:32,2.018s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_daily_zoom,Chrome 120.0.0.0,,,09-01-2024 21:21:32,09-01-2024 21:21:39,6.760s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Zoom/Page_/div_Daily Spend Report""))",Chrome 120.0.0.0,,,09-01-2024 21:21:32,09-01-2024 21:21:33,0.449s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Daily_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:21:33,09-01-2024 21:21:34,1.408s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:21:34,09-01-2024 21:21:35,0.701s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:21:35,09-01-2024 21:21:37,2.013s,PASSED
+"executeJavaScript(""document.exitFullscreen();"", null)",Chrome 120.0.0.0,,,09-01-2024 21:21:37,09-01-2024 21:21:37,0.085s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:21:37,09-01-2024 21:21:39,2.012s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_verify_navigating_spend_monitor,Chrome 120.0.0.0,,,09-01-2024 21:21:39,09-01-2024 21:21:42,3.441s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Monitoring/Page_/img_menuIcon""))",Chrome 120.0.0.0,,,09-01-2024 21:21:39,09-01-2024 21:21:39,0.305s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Monitoring/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:21:39,09-01-2024 21:21:40,0.399s,PASSED
+"click(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Monitoring/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:21:40,09-01-2024 21:21:40,0.455s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Monitoring/Page_/p_Spend Monitoring Report""), ""Spend Monitoring Report"")",Chrome 120.0.0.0,,,09-01-2024 21:21:40,09-01-2024 21:21:42,2.210s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_weekly_spend_monitoring_tab,Chrome 120.0.0.0,,,09-01-2024 21:21:42,09-01-2024 21:21:44,1.469s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Spend_Monitoring_Tab/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:21:42,09-01-2024 21:21:43,0.308s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Weekly_Spend_Monitoring_Tab/Page_/div_Weekly Spends Monitoring Report""), ""Weekly Spends Monitoring Report"")",Chrome 120.0.0.0,,,09-01-2024 21:21:43,09-01-2024 21:21:43,0.368s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Weekly_Spend_Monitoring_Tab/Page_/div_Weekly Spends Monitoring Report""))",Chrome 120.0.0.0,,,09-01-2024 21:21:43,09-01-2024 21:21:43,0.352s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Spend_Monitoring_Tab/Page_/div_Weekly Spends Monitoring Report""))",Chrome 120.0.0.0,,,09-01-2024 21:21:43,09-01-2024 21:21:44,0.379s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_weekly_spend_monitoring_calender,Chrome 120.0.0.0,,,09-01-2024 21:21:44,09-01-2024 21:26:39,4m - 54.786s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Calender""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:21:44,09-01-2024 21:26:32,4m - 48.035s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:26:32,09-01-2024 21:26:39,6.686s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_daily_spend_monitoring_tab,Chrome 120.0.0.0,,,09-01-2024 21:26:39,09-01-2024 21:26:40,1.719s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Spend_Monitoring_Tab/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:26:39,09-01-2024 21:26:39,0.392s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Daily_Spend_Monitoring_Tab/Page_/div_Daily Spends Monitoring Report""), ""Daily Spends Monitoring Report"")",Chrome 120.0.0.0,,,09-01-2024 21:26:39,09-01-2024 21:26:39,0.390s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Daily_Spend_Monitoring_Tab/Page_/div_Daily Spends Monitoring Report""))",Chrome 120.0.0.0,,,09-01-2024 21:26:39,09-01-2024 21:26:40,0.373s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Spend_Monitoring_Tab/Page_/div_Daily Spends Monitoring Report""))",Chrome 120.0.0.0,,,09-01-2024 21:26:40,09-01-2024 21:26:40,0.499s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_daily_spend_monitoring_calender,Chrome 120.0.0.0,,,09-01-2024 21:26:40,09-01-2024 21:31:34,4m - 53.842s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Calender""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:26:40,09-01-2024 21:31:28,4m - 47.268s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:31:28,09-01-2024 21:31:34,6.492s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_mtd_spend_monitoring_tab,Chrome 120.0.0.0,,,09-01-2024 21:31:34,09-01-2024 21:31:36,1.713s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Tab/Page_/li_Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:31:34,09-01-2024 21:31:35,0.360s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Tab/Page_/div_MTD Spend Monitoring""), ""MTD Spend Monitoring"")",Chrome 120.0.0.0,,,09-01-2024 21:31:35,09-01-2024 21:31:35,0.378s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Tab/Page_/div_MTD Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:31:35,09-01-2024 21:31:35,0.395s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Tab/Page_/div_MTD Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:31:35,09-01-2024 21:31:36,0.499s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_mtd_spend_monitoring_data,Chrome 120.0.0.0,,,09-01-2024 21:31:36,09-01-2024 21:33:29,1m - 53.423s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/h1_0""))",Chrome 120.0.0.0,,,09-01-2024 21:31:36,09-01-2024 21:31:38,2.450s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_achievement""), ""% achievement"")",Chrome 120.0.0.0,,,09-01-2024 21:31:38,09-01-2024 21:31:39,0.336s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/p_MTD Spend Prorated""), ""MTD Spend Prorated"")",Chrome 120.0.0.0,,,09-01-2024 21:31:39,09-01-2024 21:31:39,0.367s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Items_per_page""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,09-01-2024 21:31:39,09-01-2024 21:31:46,6.471s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/p_Monthly Spend Vs Target""), ""Monthly Spend Vs Target"")",Chrome 120.0.0.0,,,09-01-2024 21:31:46,09-01-2024 21:31:46,0.351s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_Items per page""), ""Items per page:"")",Chrome 120.0.0.0,,,09-01-2024 21:31:46,09-01-2024 21:31:46,0.387s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_mat-select-arrow-wrapper ng-tns-c110-14""))",Chrome 120.0.0.0,,,09-01-2024 21:31:46,09-01-2024 21:31:47,0.357s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_mat-select-arrow ng-tns-c110-14""))",Chrome 120.0.0.0,,,09-01-2024 21:31:47,09-01-2024 21:31:47,0.494s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/span_20""))",Chrome 120.0.0.0,,,09-01-2024 21:31:47,09-01-2024 21:31:48,0.751s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_mat-select-arrow ng-tns-c110-14""))",Chrome 120.0.0.0,,,09-01-2024 21:31:48,09-01-2024 21:31:49,0.928s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/span_10""))",Chrome 120.0.0.0,,,09-01-2024 21:31:49,09-01-2024 21:31:50,0.670s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_mat-select-arrow-wrapper ng-tns-c110-14""))",Chrome 120.0.0.0,,,09-01-2024 21:31:50,09-01-2024 21:31:50,0.726s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/span_5""))",Chrome 120.0.0.0,,,09-01-2024 21:31:50,09-01-2024 21:31:51,0.697s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/p_MTD Spend Vs Target by Channel""), ""MTD Spend Vs Target by Channel"")",Chrome 120.0.0.0,,,09-01-2024 21:31:51,09-01-2024 21:31:52,0.783s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_Items per page""), ""Items per page:"")",Chrome 120.0.0.0,,,09-01-2024 21:31:52,09-01-2024 21:31:52,0.392s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_mat-select-arrow-wrapper ng-tns-c110-12""))",Chrome 120.0.0.0,,,09-01-2024 21:31:52,09-01-2024 21:31:53,0.396s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_mat-select-arrow ng-tns-c110-12""))",Chrome 120.0.0.0,,,09-01-2024 21:31:53,09-01-2024 21:31:53,0.435s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/span_20""))",Chrome 120.0.0.0,,,09-01-2024 21:31:53,09-01-2024 21:32:25,31.574s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_mat-select-arrow-wrapper ng-tns-c110-12""))",Chrome 120.0.0.0,,,09-01-2024 21:32:25,09-01-2024 21:32:25,0.745s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/span_10""))",Chrome 120.0.0.0,,,09-01-2024 21:32:25,09-01-2024 21:32:57,31.657s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/div_mat-select-arrow ng-tns-c110-12""))",Chrome 120.0.0.0,,,09-01-2024 21:32:57,09-01-2024 21:32:58,0.757s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Data/Page_/span_5""))",Chrome 120.0.0.0,,,09-01-2024 21:32:58,09-01-2024 21:33:29,31.587s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_weekly_spend_monitoring_zoom,Chrome 120.0.0.0,,,09-01-2024 21:33:29,09-01-2024 21:33:36,6.995s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Spend_Monitoring_Zoom/Page_/div_Weekly Spends Monitoring Report""))",Chrome 120.0.0.0,,,09-01-2024 21:33:29,09-01-2024 21:33:30,0.681s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Weekly_Spend_Monitoring_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:33:30,09-01-2024 21:33:32,1.640s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Spend_Monitoring_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:33:32,09-01-2024 21:33:32,0.483s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:33:32,09-01-2024 21:33:34,2.008s,PASSED
+"executeJavaScript(""document.exitFullscreen();"", null)",Chrome 120.0.0.0,,,09-01-2024 21:33:34,09-01-2024 21:33:34,0.106s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:33:34,09-01-2024 21:33:36,2.006s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_daily_spend_monitoring_zoom,Chrome 120.0.0.0,,,09-01-2024 21:33:36,09-01-2024 21:33:43,6.694s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Spend_Monitoring_Zoom/Page_/div_Daily Spends Monitoring Report""))",Chrome 120.0.0.0,,,09-01-2024 21:33:36,09-01-2024 21:33:37,0.403s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Daily_Spend_Monitoring_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:33:37,09-01-2024 21:33:39,1.690s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Spend_Monitoring_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:33:39,09-01-2024 21:33:39,0.389s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:33:39,09-01-2024 21:33:41,2.005s,PASSED
+"executeJavaScript(""document.exitFullscreen();"", null)",Chrome 120.0.0.0,,,09-01-2024 21:33:41,09-01-2024 21:33:41,0.095s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:33:41,09-01-2024 21:33:43,2.028s,PASSED
+,,,,,,,
+Test Cases/Spend Monitoring/test_mtd_spend_monitoring_zoom,Chrome 120.0.0.0,,,09-01-2024 21:33:43,09-01-2024 21:33:51,7.757s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Zoom/Page_/div_MTD Spend Monitoring""))",Chrome 120.0.0.0,,,09-01-2024 21:33:43,09-01-2024 21:33:43,0.367s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:33:43,09-01-2024 21:33:46,2.221s,PASSED
+"click(findTestObject(""Object Repository/Page_MTD_Spend_Monitoring_Zoom/Page_/img""))",Chrome 120.0.0.0,,,09-01-2024 21:33:46,09-01-2024 21:33:46,0.433s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:33:46,09-01-2024 21:33:48,2.019s,PASSED
+"executeJavaScript(""document.exitFullscreen();"", null)",Chrome 120.0.0.0,,,09-01-2024 21:33:48,09-01-2024 21:33:48,0.085s,PASSED
+delay(2),Chrome 120.0.0.0,,,09-01-2024 21:33:48,09-01-2024 21:33:50,2.013s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,09-01-2024 21:33:50,09-01-2024 21:33:51,0.542s,PASSED

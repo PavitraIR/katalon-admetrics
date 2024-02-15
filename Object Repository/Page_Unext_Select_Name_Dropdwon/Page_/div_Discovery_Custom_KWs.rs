@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Discovery_Custom_KWs</name>
+   <tag></tag>
+   <elementGuidId>bf1f708c-e867-43e6-8499-7256dd180db9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a4cecaed5c61-5']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#a4cecaed5c61-5 > div.row.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6e641fe5-8a9d-474c-9ace-c1f474b88e47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row ng-star-inserted</value>
+      <webElementGuid>33455c23-bd76-4471-9986-86246bcd57b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Discovery_Custom_KWs </value>
+      <webElementGuid>81e6ff5a-976a-43a5-b476-ac23dc10e522</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a4cecaed5c61-5&quot;)/div[@class=&quot;row ng-star-inserted&quot;]</value>
+      <webElementGuid>cda83f6b-983d-480d-9679-de0179a3c66c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a4cecaed5c61-5']/div</value>
+      <webElementGuid>0a10f9b2-0868-4d6d-94b2-222fed96aed8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div</value>
+      <webElementGuid>d46dd50e-2cde-4a62-bfac-d1f6b6ece3aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Discovery_Custom_KWs ' or . = ' Discovery_Custom_KWs ')]</value>
+      <webElementGuid>55898984-5230-43a8-a21d-0b3789409822</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

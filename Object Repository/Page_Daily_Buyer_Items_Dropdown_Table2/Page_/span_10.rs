@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_10</name>
+   <tag></tag>
+   <elementGuidId>e9bf9a9f-e5e5-4b18-8436-c7f4b47947bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-5']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-5 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>05e288a2-b2f9-49d1-8f8a-07f1bea62304</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>a9fa90a3-3e10-49e4-8a8a-e276653c8cf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 10 </value>
+      <webElementGuid>9e18981e-79cc-4559-bdb3-b8edf279643a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-5&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>cd56cfb6-6fe4-4113-8e45-3bb8ae7fa127</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-5']/span</value>
+      <webElementGuid>235a287b-6dab-4d8f-84b4-7ea5fb775aa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[2]/span</value>
+      <webElementGuid>577f24c6-2db8-408f-a70b-dd9cd6f17090</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' 10 ' or . = ' 10 ')]</value>
+      <webElementGuid>68ee81e2-e752-4644-bb4d-4be8b91d9e51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

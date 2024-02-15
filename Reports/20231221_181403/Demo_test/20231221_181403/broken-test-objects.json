@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3",
+      "brokenLocator": "//div[@id\u003d\u0027background\u0027]/div/div/div/div/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231221_181403/Demo_test/20231221_181403/Object Repository/Page_Project_Title/Page_/img_User ID_logoImg mr-3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Project_Title/Page_/p_admetrics",
+      "brokenLocator": "//div[@id\u003d\u0027background\u0027]/div/div/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User ID\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231221_181403/Demo_test/20231221_181403/Object Repository/Page_Project_Title/Page_/p_admetrics_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Campaign_CAC_Report1/Page_/button_DEC 2023_mat-focus-indicator mat-cal_bd9491",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[9]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231221_181403/Demo_test/20231221_181403/Object Repository/Page_Campaign_CAC_Report1/Page_/button_DEC 2023_mat-focus-indicator mat-cal_bd9491_customAttributes.png"
+    }
+  ]
+}

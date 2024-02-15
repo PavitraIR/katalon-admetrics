@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_campaign_metrics_table_ascending_decending</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>668531a3-c12f-40e5-a506-0e4f49bcf726</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_DRAFT</name>
+   <tag></tag>
+   <elementGuidId>6eb151fc-e3e0-40ee-a23b-256aae8f9e90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='afb1ab2ce352-3']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#afb1ab2ce352-3 > span.ng-option-label.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b6b992d2-c873-4a0c-acbc-3ea525c0ef2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-option-label ng-star-inserted</value>
+      <webElementGuid>9bef29fa-39a7-4f49-8ec8-e0baac256e18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DRAFT</value>
+      <webElementGuid>93f366ad-5061-490e-b8ef-ed06f6100c41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;afb1ab2ce352-3&quot;)/span[@class=&quot;ng-option-label ng-star-inserted&quot;]</value>
+      <webElementGuid>ac7fa8cf-9286-4fbd-95b6-caaf8d303265</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='afb1ab2ce352-3']/span</value>
+      <webElementGuid>fca9ff80-b7bf-4c1a-b22e-f611f4a90eb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span</value>
+      <webElementGuid>8afc24f6-0310-4932-b8a3-88c15ebe2ab7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'DRAFT' or . = 'DRAFT')]</value>
+      <webElementGuid>d0334ad7-36b5-4348-88c9-4b472e7c973a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

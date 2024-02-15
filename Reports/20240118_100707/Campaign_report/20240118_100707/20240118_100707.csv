@@ -1,0 +1,268 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Campaign_report,Chrome 120.0.0.0,,,18-01-2024 10:07:18,18-01-2024 10:25:07,17m - 49.109s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_verify_navigating_campaign_report,Chrome 120.0.0.0,,,18-01-2024 10:07:18,18-01-2024 10:07:28,9.549s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:07:19,18-01-2024 10:07:24,5.141s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/li_Campaign""))",Chrome 120.0.0.0,,,18-01-2024 10:07:24,18-01-2024 10:07:26,1.983s,PASSED
+"click(findTestObject(""Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/li_Campaign""))",Chrome 120.0.0.0,,,18-01-2024 10:07:26,18-01-2024 10:07:26,0.359s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/p_Campaign Analytics""), ""Campaign Analytics"")",Chrome 120.0.0.0,,,18-01-2024 10:07:26,18-01-2024 10:07:28,1.425s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Verify_Navigating_Campaign_Report/Page_/p_Campaign Analytics""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:07:28,18-01-2024 10:07:28,0.346s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_tab,Chrome 120.0.0.0,,,18-01-2024 10:07:28,18-01-2024 10:07:29,0.726s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_CAC_Tab/Page_/div_Campaign CAC""))",Chrome 120.0.0.0,,,18-01-2024 10:07:28,18-01-2024 10:07:28,0.322s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Tab/Page_/div_Campaign CAC""))",Chrome 120.0.0.0,,,18-01-2024 10:07:28,18-01-2024 10:07:29,0.316s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_calender,Chrome 120.0.0.0,,,18-01-2024 10:07:29,18-01-2024 10:08:36,1m - 7.290s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_campaign_CAC_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c""))",Chrome 120.0.0.0,,,18-01-2024 10:07:29,18-01-2024 10:08:00,31.515s,PASSED
+"click(findTestObject(""Object Repository/Page_campaign_CAC_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c""))",Chrome 120.0.0.0,,,18-01-2024 10:08:00,18-01-2024 10:08:32,31.591s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_campaign_CAC_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:08:32,18-01-2024 10:08:33,0.894s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_campaign_CAC_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:08:33,18-01-2024 10:08:33,0.320s,PASSED
+"click(findTestObject(""Object Repository/Page_campaign_CAC_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:08:33,18-01-2024 10:08:34,0.419s,PASSED
+"click(findTestObject(""Object Repository/Page_campaign_CAC_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:08:34,18-01-2024 10:08:35,0.964s,PASSED
+"click(findTestObject(""Object Repository/Page_campaign_CAC_Calender/Page_/div_1""))",Chrome 120.0.0.0,,,18-01-2024 10:08:35,18-01-2024 10:08:36,0.994s,PASSED
+"click(findTestObject(""Object Repository/Page_campaign_CAC_Calender/Page_/div_30""))",Chrome 120.0.0.0,,,18-01-2024 10:08:36,18-01-2024 10:08:36,0.504s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_verify_channel,Chrome 120.0.0.0,,,18-01-2024 10:08:36,18-01-2024 10:08:39,3.048s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Camapign_CAC_Verify_Channel/Page_/div_Select Channel""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:08:36,18-01-2024 10:08:37,1.218s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Camapign_CAC_Verify_Channel/Page_/div_Select Channel""), ""Select Channel"")",Chrome 120.0.0.0,,,18-01-2024 10:08:37,18-01-2024 10:08:38,0.330s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Camapign_CAC_Verify_Channel/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:08:38,18-01-2024 10:08:38,0.331s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Channel_dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:08:38,18-01-2024 10:08:39,1.034s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_select_channel_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:08:39,18-01-2024 10:10:20,1m - 40.791s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Channel_dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:08:39,18-01-2024 10:10:20,1m - 40.678s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_verify_businessline,Chrome 120.0.0.0,,,18-01-2024 10:10:20,18-01-2024 10:10:22,2.209s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_CAC_Verify_Businessline/Page_/div_Select Businessline""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:10:20,18-01-2024 10:10:20,0.311s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_CAC_Verify_Businessline/Page_/div_Select Businessline""), ""Select Businessline"")",Chrome 120.0.0.0,,,18-01-2024 10:10:20,18-01-2024 10:10:21,0.297s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_CAC_Verify_Businessline/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:10:21,18-01-2024 10:10:21,0.345s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Businessline_dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:10:21,18-01-2024 10:10:22,1.133s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_select_businessline_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:10:22,18-01-2024 10:11:29,1m - 7.024s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Businessline_Dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:10:22,18-01-2024 10:11:29,1m - 6.950s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_verify_status,Chrome 120.0.0.0,,,18-01-2024 10:11:29,18-01-2024 10:11:35,5.640s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_CAC_Verify_Status/Page_/div_Select Campaign Status""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:11:29,18-01-2024 10:11:30,0.334s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_CAC_Verify_Status/Page_/div_Select Campaign Status""), ""Select Campaign Status"")",Chrome 120.0.0.0,,,18-01-2024 10:11:30,18-01-2024 10:11:30,0.303s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_CAC_Verify_Status/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:11:30,18-01-2024 10:11:30,0.306s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Campaign_status_dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:11:30,18-01-2024 10:11:33,2.564s,PASSED
+delay(2),Chrome 120.0.0.0,,,18-01-2024 10:11:33,18-01-2024 10:11:35,2.017s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_select_status_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:11:35,18-01-2024 10:14:20,2m - 44.908s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Status_Dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:11:35,18-01-2024 10:14:20,2m - 44.791s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_verify_name,Chrome 120.0.0.0,,,18-01-2024 10:14:20,18-01-2024 10:14:24,3.786s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_CAC_Verify_Name/Page_/input_text""), """")",Chrome 120.0.0.0,,,18-01-2024 10:14:20,18-01-2024 10:14:20,0.351s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_CAC_Verify_Name/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:14:20,18-01-2024 10:14:21,0.305s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Campaign_Name_Dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:14:21,18-01-2024 10:14:22,1.008s,PASSED
+delay(2),Chrome 120.0.0.0,,,18-01-2024 10:14:22,18-01-2024 10:14:24,2.004s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_select_name_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:14:24,18-01-2024 10:19:43,5m - 19.862s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Name_Dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:14:24,18-01-2024 10:19:43,5m - 19.774s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_table_title,Chrome 120.0.0.0,,,18-01-2024 10:19:43,18-01-2024 10:19:48,4.454s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/h2_Campaign CAC""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:19:44,18-01-2024 10:19:44,0.309s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/h2_Campaign CAC""), ""Campaign CAC"")",Chrome 120.0.0.0,,,18-01-2024 10:19:44,18-01-2024 10:19:44,0.371s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_Date""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:19:44,18-01-2024 10:19:45,0.398s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_Date""), ""Date"")",Chrome 120.0.0.0,,,18-01-2024 10:19:45,18-01-2024 10:19:45,0.342s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_Campaign Name""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:19:45,18-01-2024 10:19:45,0.381s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_Campaign Name""), ""Campaign Name"")",Chrome 120.0.0.0,,,18-01-2024 10:19:45,18-01-2024 10:19:46,0.352s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_Campaign Spend""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:19:46,18-01-2024 10:19:46,0.404s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_Campaign Spend""), ""Campaign Spend"")",Chrome 120.0.0.0,,,18-01-2024 10:19:46,18-01-2024 10:19:46,0.326s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_No Conversion""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:19:46,18-01-2024 10:19:47,0.362s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_No Conversion""), ""No Conversion"")",Chrome 120.0.0.0,,,18-01-2024 10:19:47,18-01-2024 10:19:47,0.360s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_Campaign CAC""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:19:47,18-01-2024 10:19:48,0.397s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_CAC_Table_Title/Page_/div_Campaign CAC""), ""Campaign CAC"")",Chrome 120.0.0.0,,,18-01-2024 10:19:48,18-01-2024 10:19:48,0.347s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_ascending_decending,Chrome 120.0.0.0,,,18-01-2024 10:19:48,18-01-2024 10:19:56,7.648s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-12""))",Chrome 120.0.0.0,,,18-01-2024 10:19:48,18-01-2024 10:19:48,0.271s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_918987""))",Chrome 120.0.0.0,,,18-01-2024 10:19:48,18-01-2024 10:19:49,0.391s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-14_1""))",Chrome 120.0.0.0,,,18-01-2024 10:19:49,18-01-2024 10:19:49,0.394s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_347612""))",Chrome 120.0.0.0,,,18-01-2024 10:19:49,18-01-2024 10:19:49,0.410s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_6944f9""))",Chrome 120.0.0.0,,,18-01-2024 10:19:49,18-01-2024 10:19:50,0.420s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_b60667""))",Chrome 120.0.0.0,,,18-01-2024 10:19:50,18-01-2024 10:19:50,0.487s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_b60667_1""))",Chrome 120.0.0.0,,,18-01-2024 10:19:50,18-01-2024 10:19:51,0.453s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13""))",Chrome 120.0.0.0,,,18-01-2024 10:19:51,18-01-2024 10:19:51,0.570s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13_1""))",Chrome 120.0.0.0,,,18-01-2024 10:19:51,18-01-2024 10:19:52,0.586s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc""))",Chrome 120.0.0.0,,,18-01-2024 10:19:52,18-01-2024 10:19:52,0.450s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc_1""))",Chrome 120.0.0.0,,,18-01-2024 10:19:52,18-01-2024 10:19:53,0.697s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_77482d""))",Chrome 120.0.0.0,,,18-01-2024 10:19:53,18-01-2024 10:19:54,0.635s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-15""))",Chrome 120.0.0.0,,,18-01-2024 10:19:54,18-01-2024 10:19:54,0.588s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-16""))",Chrome 120.0.0.0,,,18-01-2024 10:19:54,18-01-2024 10:19:55,0.654s,PASSED
+"click(findTestObject(""Object Repository/Page_Campaign_CAC_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-16_1""))",Chrome 120.0.0.0,,,18-01-2024 10:19:55,18-01-2024 10:19:56,0.555s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_items_per_page,Chrome 120.0.0.0,,,18-01-2024 10:22:41,18-01-2024 10:22:42,0.634s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Items_per_page""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:22:41,18-01-2024 10:22:42,0.613s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_camapign_conversions_tab,Chrome 120.0.0.0,,,18-01-2024 10:22:43,18-01-2024 10:22:43,0.171s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Conversions_Tab/Page_/div_Campaign Conversions""), ""Campaign Conversions"")",Chrome 120.0.0.0,,,18-01-2024 10:22:43,18-01-2024 10:22:43,0.058s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Conversions_Tab/Page_/div_Campaign Conversions""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:22:43,18-01-2024 10:22:43,0.039s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversions_Tab/Page_/div_Campaign Conversions""))",Chrome 120.0.0.0,,,18-01-2024 10:22:43,18-01-2024 10:22:43,0.062s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_calender,Chrome 120.0.0.0,,,18-01-2024 10:22:44,18-01-2024 10:22:44,0.418s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversion_Calender/Page_/div_Campaign Conversions""))",Chrome 120.0.0.0,,,18-01-2024 10:22:44,18-01-2024 10:22:44,0.049s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversion_Calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c""))",Chrome 120.0.0.0,,,18-01-2024 10:22:44,18-01-2024 10:22:44,0.039s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversion_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:22:44,18-01-2024 10:22:44,0.048s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversion_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:22:44,18-01-2024 10:22:44,0.049s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversion_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:22:44,18-01-2024 10:22:44,0.052s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversion_Calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:22:44,18-01-2024 10:22:44,0.052s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversion_Calender/Page_/div_1""))",Chrome 120.0.0.0,,,18-01-2024 10:22:44,18-01-2024 10:22:44,0.056s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversion_Calender/Page_/div_30""))",Chrome 120.0.0.0,,,18-01-2024 10:22:44,18-01-2024 10:22:44,0.046s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_verify_channel,Chrome 120.0.0.0,,,18-01-2024 10:22:46,18-01-2024 10:22:46,0.379s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:22:46,18-01-2024 10:22:46,0.052s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel""), ""Select Channel"")",Chrome 120.0.0.0,,,18-01-2024 10:22:46,18-01-2024 10:22:46,0.067s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:22:46,18-01-2024 10:22:46,0.058s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Channel_dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:22:46,18-01-2024 10:22:46,0.193s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_select_channel_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:23:03,18-01-2024 10:23:06,2.564s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Channel_dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:23:03,18-01-2024 10:23:06,2.545s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_verify_businessline,Chrome 120.0.0.0,,,18-01-2024 10:23:07,18-01-2024 10:23:08,0.728s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline""), ""Select Businessline"")",Chrome 120.0.0.0,,,18-01-2024 10:23:07,18-01-2024 10:23:07,0.094s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:23:07,18-01-2024 10:23:07,0.091s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:23:07,18-01-2024 10:23:07,0.181s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Businessline_dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:23:07,18-01-2024 10:23:08,0.342s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_select_businessline_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:23:16,18-01-2024 10:23:18,2.321s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Businessline_Dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:23:16,18-01-2024 10:23:18,2.302s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_verify_status,Chrome 120.0.0.0,,,18-01-2024 10:23:25,18-01-2024 10:23:28,2.354s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status""), ""Select Campaign Status"")",Chrome 120.0.0.0,,,18-01-2024 10:23:25,18-01-2024 10:23:25,0.051s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:23:25,18-01-2024 10:23:25,0.036s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:23:25,18-01-2024 10:23:25,0.067s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Campaign_status_dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:23:25,18-01-2024 10:23:28,2.186s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_select_status_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:23:29,18-01-2024 10:23:29,0.391s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversions_Select_Dropdown/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:23:29,18-01-2024 10:23:29,0.055s,FAILED
+"click(findTestObject(""Page_Select_Status_Dropdown/Page_/div_ACTIVE""))",Chrome 120.0.0.0,,,18-01-2024 10:23:29,18-01-2024 10:23:29,0.043s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversions_Select_Dropdown/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:23:29,18-01-2024 10:23:29,0.050s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversions_Select_Dropdown/Page_/span_COMPLETED""))",Chrome 120.0.0.0,,,18-01-2024 10:23:29,18-01-2024 10:23:29,0.043s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversions_Select_Dropdown/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:23:29,18-01-2024 10:23:29,0.051s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversions_Select_Dropdown/Page_/span_DRAFT""))",Chrome 120.0.0.0,,,18-01-2024 10:23:29,18-01-2024 10:23:29,0.039s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversions_Select_Dropdown/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:23:29,18-01-2024 10:23:29,0.050s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversions_Select_Dropdown/Page_/span_PAUSED""))",Chrome 120.0.0.0,,,18-01-2024 10:23:29,18-01-2024 10:23:29,0.044s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_verify_name,Chrome 120.0.0.0,,,18-01-2024 10:23:34,18-01-2024 10:23:34,0.427s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/input_text""), """")",Chrome 120.0.0.0,,,18-01-2024 10:23:34,18-01-2024 10:23:34,0.079s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:23:34,18-01-2024 10:23:34,0.062s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Campaign_Name_Dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:23:34,18-01-2024 10:23:34,0.265s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_select_name_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:23:43,18-01-2024 10:23:47,4.011s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Name_Dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:23:43,18-01-2024 10:23:47,3.987s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_tab,Chrome 120.0.0.0,,,18-01-2024 10:23:54,18-01-2024 10:23:56,2.357s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics""), ""Campaign Metrics"")",Chrome 120.0.0.0,,,18-01-2024 10:23:54,18-01-2024 10:23:54,0.116s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:23:54,18-01-2024 10:23:54,0.067s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics""))",Chrome 120.0.0.0,,,18-01-2024 10:23:54,18-01-2024 10:23:54,0.062s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics""))",Chrome 120.0.0.0,,,18-01-2024 10:23:54,18-01-2024 10:23:54,0.061s,FAILED
+delay(2),Chrome 120.0.0.0,,,18-01-2024 10:23:54,18-01-2024 10:23:56,2.016s,PASSED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_calender,Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.552s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c""))",Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.044s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_calender/Page_/svg_mat-datepicker-toggle-default-icon ng-s_f1b13c""))",Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.055s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.054s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.054s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.065s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.055s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_calender/Page_/button_mat-focus-indicator mat-calendar-pre_09dfc7""))",Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.070s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_calender/Page_/div_1""))",Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.073s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_calender/Page_/div_31""))",Chrome 120.0.0.0,,,18-01-2024 10:23:58,18-01-2024 10:23:58,0.068s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_verify_channel,Chrome 120.0.0.0,,,18-01-2024 10:24:00,18-01-2024 10:24:00,0.495s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:24:00,18-01-2024 10:24:00,0.044s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/div_Select Channel""), ""Select Channel"")",Chrome 120.0.0.0,,,18-01-2024 10:24:00,18-01-2024 10:24:00,0.055s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Channel/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:24:00,18-01-2024 10:24:00,0.065s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Channel_dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:24:00,18-01-2024 10:24:00,0.316s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_select_channel_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:24:08,18-01-2024 10:24:10,2.515s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Channel_dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:24:08,18-01-2024 10:24:10,2.491s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_verify_businessline,Chrome 120.0.0.0,,,18-01-2024 10:24:12,18-01-2024 10:24:12,0.414s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline""), ""Select Businessline"")",Chrome 120.0.0.0,,,18-01-2024 10:24:12,18-01-2024 10:24:12,0.052s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/div_Select Businessline""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:24:12,18-01-2024 10:24:12,0.032s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Businessline/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:24:12,18-01-2024 10:24:12,0.060s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Businessline_dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:24:12,18-01-2024 10:24:12,0.260s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_select_businessline_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:24:22,18-01-2024 10:24:25,2.397s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Businessline_Dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:24:22,18-01-2024 10:24:25,2.384s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_verify_status,Chrome 120.0.0.0,,,18-01-2024 10:24:32,18-01-2024 10:24:34,2.371s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status""), ""Select Campaign Status"")",Chrome 120.0.0.0,,,18-01-2024 10:24:32,18-01-2024 10:24:32,0.057s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/div_Select Campaign Status""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:24:32,18-01-2024 10:24:32,0.033s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Status/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:24:32,18-01-2024 10:24:32,0.056s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Campaign_status_dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:24:32,18-01-2024 10:24:34,2.212s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_select_status_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:24:42,18-01-2024 10:24:45,2.668s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Status_Dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:24:42,18-01-2024 10:24:45,2.653s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_verify_name,Chrome 120.0.0.0,,,18-01-2024 10:24:46,18-01-2024 10:24:47,0.359s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/input_text""), """")",Chrome 120.0.0.0,,,18-01-2024 10:24:46,18-01-2024 10:24:46,0.076s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversions_Verify_Name/Page_/span_ng-arrow-wrapper""))",Chrome 120.0.0.0,,,18-01-2024 10:24:46,18-01-2024 10:24:46,0.064s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Campaign_Name_Dropdown_verify""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:24:46,18-01-2024 10:24:47,0.202s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_select_name_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:24:55,18-01-2024 10:24:58,2.859s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Select_Name_Dropdown""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:24:55,18-01-2024 10:24:58,2.837s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_table_title,Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:02,0.784s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/h2_Campaign Metrics""), ""Campaign Metrics"")",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.050s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/h2_Campaign Metrics""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.030s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Date""), ""Date"")",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.058s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Date""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.031s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Channel""), ""Channel"")",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.058s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Channel""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.031s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Campaign Name""), ""Campaign Name"")",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.050s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Campaign Name""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.033s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Clicks""), ""Clicks"")",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.059s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Clicks""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.035s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Impressions""), ""Impressions"")",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.051s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Impressions""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.032s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_CTR""), ""CTR"")",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.049s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_CTR""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:01,0.033s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Reach""), ""Reach"")",Chrome 120.0.0.0,,,18-01-2024 10:25:01,18-01-2024 10:25:02,0.053s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Reach""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:25:02,18-01-2024 10:25:02,0.032s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Spend""), ""Spend"")",Chrome 120.0.0.0,,,18-01-2024 10:25:02,18-01-2024 10:25:02,0.052s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_title/Page_/div_Spend""), 0)",Chrome 120.0.0.0,,,18-01-2024 10:25:02,18-01-2024 10:25:02,0.032s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_table_ascending_decending,Chrome 120.0.0.0,,,18-01-2024 10:25:07,18-01-2024 10:25:12,4.719s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_918987""))",Chrome 120.0.0.0,,,18-01-2024 10:25:07,18-01-2024 10:25:08,0.245s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-14_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:08,18-01-2024 10:25:08,0.222s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_a05da3_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:08,18-01-2024 10:25:08,0.233s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_Clicks""))",Chrome 120.0.0.0,,,18-01-2024 10:25:08,18-01-2024 10:25:08,0.224s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_d21120_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:08,18-01-2024 10:25:09,0.241s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_292eca""))",Chrome 120.0.0.0,,,18-01-2024 10:25:09,18-01-2024 10:25:09,0.210s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-right ng-tns-c9_213f72_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:09,18-01-2024 10:25:09,0.200s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-20""))",Chrome 120.0.0.0,,,18-01-2024 10:25:09,18-01-2024 10:25:09,0.182s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13""))",Chrome 120.0.0.0,,,18-01-2024 10:25:09,18-01-2024 10:25:09,0.172s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-13_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:09,18-01-2024 10:25:10,0.168s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc""))",Chrome 120.0.0.0,,,18-01-2024 10:25:10,18-01-2024 10:25:10,0.167s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_2e3fcc_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:10,18-01-2024 10:25:10,0.171s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-15""))",Chrome 120.0.0.0,,,18-01-2024 10:25:10,18-01-2024 10:25:10,0.171s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-15_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:10,18-01-2024 10:25:10,0.202s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7bf2ed""))",Chrome 120.0.0.0,,,18-01-2024 10:25:10,18-01-2024 10:25:10,0.215s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7bf2ed_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:10,18-01-2024 10:25:11,0.207s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-17""))",Chrome 120.0.0.0,,,18-01-2024 10:25:11,18-01-2024 10:25:11,0.179s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-left ng-tns-c99_d3d3c9""))",Chrome 120.0.0.0,,,18-01-2024 10:25:11,18-01-2024 10:25:11,0.184s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-pointer-left ng-tns-c99_37d94a""))",Chrome 120.0.0.0,,,18-01-2024 10:25:11,18-01-2024 10:25:11,0.170s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_a7c147_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:11,18-01-2024 10:25:11,0.205s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-19""))",Chrome 120.0.0.0,,,18-01-2024 10:25:11,18-01-2024 10:25:12,0.176s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-19_1""))",Chrome 120.0.0.0,,,18-01-2024 10:25:12,18-01-2024 10:25:12,0.165s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-stem ng-tns-c99-20""))",Chrome 120.0.0.0,,,18-01-2024 10:25:12,18-01-2024 10:25:12,0.166s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Metrics_Table_Ascending_Decending/Page_/div_mat-sort-header-arrow ng-trigger ng-tri_7b626c""))",Chrome 120.0.0.0,,,18-01-2024 10:25:12,18-01-2024 10:25:12,0.163s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_items_dropdown,Chrome 120.0.0.0,,,18-01-2024 10:25:16,18-01-2024 10:25:16,0.824s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Items_per_page""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:25:16,18-01-2024 10:25:16,0.793s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_cac_zoom,Chrome 120.0.0.0,,,18-01-2024 10:25:30,18-01-2024 10:25:34,4.413s,FAILED
+"click(findTestObject(""Object Repository/Page_Compaign_CAC_Zoom/Page_/div_Campaign CAC""))",Chrome 120.0.0.0,,,18-01-2024 10:25:30,18-01-2024 10:25:30,0.082s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:25:30,18-01-2024 10:25:34,4.304s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_conversions_zoom,Chrome 120.0.0.0,,,18-01-2024 10:25:48,18-01-2024 10:25:52,4.560s,FAILED
+"click(findTestObject(""Object Repository/Page_Campaign_Conversions_Zoom/Page_/div_Campaign Conversions""))",Chrome 120.0.0.0,,,18-01-2024 10:25:48,18-01-2024 10:25:48,0.077s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Campaign_Conversions_Zoom/Page_/img""))",Chrome 120.0.0.0,,,18-01-2024 10:25:48,18-01-2024 10:25:48,0.080s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:25:48,18-01-2024 10:25:52,4.359s,FAILED
+,,,,,,,
+Test Cases/Campaign Report/test_campaign_metrics_zoom,Chrome 120.0.0.0,,,18-01-2024 10:26:06,18-01-2024 10:26:10,4.312s,FAILED
+"click(findTestObject(""Page_Campaign_Metrics_Tab/Page_/div_Campaign Metrics""))",Chrome 120.0.0.0,,,18-01-2024 10:26:06,18-01-2024 10:26:06,0.045s,FAILED
+"verifyElementClickable(findTestObject(""Page_Campaign_Conversions_Zoom/Page_/img""))",Chrome 120.0.0.0,,,18-01-2024 10:26:06,18-01-2024 10:26:06,0.042s,FAILED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,18-01-2024 10:26:06,18-01-2024 10:26:10,4.212s,FAILED
+closeBrowser(),Chrome 120.0.0.0,,,18-01-2024 10:26:10,18-01-2024 10:26:10,0.002s,PASSED

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Performance</name>
+   <tag></tag>
+   <elementGuidId>8a50543e-d846-441c-8568-0a6bcd27cb5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='menu-item-2']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menu-item-2 > div.btn.active.inside.btnActive > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>15a4de6b-2a35-4b72-95eb-47322174001b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Performance</value>
+      <webElementGuid>85655646-8444-4862-980c-9a338131bb1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-item-2&quot;)/div[@class=&quot;btn active inside btnActive&quot;]/span[1]</value>
+      <webElementGuid>eaf79b72-b7b3-48b4-bdc6-7745f72ef29d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='menu-item-2']/div/span</value>
+      <webElementGuid>c8b57352-28ab-40a6-957c-91c0895a87e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/span</value>
+      <webElementGuid>0b829b4a-d829-4130-9b45-2c583fdf20a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Performance' or . = 'Performance')]</value>
+      <webElementGuid>8a5bf461-f60e-4e32-84e8-45924e1c459c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+spend_report,Chrome 120.0.0.0,,,17-01-2024 15:39:52,17-01-2024 15:52:56,13m - 4.029s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_verify_navigating_spend_report,Chrome 120.0.0.0,,,17-01-2024 15:39:53,17-01-2024 15:40:01,8.877s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Login""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,17-01-2024 15:39:53,17-01-2024 15:39:58,5.323s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:39:58,17-01-2024 15:40:00,2.209s,PASSED
+"click(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Report/Page_/li_Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:40:00,17-01-2024 15:40:01,0.344s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report""), 0)",Chrome 120.0.0.0,,,17-01-2024 15:40:01,17-01-2024 15:40:01,0.363s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Verify_Navigating_Spend_Report/Page_/p_Spend Report""), ""Spend Report"")",Chrome 120.0.0.0,,,17-01-2024 15:40:01,17-01-2024 15:40:01,0.342s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_weekly_tab,Chrome 120.0.0.0,,,17-01-2024 15:40:01,17-01-2024 15:40:05,3.143s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report""), ""Weekly Spend Report"")",Chrome 120.0.0.0,,,17-01-2024 15:40:02,17-01-2024 15:40:02,0.350s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:40:02,17-01-2024 15:40:02,0.346s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Tab/Page_/div_Weekly Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:40:02,17-01-2024 15:40:03,0.348s,PASSED
+delay(2),Chrome 120.0.0.0,,,17-01-2024 15:40:03,17-01-2024 15:40:05,2.023s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_weekly_calender,Chrome 120.0.0.0,,,17-01-2024 15:40:05,17-01-2024 15:42:30,2m - 25.195s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Calender""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,17-01-2024 15:40:05,17-01-2024 15:42:17,2m - 12.467s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,17-01-2024 15:42:17,17-01-2024 15:42:30,12.624s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_monthly_tab,Chrome 120.0.0.0,,,17-01-2024 15:42:30,17-01-2024 15:42:31,1.118s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report""), ""Monthly Spend Report"")",Chrome 120.0.0.0,,,17-01-2024 15:42:30,17-01-2024 15:42:30,0.309s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:42:30,17-01-2024 15:42:30,0.307s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Tab/Page_/div_Monthly Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:42:30,17-01-2024 15:42:31,0.426s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_monthly_calender,Chrome 120.0.0.0,,,17-01-2024 15:42:31,17-01-2024 15:47:46,5m - 15.143s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Calender""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,17-01-2024 15:42:31,17-01-2024 15:47:20,4m - 48.910s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Fullscreen""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,17-01-2024 15:47:20,17-01-2024 15:47:46,26.114s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_daily_tab,Chrome 120.0.0.0,,,17-01-2024 15:47:46,17-01-2024 15:47:49,3.180s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report""), ""Daily Spend Report"")",Chrome 120.0.0.0,,,17-01-2024 15:47:46,17-01-2024 15:47:46,0.339s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:47:46,17-01-2024 15:47:47,0.346s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Tab/Page_/div_Daily Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:47:47,17-01-2024 15:47:47,0.414s,PASSED
+delay(2),Chrome 120.0.0.0,,,17-01-2024 15:47:47,17-01-2024 15:47:49,2.014s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_daily_calender,Chrome 120.0.0.0,,,17-01-2024 15:47:49,17-01-2024 15:52:37,4m - 47.638s,PASSED
+"callTestCase(findTestCase(""Reusable_Functions/Calender""), [:], CONTINUE_ON_FAILURE)",Chrome 120.0.0.0,,,17-01-2024 15:47:49,17-01-2024 15:52:37,4m - 47.575s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_weekly_zoom,Chrome 120.0.0.0,,,17-01-2024 15:52:37,17-01-2024 15:52:44,7.347s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Zoom/Page_/div_Weekly Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:52:37,17-01-2024 15:52:39,1.564s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Weekly_Zoom/Page_/img""))",Chrome 120.0.0.0,,,17-01-2024 15:52:39,17-01-2024 15:52:40,1.220s,PASSED
+"click(findTestObject(""Object Repository/Page_Weekly_Zoom/Page_/img""))",Chrome 120.0.0.0,,,17-01-2024 15:52:40,17-01-2024 15:52:40,0.371s,PASSED
+delay(2),Chrome 120.0.0.0,,,17-01-2024 15:52:40,17-01-2024 15:52:42,2.021s,PASSED
+"executeJavaScript(""document.exitFullscreen();"", null)",Chrome 120.0.0.0,,,17-01-2024 15:52:42,17-01-2024 15:52:42,0.069s,PASSED
+delay(2),Chrome 120.0.0.0,,,17-01-2024 15:52:42,17-01-2024 15:52:44,2.018s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_monthly_zoom,Chrome 120.0.0.0,,,17-01-2024 15:52:44,17-01-2024 15:52:50,6.085s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Zoom/Page_/div_Monthly Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:52:44,17-01-2024 15:52:45,0.409s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Monthly_Zoom/Page_/img""))",Chrome 120.0.0.0,,,17-01-2024 15:52:45,17-01-2024 15:52:46,1.072s,PASSED
+"click(findTestObject(""Object Repository/Page_Monthly_Zoom/Page_/img""))",Chrome 120.0.0.0,,,17-01-2024 15:52:46,17-01-2024 15:52:46,0.360s,PASSED
+delay(2),Chrome 120.0.0.0,,,17-01-2024 15:52:46,17-01-2024 15:52:48,2.015s,PASSED
+"executeJavaScript(""document.exitFullscreen();"", null)",Chrome 120.0.0.0,,,17-01-2024 15:52:48,17-01-2024 15:52:48,0.072s,PASSED
+delay(2),Chrome 120.0.0.0,,,17-01-2024 15:52:48,17-01-2024 15:52:50,2.004s,PASSED
+,,,,,,,
+Test Cases/Spend_Report/test_daily_zoom,Chrome 120.0.0.0,,,17-01-2024 15:52:50,17-01-2024 15:52:56,6.065s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Zoom/Page_/div_Daily Spend Report""))",Chrome 120.0.0.0,,,17-01-2024 15:52:50,17-01-2024 15:52:51,0.432s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Daily_Zoom/Page_/img""))",Chrome 120.0.0.0,,,17-01-2024 15:52:51,17-01-2024 15:52:52,1.032s,PASSED
+"click(findTestObject(""Object Repository/Page_Daily_Zoom/Page_/img""))",Chrome 120.0.0.0,,,17-01-2024 15:52:52,17-01-2024 15:52:52,0.357s,PASSED
+delay(2),Chrome 120.0.0.0,,,17-01-2024 15:52:52,17-01-2024 15:52:54,2.018s,PASSED
+"executeJavaScript(""document.exitFullscreen();"", null)",Chrome 120.0.0.0,,,17-01-2024 15:52:54,17-01-2024 15:52:54,0.061s,PASSED
+delay(2),Chrome 120.0.0.0,,,17-01-2024 15:52:54,17-01-2024 15:52:56,2.007s,PASSED

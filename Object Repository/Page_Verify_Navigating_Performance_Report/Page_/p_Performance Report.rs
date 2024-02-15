@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Performance Report</name>
+   <tag></tag>
+   <elementGuidId>b5abdb84-b95e-4cf6-b644-1cdf3008955d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-layout/div/div/div/div/app-admetric-performance/div[1]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.program-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f3d2fe7f-e22e-4dce-bb30-3ec8e12d6e93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>program-title</value>
+      <webElementGuid>e3d55ff1-501d-467a-a818-6fcff0266c1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Performance Report</value>
+      <webElementGuid>2b4f7117-e26d-449e-b01f-f5bb699d3550</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;sidebaractive&quot;]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[@class=&quot;app-content-wrapper&quot;]/div[@class=&quot;app-content&quot;]/app-admetric-performance[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;metric-card-wrapper&quot;]/div[@class=&quot;grid gap-4 grid-cols-6 xmd:grid-cols-12&quot;]/div[@class=&quot;col-span-12&quot;]/p[@class=&quot;program-title&quot;]</value>
+      <webElementGuid>6aa736fc-dbd5-4067-802d-3efdbf84b73f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>3f1672f8-c032-4e0b-827e-f8c6b56826dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Performance Report' or . = 'Performance Report')]</value>
+      <webElementGuid>972222fb-f988-4d9a-bb7c-8b2827d94323</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Daily_Spend_Report/Page_/button_NOV 2023_mat-focus-indicator mat-cal_145c8e",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231214_140612/Function_test/20231214_140612/Object Repository/Page_Daily_Spend_Report/Page_/button_NOV 2023_mat-focus-indicator mat-cal_145c8e_customAttributes.png"
+    }
+  ]
+}
